@@ -1,0 +1,4 @@
+interface:
+  display_name: "CFST Single Paper Extractor"
+  short_description: "Extract structured CFST test data from one parsed paper"
+  default_prompt: "Extract structured CFST experimental data from one paper folder using this skill workflow."
