@@ -1,4 +1,4 @@
 interface:
   display_name: "CFST Single Paper Extractor"
-  short_description: "Extract structured CFST test data from one parsed paper"
-  default_prompt: "Extract structured CFST experimental data from one paper folder using this skill workflow."
+  short_description: "Preprocess MinerU outputs and extract one-paper CFST structured data"
+  default_prompt: "Use runtime-provided paths to preprocess parsed files when needed and extract one-paper CFST experimental data into validated Group_A/Group_B/Group_C JSON."

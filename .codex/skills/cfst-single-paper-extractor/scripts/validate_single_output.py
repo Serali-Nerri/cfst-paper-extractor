@@ -9,7 +9,7 @@ from pathlib import Path
 from collections import defaultdict
 from typing import Any
 
-EPS = 1e-2
+EPS = 1e-3
 
 TOP_LEVEL_KEYS = {
     "is_valid",
@@ -59,8 +59,8 @@ def _roughly_equal(a: float, b: float, tol: float = EPS) -> bool:
     return abs(float(a) - float(b)) <= tol
 
 
-def _has_2dp(value: float) -> bool:
-    return abs(round(float(value), 2) - float(value)) <= 1e-6
+def _has_3dp(value: float) -> bool:
+    return abs(round(float(value), 3) - float(value)) <= 1e-6
 
 
 def _validate_ref_info(obj: dict[str, Any], errors: list[str], allow_empty: bool = False) -> None:
@@ -139,8 +139,8 @@ def _validate_specimen(
                 errors.append(f"`{tag}.r0` must equal h/2 for Group_C.")
 
     for key in NUMERIC_FIELDS:
-        if key in specimen and _is_number(specimen[key]) and not _has_2dp(specimen[key]):
-            msg = f"`{tag}.{key}` is not rounded to 0.01: {specimen[key]}"
+        if key in specimen and _is_number(specimen[key]) and not _has_3dp(specimen[key]):
+            msg = f"`{tag}.{key}` is not rounded to 0.001: {specimen[key]}"
             if strict_rounding:
                 errors.append(msg)
             else:
@@ -219,7 +219,7 @@ def main() -> int:
     parser.add_argument(
         "--strict-rounding",
         action="store_true",
-        help="Fail when numeric fields are not rounded to 0.01.",
+        help="Fail when numeric fields are not rounded to 0.001.",
     )
     parser.add_argument(
         "--expect-count",

@@ -94,7 +94,7 @@ def main() -> int:
         type=int,
         default=None,
         dest="round_digits",
-        help="Optional decimal rounding digits, for example --round 2.",
+        help="Optional decimal rounding digits, for example --round 3.",
     )
     args = parser.parse_args()
 

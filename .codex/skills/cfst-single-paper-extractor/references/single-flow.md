@@ -1,34 +1,95 @@
-# Single-Paper Agent Flow Pattern
+# Single-Paper Worker Flow
 
-Use this pattern as an implementation reference for one-paper extraction.
+Use this file as the worker execution contract for one paper.
 
-## Control Pattern
+## Worker Contract
+
+- Process exactly one paper folder: `<paper_dir_relpath>`.
+- Do not read files outside this paper folder, skill references, and skill scripts.
+- Return only validated JSON result or a clear failure reason.
+
+## Required Paper Layout
+
+The worker input folder must contain:
+- `<paper_token>.md`
+- `<paper_token>_content_list_v2.json`
+- `images/`
+- `table/`
+
+If any required file/folder is missing, fail fast and report the missing path.
+
+## Mandatory Execution Order
 
 1. Input guard:
-- verify the paper folder exists
-- verify markdown, content list JSON, and image directory are present
-2. Task setup:
-- define one-paper extraction objective
-- bind current paper directory as the only data scope
-3. Evidence collection:
-- read markdown first for global understanding
-- list candidate tables/figures and their locations
-- inspect images when loading mode or table alignment is uncertain
-4. Deterministic normalization:
-- normalize units
-- compute derived geometric values explicitly with `scripts/safe_calc.py`
-- enforce group mapping constraints
-5. Structured assembly:
-- generate strict JSON with required top-level keys and specimen fields
-6. Post-check:
-- run `scripts/validate_single_output.py`
-- return result only after validation passes (or report violations)
+- verify required files/folders exist
+- load `references/extraction-rules.md` first
 
-## Mandatory Step Ordering
+2. Validity gate:
+- decide whether paper is valid CFST experimental paper
+- if invalid, output fixed invalid JSON shape and stop
 
-1. Read markdown text first.
-2. Confirm loading setup from image evidence.
-3. Resolve table corruption before assigning specimen row values.
-4. Run calculations for conversions and derived fields.
-5. Generate schema-compliant JSON.
-6. Validate output.
+3. Markdown-first evidence scan:
+- read markdown text before any table extraction
+- list candidate loading-setup figure mentions and candidate table mentions
+
+4. Loading setup resolution (hard rule):
+- identify loading-setup figure from markdown context (caption or nearby paragraph)
+- locate markdown image reference path, for example `![](images/xxx.jpg)`
+- open that exact referenced image file under paper folder
+- decide loading mode from image evidence
+- do not decide loading mode from text alone when setup image exists
+
+5. Table evidence resolution:
+- use `table/` as primary source for table images
+- locate table image by table title and filename first
+- if title match fails, use markdown context + `*_content_list_v2.json` path mapping
+- if still unresolved, fallback to mapped image under `images/`
+- treat markdown table as invalid and switch to image-first extraction when any of these appears:
+  - empty key cells in required columns
+  - row/column misalignment
+  - multiple values in one scalar cell
+  - merged specimen labels
+
+6. OCR corruption recovery:
+- treat merged labels or multi-value row cells as corruption risk
+- realign row values using table-image visual evidence
+- do not split merged values by guesswork
+
+7. Deterministic normalization:
+- run all numeric conversions and derived values with `scripts/safe_calc.py`
+- do not use mental arithmetic for conversion or derived geometry values
+- enforce numeric precision to `0.001`
+- enforce group geometry mapping and constraints
+
+## Special-Case Examples
+
+- Loading setup:
+  - markdown snippet: `... setup shown in Fig. 4 ... ![](images/f1.jpg)`
+  - action: read `images/f1.jpg`, decide loading mode from image
+- Invalid markdown table:
+  - row example: `| C1 | 43.2 46.1 |`
+  - action: treat as invalid markdown table and recover from `table/` image evidence
+- Unit conversion:
+  - value example: `0.245 (MN)`
+  - action: compute `n_exp` in kN with `safe_calc.py` (`0.245 * 1000`)
+
+8. JSON assembly:
+- output keys must be exactly:
+  - `is_valid`, `reason`, `ref_info`, `Group_A`, `Group_B`, `Group_C`
+- keep numeric fields unit-free
+
+9. Validation:
+- run `scripts/validate_single_output.py` on produced JSON
+- return success only when validation passes
+
+## Failure Output Rules
+
+If invalid paper:
+- `is_valid=false`
+- `reason="Not experimental CFST column paper"`
+- `ref_info={}`
+- `Group_A=[]`, `Group_B=[]`, `Group_C=[]`
+
+If processing failure:
+- return concise error with missing evidence or validation error
+- include intermediate output path when available
