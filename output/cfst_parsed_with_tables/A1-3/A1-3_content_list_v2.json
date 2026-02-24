@@ -1,0 +1,5003 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Axial Load Behavior of Stiffened Concrete-Filled Steel Columns "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                153,
+                84,
+                841,
+                137
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "C. S. Huang "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; Y.-K. Yeh "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; G.-Y. Liu "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; H.-T. Hu "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{4}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; K. C. Tsai "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{5}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; Y. T. Weng "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{6}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; S. H. Wang "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{7}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; and M.-H. Wu "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{8}"
+                    }
+                ]
+            },
+            "bbox": [
+                86,
+                148,
+                906,
+                170
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Abstract: This study investigates the axial load behavior of concrete-filled steel tubular (CFT) columns with the width-to-thickness ratios between 40 and 150, and proposes an effective stiffening scheme to improve the mechanical properties of square cross-sectional CFT columns. Seventeen specimens were tested to examine the effects of cross-sectional shapes, width-to-thickness ratios, and stiffening arrangements on the ultimate strength, stiffness, and ductility of CFT columns. Moreover, nonlinear finite element analysis was also conducted to investigate cross-sectional axial stress distribution at the ultimate strength. Comparing the measured ultimate strength with estimates by using some current specifications suggested that current specifications may considerably underestimate the ultimate strength of circular CFT columns, particularly for columns with a small width-to-thickness ratio. Results in this study demonstrate that the proposed stiffening scheme can significantly enhance the ultimate strength and ductility of square CFT columns. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                198,
+                931,
+                323
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DOI: 10.1061/(ASCE)0733-9445(2002)128:9(1222) "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                329,
+                400,
+                344
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CE Database keywords: Tubes; Axial loads; Finite element method; Stiffening; Steel columns. "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                352,
+                692,
+                367
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Introduction "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                393,
+                163,
+                409
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In modern structural constructions, concrete-filled steel tubular (CFT) columns have gradually become a central element in structural systems like buildings, bridges and so forth. CFT columns have become so widespread owing to their axially compressed nature making them superior to conventional reinforced concrete and steel structural systems in terms of stiffness, strength, ductility, and energy absorption capacity. The steel tube not only takes axial load, but also provides confining pressure to the concrete core, while the concrete core takes axial load and prevents or delays local buckling of the steel tube. Furthermore, concrete-filled composite columns also have the advantage of requiring no formwork during construction, thus reducing construction costs. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                425,
+                480,
+                597
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "^{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Associate Professor, Dept. of Civil Engineering, National Chiao Tung Univ., 1001 Ta-Hsueh Rd., Hsinchu, Taiwan 30050. Email: cshuang@cc.nctu.edu.tw "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                612,
+                480,
+                652
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "^{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Associate Research Fellow, National Center for Research on Earthquake Engineering, Taipei, Taiwan 10617. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                652,
+                478,
+                678
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3Associate Research Fellow, National Center for Research on Earthquake Engineering, Taipei, Taiwan 10617. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                678,
+                478,
+                703
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "^{4}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Professor, Dept. of Civil Engineering, National Cheng Kung Univ., Tainan, Taiwan 70101. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                704,
+                478,
+                729
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "^{5}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Professor, Dept. of Civil Engineering, National Taiwan Univ., Taipei, Taiwan 10617. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                729,
+                478,
+                753
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "6Graduate Student, Dept. of Civil Engineering, National Taiwan Univ., Taipei, Taiwan 10617. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                755,
+                478,
+                780
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "^{7}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Former Graduate Student, Dept. of Civil Engineering, National Taiwan Univ., Taipei, Taiwan 10617. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                781,
+                478,
+                806
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "^{8}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Former Graduate Student, Dept. of Civil Engineering, National Cheng Kung Univ., Tainan, Taiwan 70101. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                806,
+                478,
+                832
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Note. Associate Editor: Amir Mirmiran. Discussion open until February 1, 2003. Separate discussions must be submitted for individual papers. To extend the closing date by one month, a written request must be filed with the ASCE Managing Editor. The manuscript for this paper was submitted for review and possible publication on May 9, 2001; approved on January 7, 2002. This paper is part of the Journal of Structural Engineering, Vol. 128, No. 9, September 1, 2002. ©ASCE, ISSN 0733-9445/2002/9-1222-1230/$8.00+$ .50 per page. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                833,
+                480,
+                936
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "According to Zhong's book (Zhong 1995), the review by Uy (1998) and the report by Huang et al. (1998), numerous researchers have investigated the axial load behavior of CFT columns through laboratory tests and finite element analyses (i.e., Furlong 1967; Gardner and Jacobson 1967; Knowles and Park 1969; Tomii et al. 1977; Sakino et al. 1985; Lin and Huang 1989; Kwon and Song 1998; and Schneider 1998). These studies confirmed that the behavior of CFT columns is heavily influenced by the width-to-thickness ratio  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for diameter of circular cross section), the height-to-width ratio  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(L / B"
+                    },
+                    {
+                        "type": "text",
+                        "content": " or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L / D)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", the cross-sectional shape of the steel tube, and the strength ratio of concrete to steel. For example, Furlong (1967) experimentally investigated the effects of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (between 30 and 100), and the strength ratio of concrete to steel on the axial strength of CFT columns. Meanwhile, Knowles and Park (1969) experimentally studied how  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (between 15 and 60) and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L / D"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (between 2 21) affect the behavior of circular CFT columns. Tomii et al. (1977) collected and analyzed about 270 experimental results for CFT columns with circular, octagonal, and square cross sections. Schneider (1998) also experimentally investigated the axial load behavior of CFT columns with circular and rectangular cross sections, and with  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " between 17 and 50 and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L / D"
+                    },
+                    {
+                        "type": "text",
+                        "content": " between 4 and 5. Additionally, a nonlinear finite element analysis was carried out to investigate the adequacy of the design provisions. Since the early 1960s, researchers in China have systematically and comprehensively investigated the behavior of circular CFT columns through laboratory tests and numerical analyses, and Zhong's book summarizes some of the results (Zhong 1995). These early works revealed that a square concrete-filled steel tube does not perform as well as a circular one because a square steel tube provides less confining pressure, making local buckling more likely. This fact is reflected in modern design codes such as Manual of Steel Construction: Load and Resistance Factor Design (LRFD) by American Institute of Steel Construction (AISC 1994; 1997) and Recommendations for Design and Construction of Concrete-Filled Steel Tubular Structures by Architectural Institute of Japan (AIJ 1997), in which the limiting width-to-thickness ratio of a steel "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                393,
+                931,
+                935
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from ascelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                215,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "1222 / JOURNAL OF STRUCTURAL ENGINEERING / SEPTEMBER 2002 "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                948,
+                504,
+                960
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2002, 128(9): 1222-1230 "
+                    }
+                ]
+            },
+            "bbox": [
+                388,
+                984,
+                607,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cb730938ff2f848221f4900dd72a4b615024217b09dc95717844b9df9f338d79.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                210,
+                44,
+                351,
+                191
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/10142448cb3bd3bd08948780a62b7d48ce3a895d53e108c8b597ddf5e15cf872.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a) "
+                    },
+                    {
+                        "type": "text",
+                        "content": "(b) "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Fig. 1. (a) Photo for typical arrangement of stiffness, and (b) layout of typical stiffened cross section "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                114,
+                202,
+                431,
+                344
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "tube with a rectangular cross section is smaller than that with a circular cross section. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                436,
+                478,
+                464
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To improve the behavior of rectangular CFT columns, two stiffening measures are frequently adopted: welding longitudinal steel strips on the internal surface of a steel tube and welding shear studs. Ge and Usami (1992) and Kwon and Song (1998) experimentally studied the effects of the former measure on the behavior of square CFT columns. According to their results, this approach increases ultimate strength because the longitudinal stiffeners share the axial load. However, this method also causes a severe strength loss in the postbuckling range. Lin et al. (1993) "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                465,
+                480,
+                592
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "found that although the second stiffening scheme does not influence strength, it does enhance the ductility of square CFT columns. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                42,
+                926,
+                82
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "This work proposes a new stiffening scheme as an alternative for enhancing the behavior of square CFT columns in terms of strength and ductility. The proposed stiffening scheme involves welding a set of four steel bars (called tie bars below) at regular spacing along the tube axis. The stiffeners are typically arranged as displayed in Fig. 1. To investigate the effectiveness of the proposed stiffening scheme, laboratory tests of 14 specimens under concentric compression were carried out for short square CFT columns with or without stiffening. For comparison, experiments were also conducted on three short CFT columns with circular cross sections. The primary parameters considered in this test program include  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", the spacing of the tie bars  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(L_{s})"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and the diameters of the tie bars. These factors were experimentally investigated to assess their influence on ultimate strength, initial stiffness, and ductility. Finally, to further understand the effects of cross-sectional shapes and stiffening in confining the concrete core, nonlinear finite element analyses were conducted to determine the distribution of axial stress along a typical cross section when a CFT column reached maximum strength. "
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                84,
+                929,
+                354
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Experimental Program "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                511,
+                380,
+                692,
+                396
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Seventeen test specimens with  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L / B = 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": " were tested under concentric axial compression. Of the specimens, five were for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t = 40"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", eight were for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t = 70"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and four were for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t = 150"
+                    },
+                    {
+                        "type": "text",
+                        "content": "). Three of the specimens were for circular cross section and the rest were for square cross section. Table 1 summarizes the dimensions and material properties of the specimens, with  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{y,t}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " representing the cross-sectional area and the yield strength of the steel tube, respectively;  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{c}^{\\prime}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " denoting the strength of the concrete core;  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{\\mathrm{total}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " being the total composite cross-sectional area; and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "d"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{y,b}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " representing the diameter and yield strength of the tie bars, respectively. For convenience, each specimen has an individual designation, involving two English letters followed by a series of numbers (see Table 1). The first "
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                407,
+                929,
+                592
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/8b3184ce6701f5880feeecfef460a91d176bdbe71671d6f8742783f9811d90f3.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 1. Properties for Concrete-Filled Steel Tube Components "
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\">Specimen</td><td rowspan=\"2\">B or D (mm)</td><td rowspan=\"2\">t (mm)</td><td rowspan=\"2\">B/t or D/t</td><td rowspan=\"2\">As/Atotal</td><td rowspan=\"2\">Steel tube fy,t (MPa)</td><td rowspan=\"2\">Concrete f′c (MPa)</td><td colspan=\"2\">Tie Bar</td></tr><tr><td>d (mm)</td><td>fy,b (MPa)</td></tr><tr><td>SU-040</td><td>200</td><td>5</td><td>40</td><td>0.098</td><td>265.8</td><td>27.15</td><td>—</td><td>—</td></tr><tr><td>SS-040-050(3)</td><td>200</td><td>5</td><td>40</td><td>0.098</td><td>265.8</td><td>27.15</td><td>9.52</td><td>410.9</td></tr><tr><td>SS-040-050(4)</td><td>200</td><td>5</td><td>40</td><td>0.098</td><td>265.8</td><td>27.15</td><td>12.7</td><td>386.0</td></tr><tr><td>SS-040-100(4)</td><td>200</td><td>5</td><td>40</td><td>0.098</td><td>265.8</td><td>27.15</td><td>12.7</td><td>386.0</td></tr><tr><td>CU-040</td><td>200</td><td>5</td><td>40</td><td>0.098</td><td>265.8</td><td>27.15</td><td>—</td><td>—</td></tr><tr><td>SU-070</td><td>280</td><td>4</td><td>70</td><td>0.056</td><td>272.6</td><td>31.15</td><td>—</td><td>—</td></tr><tr><td>SS-070-050(3)</td><td>224</td><td>3.2</td><td>70</td><td>0.056</td><td>323.8</td><td>23.94</td><td>9.52</td><td>395.7</td></tr><tr><td>SS-070-050(3)R</td><td>224</td><td>3.2</td><td>70</td><td>0.056</td><td>323.8</td><td>25.73</td><td>9.52</td><td>395.7</td></tr><tr><td>SS-070-093(2)</td><td>280</td><td>4</td><td>70</td><td>0.056</td><td>272.6</td><td>30.49</td><td>7</td><td>588.6</td></tr><tr><td>SS-070-093(3)</td><td>280</td><td>4</td><td>70</td><td>0.056</td><td>272.6</td><td>30.49</td><td>9.52</td><td>615.3</td></tr><tr><td>SS-070-140(3)</td><td>280</td><td>4</td><td>70</td><td>0.056</td><td>272.6</td><td>29.84</td><td>9.5</td><td>615.3</td></tr><tr><td>SS-070-187(3)</td><td>280</td><td>4</td><td>70</td><td>0.056</td><td>272.6</td><td>29.18</td><td>9.52</td><td>615.3</td></tr><tr><td>CU-070</td><td>280</td><td>4</td><td>70</td><td>0.056</td><td>272.6</td><td>31.15</td><td>—</td><td>—</td></tr><tr><td>SU-150</td><td>300</td><td>2</td><td>150</td><td>0.026</td><td>341.7</td><td>27.20</td><td>—</td><td>—</td></tr><tr><td>SS-150-050(2)</td><td>300</td><td>2</td><td>150</td><td>0.026</td><td>341.7</td><td>24.00</td><td>7</td><td>735.8</td></tr><tr><td>SS-150-100(2)</td><td>300</td><td>2</td><td>150</td><td>0.026</td><td>341.7</td><td>25.21</td><td>7</td><td>735.8</td></tr><tr><td>CU-150</td><td>300</td><td>2</td><td>150</td><td>0.026</td><td>341.7</td><td>27.23</td><td>—</td><td>—</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                60,
+                641,
+                931,
+                934
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "JOURNAL OF STRUCTURAL ENGINEERING/SEPTEMBER 2002 "
+                    }
+                ]
+            },
+            "bbox": [
+                490,
+                946,
+                892,
+                959
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1223 "
+                    }
+                ]
+            },
+            "bbox": [
+                898,
+                946,
+                929,
+                959
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2002, 128(9): 1222-1230 "
+                    }
+                ]
+            },
+            "bbox": [
+                388,
+                983,
+                607,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "letter represents the cross-sectional shape of the specimen ( "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "S"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for circular and square, respectively). The second letter,  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "S"
+                    },
+                    {
+                        "type": "text",
+                        "content": " or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "U"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", denotes a specimen with or without stiffening, respectively. Meanwhile, the three numbers following the English letters denote the width-to-thickness ratio. For stiffened specimens, the last three numbers before the parentheses represent the center-to-center spacing between the stiffened cross sections  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " in terms of millimeters. Finally, the parenthesized number is the reinforcing bar number of the tie bar. To more accurately simulate practical applications, the steel tubes of these specimens were not annealed. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                42,
+                480,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Additionally, to investigate the behavior of CFT columns influenced by the residual stresses from the welding, one specimen was constructed by annealing its stiffened steel tube before pouring concrete into the tube. An additional  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R"
+                    },
+                    {
+                        "type": "text",
+                        "content": " following the parentheses in Table 1 is used to denote this specimen that has been annealed. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                200,
+                478,
+                286
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "All steel tubes were cold-formed carbon steel with a yield strength of between 265 and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "342\\mathrm{MPa}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", depending on the thickness of the steel tube. The yield strength was determined from tests on tensile coupons taken from the steel plates that were also used to form the steel tubes. The size of coupons and the test procedures follow American Society for Testing and Materials, ASTM E10-84 (ASTM 1991) requirements. The square tubes were constructed by seam welding two U-shaped cold-formed steel plates. If stiffening were specified, the tie bars were fillet welded to the U-shaped cold-formed steel plates (see Fig. 1) before making the seam complete penetration groove welds (see Fig. 1). The typical layout of the tie bars is also shown in Fig. 1. Notably, a CFT constructed by seam welding four pieces of steel plates is likely to fail in the seam weld when tested because of stress concentration at the corners (Lin and Huang 1989). "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                286,
+                480,
+                501
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Type I Portland cement, sand, and a maximum aggregate size of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2\\mathrm{cm}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " were mixed to obtain an  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "18\\mathrm{cm}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " slump with a 28-day target strength of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "27.47\\mathrm{MPa}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". Table 1 lists the concrete strength for each specimen, obtained from cylinder tests conducted at the same test day for the CFT specimen. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                502,
+                478,
+                573
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{s} / A_{\\mathrm{total}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " listed in Table 1 reveal that all the specimens satisfy AIJ specifications on  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{s} / A_{\\mathrm{total}} \\geqslant 0.8\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". However, the specimens of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t = 150"
+                    },
+                    {
+                        "type": "text",
+                        "content": " violate the LRFD requirements of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{s} / A_{\\mathrm{total}} \\geqslant 4\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                573,
+                478,
+                631
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To consider the limitations of the width-to-thickness ratios prescribed in some of the design codes, LRFD specifications (AISC 1997) require that for a square cross section "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                631,
+                478,
+                674
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {B}{t} \\leqslant \\sqrt {\\frac {2 E _ {s}}{f _ {y , t}}} \\tag {1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/327af6b8447eb8ce78e2986bafc88e3e0d87018741fff490123d4ed349513201.jpg"
+                }
+            },
+            "bbox": [
+                230,
+                681,
+                478,
+                718
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E_{s} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " Young's modulus of the steel plate. Meanwhile, Japanese AIJ design code (AIJ 1997) requires that for a circular cross section "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                724,
+                478,
+                767
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {D}{t} \\leqslant 1. 5 \\left(\\frac {2 4 0}{F}\\right) \\tag {2a}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b4864dd3eb0817fb68de1916a17c36fc6c0c7900b9f5d7abdf14f8b7bd373b77.jpg"
+                }
+            },
+            "bbox": [
+                218,
+                777,
+                478,
+                811
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "and for a square cross section "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                821,
+                256,
+                834
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {B}{t} \\leqslant 1. 5 \\left(\\frac {7 4}{\\sqrt {F}}\\right) \\tag {2b}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ac67111bb46fe5a23afd45a725aa33e5e0ec1a1cffd12069a2864d21561d963a.jpg"
+                }
+            },
+            "bbox": [
+                220,
+                845,
+                478,
+                883
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " nominal strength of the steel plate in units of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm{t/cm}^2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and is equal to the smaller value from between the yield strength and 70% of the ultimate strength. Apparently, only specimens with "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                892,
+                480,
+                936
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/973e6f36756ad839ff2789502014750eb24f32936ca6b4a673ddb2f7a13896dd.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 2. Experimental behavior of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P"
+                    },
+                    {
+                        "type": "text",
+                        "content": " versus  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t(D / t) = 40"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                563,
+                42,
+                883,
+                280
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t = 40"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for the square cross section and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t = 40"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and 70 for the circular cross section satisfy the requirements prescribed in these two design codes. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                329,
+                929,
+                371
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Four LVDTs were used to determine the average longitudinal strain. For circular specimens, the LVDTs were placed  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "90^{\\circ}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " apart around the periphery of the specimen, while for square specimens, the LVDTs were placed along the central line of each of the four sides. Sets of strain gauges containing three-element rectangular rosettes were also placed on the exterior of each CFT column to measure the local strains of the steel tube wall. Finally, uniaxial strain gauges were placed on some of the tie bars in the stiffened specimens. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                371,
+                929,
+                498
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The compression tests were conducted in a  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "4900\\mathrm{kN}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " universal testing machine. Axial loads, measured by the test machine load cell, were slowly applied to the specimen such that the average strain rate was approximately  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2.5\\times 10^{-5}\\mathrm{L / s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The compression tests stopped at a strain level of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". If LVDTs could possibly be damaged by the large deformations of a specimen, they were removed before the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " strain level. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                500,
+                929,
+                598
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Experimental Results and Discussion "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                511,
+                625,
+                812,
+                641
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Figs. 2-5 show load-average strain curves (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves) for all specimens. These measured results are presented according to the different width-to-thickness ratios of the specimens. Generally, the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curve of Specimen CU-040 closely approaches an elastic-perfectly plastic behavior, while Specimens CU-070 and CU-150 exhibit strain-softening behavior. The  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves for square specimens without stiffening (SU specimens) appear to display strain-softening behavior, and the strength-degrading rate after the peak load increases with the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio. The  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves for stiffened square (SS) specimens demonstrate the effects of slowing the strength-degrading rate when the proposed stiffening scheme was used. An appropriate stiffening arrangement can enhance the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " relationship from a strain-softening case to an elastic-perfectly plastic response [see the curves for Specimens SS-040-050(3), SS-040-050(4), and SS-070-050(3)]. Load-strain relations may have been improved because of increased confinement on the core concrete and delay of local buckling with the proposed stiffening scheme. The effects of different stiffening arrangements on the behavior of CFT columns in terms of ultimate strength, elastic modulus, and ductility are discussed below. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                652,
+                931,
+                936
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "1224 / JOURNAL OF STRUCTURAL ENGINEERING / SEPTEMBER 2002 "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                946,
+                503,
+                960
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2002, 128(9): 1222-1230 "
+                    }
+                ]
+            },
+            "bbox": [
+                388,
+                984,
+                606,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9f1e5688e19417f8598bbef3757a465a3eb6c0a952df8096be4b116093d7e430.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 3. Experimental behavior of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P"
+                    },
+                    {
+                        "type": "text",
+                        "content": " versus  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t(D / t) = 70"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                112,
+                42,
+                433,
+                280
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Ultimate Strength "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                328,
+                200,
+                344
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The maximum load in the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " relationship for each specimen is defined as the ultimate strength of the specimen and is denoted as  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The strain corresponding to the ultimate strength is called peak strain and represented as  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". Meanwhile, Table 2 lists the values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for each specimen. Local buckling was not clearly observable in either specimen at the ultimate strength. Notably, the smaller value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for a circular cross-sectional specimen than that for a square one with the same width-to-thickness ratio is caused by the smaller cross-sectional area of the former. "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                349,
+                478,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To reduce the influence of variations in concrete strength and cross-sectional area when comparing  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for different specimens, the values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " were normalized by the nominal axial strength given by Eurocode 4 ENV 1994-1-1 (BSI 1994), "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                491,
+                480,
+                547
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "P _ {n, \\mathrm {E U}} = A _ {s} f _ {y, t} + A _ {c} f _ {c} ^ {\\prime} \\tag {3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/cc922addc710eba4535a90365cd1029b57dc102fbe9b4d0c7c6c51e4eeff98c9.jpg"
+                }
+            },
+            "bbox": [
+                200,
+                555,
+                478,
+                571
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{c} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " cross-sectional area of the core concrete. Table 2 also summarizes those results. Notably, the nominal strength defined by Eq. (3) differs from that given in AIJ, where a reduction factor of 0.85 is prescribed on the concrete strength  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{c}^{\\prime}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The values of "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                577,
+                480,
+                636
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e4fa3dd7968c07beb470bdc3606648b7346fd86b452f7d9a2f76f46cf82a1d58.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 4. Experimental behavior of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P"
+                    },
+                    {
+                        "type": "text",
+                        "content": " versus  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t (D / t) = 150"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                112,
+                661,
+                433,
+                904
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/79cff626658dc16d8a08f5a498ce988a1cc0e67e79917eec54b8c94855500ff9.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 5. Comparison of experimental results for specimens with/ without annealing "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                560,
+                42,
+                883,
+                280
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{EU}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for circular cross-sectional specimens are all greater than one (even for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t = 150"
+                    },
+                    {
+                        "type": "text",
+                        "content": "), and the specimens with a smaller  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " exhibit a larger  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{EU}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". For square unstiffened specimens, only the value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t = 40"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is larger than that determined by Eq. (3). All the square stiffened specimens have  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{EU}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " greater than one. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                344,
+                929,
+                428
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "For comparison, Table 2 also lists the values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{n,\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " stands for nominal strength estimated using the LRFD specifications "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                429,
+                929,
+                472
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "P _ {n, \\mathrm {L R F D}} = A _ {s} F _ {\\mathrm {c r}} \\tag {4}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1b88c077eb90f7ce6bade69e64522b35d6334fc116cbbed2e8b55f7ece1f5924.jpg"
+                }
+            },
+            "bbox": [
+                668,
+                479,
+                929,
+                494
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where "
+                    }
+                ]
+            },
+            "bbox": [
+                513,
+                500,
+                555,
+                512
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F _ {\\mathrm {c r}} = (0. 6 5 8 ^ {\\lambda}) F _ {m y} \\text {f o r} \\lambda \\leqslant 1. 5 \\tag {5a}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/dc721fab3428d5c9d0ceee6232e671ff3cc120d7d0bef3411bc341705076bf6a.jpg"
+                }
+            },
+            "bbox": [
+                620,
+                518,
+                929,
+                536
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F _ {m y} = f _ {y, t} + 0. 8 5 f _ {c} ^ {\\prime} \\left(A _ {c} / A _ {s}\\right) \\tag {5b}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/19036b4fa55869ffb33dce09af56ab61c5b63aa309a72332a4b8bc277a6b5954.jpg"
+                }
+            },
+            "bbox": [
+                633,
+                542,
+                929,
+                559
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\lambda = \\left(K L / \\gamma_ {m} \\pi\\right) ^ {2} \\left(F _ {m y} / E _ {m}\\right) \\tag {5c}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/34a817662470d2f522eece4b919692f3096b69fe29a923866b6e1076f4741e37.jpg"
+                }
+            },
+            "bbox": [
+                635,
+                565,
+                928,
+                583
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "E _ {m} = E _ {s} + 0. 4 0 E _ {c} \\left(A _ {c} / A _ {s}\\right) \\tag {5d}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/730e80c5dee2393712ec8d4b888bc7ed52fb72f55e65731523273393cb525769.jpg"
+                }
+            },
+            "bbox": [
+                638,
+                589,
+                929,
+                604
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "KL ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " effective simply supported column length and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\gamma_{m}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "="
+                    },
+                    {
+                        "type": "text",
+                        "content": " radius of gyration of steel tube. The elastic modulus of the core concrete was estimated from  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E_{c} = 4730\\sqrt{f_{c}^{\\prime}} (\\mathrm{MPa})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " , and the elastic modulus for steel tube  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " was set as  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2\\times 10^{5}\\mathrm{MPa}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " . Notably, the values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " exceed those of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{EU}}"
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                609,
+                929,
+                681
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Interestingly, the values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}_p"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for circular cross-sectional specimens markedly decrease when  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " changes from 40 to 70. This decrease occurs because the load-strain relationship for Specimen CU-040 exhibits elastic-plastic characteristics (see Fig. 2) while strain-softening behavior is observed for Specimen CU-070 (see Fig. 3). The value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}_p"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for a square specimen is much smaller than that for a circular one with the same  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio. Moreover, the values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}_p"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for the square specimens with a larger  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " are closer to the ultimate strain of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0.3\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for unconfined concrete, indicating that specimens with a larger  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " result in less confinement of the core concrete. The proposed stiffening scheme markedly increases  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}_p"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", especially when stiffened with smaller  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L_s"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                681,
+                929,
+                864
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Generally, the results in Table 2 indicate that  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{EU}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ") and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " increase with decreasing longitudinal tie bar spacing  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(L_{s})"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", regardless of the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratios. The maximum increase of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{EU}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ") value from stiffening exceeds  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "15\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The stiffened specimens with  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L_{s} = B / 4 - B / 6"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t = 40 - 150"
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                864,
+                929,
+                936
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "JOURNAL OF STRUCTURAL ENGINEERING / SEPTEMBER 2002 / "
+                    }
+                ]
+            },
+            "bbox": [
+                490,
+                946,
+                893,
+                959
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1225 "
+                    }
+                ]
+            },
+            "bbox": [
+                898,
+                946,
+                929,
+                959
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2002, 128(9): 1222-1230 "
+                    }
+                ]
+            },
+            "bbox": [
+                388,
+                983,
+                606,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/d7e83d8433eb9775bc2f54600507fc0b82c59ea929bd4be624ffdd9b84a6488b.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 2. Experimental Results "
+                    }
+                ],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "Note: — means no data available. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{}^{a}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " Corresponding curve either displays perfectly elastic-perfectly plastic behavior or has very small strength degrading rate. "
+                    }
+                ],
+                "html": "<table><tr><td>Specimens</td><td>Pp(kN)</td><td>εp(%)</td><td>Pp/Pn,EU</td><td>Pp/Pn,LRFD</td><td>(EA)comp(MN)</td><td>Ecomp(MPa)</td><td>(EA)comp(EA)LRFD</td><td>(EA)comp(EA)F</td><td>εy(%)</td><td>ε95(%)</td><td>μ95</td></tr><tr><td>SU-040</td><td>2,312</td><td>0.41</td><td>1.15</td><td>1.24</td><td>976.72</td><td>24418</td><td>0.857</td><td>0.571</td><td>0.17</td><td>0.53</td><td>3.19</td></tr><tr><td>SS-040-050(3)</td><td>2,728</td><td>2.04</td><td>1.35</td><td>1.46</td><td>889.64</td><td>22241</td><td>0.780</td><td>0.542</td><td>0.16</td><td>—</td><td>a</td></tr><tr><td>SS-040-050(4)</td><td>2,903</td><td>4.44</td><td>1.44</td><td>1.55</td><td>883.64</td><td>22091</td><td>0.775</td><td>0.535</td><td>0.18</td><td>—</td><td>a</td></tr><tr><td>SS-040-100(4)</td><td>2,463</td><td>0.84</td><td>1.22</td><td>1.32</td><td>883.16</td><td>22079</td><td>0.775</td><td>0.511</td><td>0.16</td><td>1.85</td><td>11.6</td></tr><tr><td>CU-040</td><td>2,013</td><td>2.08</td><td>1.27</td><td>1.37</td><td>1133.6</td><td>36083</td><td>1.266</td><td>0.869</td><td>0.12</td><td>—</td><td>a</td></tr><tr><td>SU-070</td><td>3,401</td><td>0.33</td><td>0.97</td><td>1.08</td><td>1299.9</td><td>16580</td><td>0.783</td><td>0.639</td><td>0.14</td><td>0.41</td><td>2.92</td></tr><tr><td>SS-070-050(3)</td><td>2,344</td><td>1.21</td><td>1.14</td><td>1.25</td><td>727.80</td><td>14505</td><td>0.727</td><td>0.611</td><td>0.20</td><td>2.90</td><td>14.5</td></tr><tr><td>SS-070-050(3)R</td><td>2,328</td><td>1.06</td><td>1.10</td><td>1.21</td><td>791.38</td><td>15772</td><td>0.778</td><td>0.648</td><td>0.16</td><td>3.09</td><td>19.7</td></tr><tr><td>SS-070-093(2)</td><td>3,744</td><td>0.47</td><td>1.08</td><td>1.18</td><td>1023.1</td><td>13050</td><td>0.619</td><td>0.503</td><td>0.19</td><td>0.60</td><td>3.19</td></tr><tr><td>SS-070-093(3)</td><td>3,855</td><td>0.48</td><td>1.11</td><td>1.24</td><td>1121.8</td><td>14308</td><td>0.679</td><td>0.555</td><td>0.19</td><td>0.67</td><td>3.53</td></tr><tr><td>SS-070-140(3)</td><td>3,610</td><td>0.50</td><td>1.06</td><td>1.17</td><td>1057.6</td><td>13490</td><td>0.647</td><td>0.527</td><td>0.18</td><td>0.62</td><td>3.37</td></tr><tr><td>SS-070-187(3)</td><td>3,457</td><td>0.37</td><td>1.03</td><td>1.14</td><td>1085.8</td><td>13850</td><td>0.664</td><td>0.546</td><td>0.19</td><td>0.54</td><td>2.92</td></tr><tr><td>CU-070</td><td>3,025</td><td>0.49</td><td>1.09</td><td>1.22</td><td>1358.5</td><td>22063</td><td>1.042</td><td>0.850</td><td>0.11</td><td>1.21</td><td>11.4</td></tr><tr><td>SU-150</td><td>3,062</td><td>0.33</td><td>0.96</td><td>1.08</td><td>924.66</td><td>10274</td><td>0.694</td><td>0.415</td><td>0.19</td><td>0.39</td><td>2.10</td></tr><tr><td>SS-150-050(2)</td><td>3,184</td><td>0.49</td><td>1.14</td><td>1.24</td><td>1143.9</td><td>12710</td><td>0.893</td><td>0.513</td><td>0.14</td><td>0.97</td><td>6.84</td></tr><tr><td>SS-150-100(2)</td><td>3,105</td><td>0.50</td><td>1.03</td><td>1.09</td><td>1040.8</td><td>11564</td><td>0.800</td><td>0.467</td><td>0.16</td><td>0.71</td><td>4.34</td></tr><tr><td>CU-150</td><td>2,608</td><td>0.34</td><td>1.04</td><td>1.17</td><td>1169.4</td><td>12993</td><td>0.877</td><td>0.525</td><td>0.08</td><td>0.65</td><td>7.89</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                60,
+                56,
+                933,
+                351
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(smaller  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for larger  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": ") have a larger  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{EU}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ") value than the circular specimens with the same width-to-thickness ratio have. The increases of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{EU}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ") and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " in the SS specimens suggest that the proposed stiffening scheme enhances the confinement effect on the core concrete. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                398,
+                478,
+                484
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The experimental results presented in Table 2 do not conclusively reveal how tie bar diameter affects  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{EU}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ") and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". Comparison of the results for Specimens SS-040-050(3) and SS-040-050(4) reveals that increasing tie bar diameter significantly increases  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{EU}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ") and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". However, there are no such trends indicated in the results for Specimens SS-070-093(2) and SS-070-093(3). Apparently, the effects of the tie bar diameter on  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{EU}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p} / P_{n,\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ") and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon}_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " also depend on  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                484,
+                480,
+                613
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Composite Stiffness "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                632,
+                220,
+                647
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The composite stiffness  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left[(EA)_{\\mathrm{comp}}\\right]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " of the CFT member is needed for analyzing and designing a structural system comprising CFT columns. To evaluate the composite stiffness from the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves, experimental data with the strains between  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0.05\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0.1\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " were applied to determine the initial slope of a  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curve by a linear regression. Notably, the load corresponding to  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon} = 0.1\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is less than  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0.5P_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and the strains less than  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0.1\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " are essentially in the elastic range. This slope is denoted as the stiffness of the composite cross section. The sixth column of Table 2 lists the values of the measured stiffness for all specimens. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                652,
+                478,
+                795
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Since the cross-sectional areas for different  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and cross-sectional shapes differ, directly comparing the composite stiffness of all specimens is inappropriate. The elastic modulus of the composite section is defined herein as "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                795,
+                478,
+                852
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "E _ {\\text {c o m p}} = (E A) _ {\\text {c o m p}} / A _ {\\text {t o t a l}} \\tag {6}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/67ffcf374d596752d43a12496dcb25060940bf3bbebe598004892b58dd86a2e4.jpg"
+                }
+            },
+            "bbox": [
+                194,
+                858,
+                478,
+                875
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The seventh column of Table 2 lists the values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E_{\\mathrm{comp}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for all specimens. Given the same width-to-thickness ratio, the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E_{\\mathrm{comp}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " of a circular tube exceeds that for a square tube, regardless of whether the square tube is stiffened. Furthermore,  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E_{\\mathrm{comp}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " decreases "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                878,
+                480,
+                936
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "with increasing  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": "). Interestingly, the elastic moduli of the stiffened tubes are generally smaller than those for the corresponding unstiffened tubes, except for the specimens with  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t = 150"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                397,
+                929,
+                452
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Notably, the definition of elastic modulus by Eq. (6) differs from the definition of the modified elastic modulus  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " given in LRFD. The stiffness of the composite cross section in LRFD is defined as "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                453,
+                929,
+                508
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(E A) _ {\\mathrm {L R F D}} = E _ {m} A _ {s} \\tag {7}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7aa6545a0d59b23bf59847e3b4c57d01b55a30db5f35e46e433748a73d4a55c9.jpg"
+                }
+            },
+            "bbox": [
+                661,
+                516,
+                929,
+                532
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The measured versus computed stiffness  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(EA)_{\\mathrm{comp}} / (EA)_{\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " given in the eighth column of Table 2 reveals that for the specimens with a width-to-thickness ratio that satisfies the requirement of LRFD, Eq. (7) underestimates the composite stiffness for the circular cross section, but overestimates it for the square cross section. Meanwhile, Eq. (7) overestimates the stiffness of specimens with a width-to-thickness ratio that exceeds the limitations in LRFD. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                537,
+                929,
+                648
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Furlong (1968) also proposed a design formula for estimating the elastic modulus by assuming the composite stiffness equal to the algebraic sum of stiffness for the steel tube and core concrete "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                650,
+                929,
+                693
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(E A) _ {\\text {c o m p}} = A _ {c} E _ {c} + A _ {s} E _ {s} \\tag {8}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8c8a26011cd5ce85b48302dbcdd3d002ccdc43c8b3fe0ec87fb09ce35bacb368.jpg"
+                }
+            },
+            "bbox": [
+                642,
+                699,
+                929,
+                715
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In Table 2, the estimate of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(EA)_{\\mathrm{comp}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " using Eq. (8) is denoted by  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(EA)_F"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The ninth column of Table 2 lists the ratio of the measured  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(EA)_{\\mathrm{comp}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " over the estimate using Eq. (8). The results in the ninth column indicate that Eq. (8) overestimates the composite stiffness, particularly for square cross-sectional specimens. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                720,
+                929,
+                791
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Ductility "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                513,
+                811,
+                581,
+                828
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The definition of ductility proposed by Ge and Usami (1996) was applied herein, which is "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                835,
+                929,
+                864
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mu_ {9 5} = \\delta_ {9 5} / \\delta_ {y} \\tag {9}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/06c61d404fcfa5f7a292365d961cac90dde0d3f43a0e34e008cde68849f8ae3a.jpg"
+                }
+            },
+            "bbox": [
+                678,
+                872,
+                929,
+                888
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta_{95} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " deformation corresponding to loads of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "95\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " of the ultimate load and is larger than the deformation corresponding to the ultimate load, and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta_y ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " yield displacement. The definite yield "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                892,
+                929,
+                936
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "1226 / JOURNAL OF STRUCTURAL ENGINEERING / SEPTEMBER 2002 "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                946,
+                503,
+                960
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2002, 128(9): 1222-1230 "
+                    }
+                ]
+            },
+            "bbox": [
+                388,
+                983,
+                607,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "point was not evident from the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves given in Figs. 2-5. Nevertheless, the procedure for estimating yield strain proposed by Zahn et al. (1990) for traditional reinforced concrete was adopted here. The yield strain was estimated using  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "133\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " of the strain corresponding to  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0.75P_{n,\\mathrm{LRFD}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". Apparently, the definition given by Eq. (9) is only suitable for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves with strainsoftening characteristics. As mentioned above, most of the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves obtained herein are of this type. Generally, based on the ductility defined by Eq. (9), the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves with smaller strength degrading rate after the ultimate load have larger ductility. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                44,
+                480,
+                186
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The last column of Table 2 lists the values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mu_{95}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for all the specimens. The corresponding  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curve either displays elastic-perfectly plastic behavior or has very small strength degrading rate, so that  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon_{95}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " cannot be obtained from the experimental  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves. In such cases, the specimen has excellent ductility. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                186,
+                478,
+                257
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Carefully observing the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\bar{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves given in Figs. 2-5 and comparing the values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mu_{95}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " reveal several facts. With the same width-to-thickness ratio, circular specimens display better ductility than nonstiffened square specimens. Furthermore, ductility is better for specimens with smaller width-to-thickness ratios. The proposed stiffening scheme with appropriate longitudinal spacing of tie bars significantly enhances the ductility of square tubes. Using  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (spacing between tie bars)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= B / 4 - B / 6"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t = 40\\sim 150"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (larger  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " with smaller  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ") considerably increases the ductility of a stiffened square specimen. Finally, there is no strong indication that the diameters of tie bars significantly influence ductility. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                257,
+                480,
+                428
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Effect of Annealing "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                448,
+                212,
+                463
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Welding operations on a steel tube are inevitable in constructing CFT components, and usually cause residual stresses of the steel tube. To investigate the influence of residual stresses on CFT column behavior, an additional specimen with heavy stiffening was constructed by annealing the steel tube before pouring concrete inside it, thus removing residual stresses. The specimen is denoted as SS-070-050(3)R in Tables 1 and 2. This specimen is identical to Specimen SS-070-050(3) except that Specimen SS-070-050(3) was not annealed. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                469,
+                478,
+                595
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 5 plots the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves for the above two specimens, while the corresponding values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{p}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", elastic modulus, and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mu_{95}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " are also listed in Table 2. Fig. 5 reveals that the two specimens share very similar  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P - \\overline{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " curves. In the small strain range say  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{\\varepsilon} \\leqslant 0.7\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", Specimen SS-070-050(3)R can sustain a greater load than Specimen SS-070-050(3) at the same strain levels, while the opposite occurs at large strain levels. Nevertheless, Table 2 indicates that ultimate strength is only slightly affected by residual stresses, and residual stresses slightly reduce composite stiffness. These two observations were also reported by Zhong (1995) and Furlong (1968), respectively. Although it has not been reported before, residual stresses may considerably reduce  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mu_{95}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". Further experimental data are required to confirm the effect of residual stresses on the ductility. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                597,
+                480,
+                794
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Failure Mode "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                815,
+                165,
+                828
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 6 illustrates a typical wall buckling for the specimens of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t = 70"
+                    },
+                    {
+                        "type": "text",
+                        "content": " with and without stiffening at a strain level of about  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The grid on the surface of the steel tube has a size of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "7 \\times 7 \\, \\text{cm}^2"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The dots on the surface of the steel tube in Fig. 6(b) indicate the locations of tie bars. The stiffened specimen appears to have a smaller wavelength of the appearance for a local buckling than the unstiffened one. No significant outward deformation "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                835,
+                480,
+                936
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/58bdcc8dc9fc473e6b0d2b987d5f09a99d6130e08e387d6ca80414fd0f98811f.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                532,
+                44,
+                705,
+                333
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5256f5441972fddee1f71f82b709e390ad4bd9bcfc8352c166cb8402ea2416e8.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b) "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Fig. 6. Typical local buckling of steel tube wall: (a) Specimen SU-070 and (b) Specimen SS-070-093(3) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                725,
+                44,
+                910,
+                333
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "was observed at the stiffened cross sections. For the stiffened specimen, an observable local buckling is confined to within two adjacent stiffened cross sections. Consequently, local buckling is expected to be further inhibited by decreasing the spacing between the stiffened cross sections. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                416,
+                929,
+                486
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Numerical Study "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                511,
+                513,
+                648,
+                529
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Stress distribution at a cross section can be very helpful in understanding the behavior of the concrete core during axial loading. However, stress distribution cannot be measured directly. Consequently, finite element analyses were carried out for Specimens CU-070, SU-070, and SS-070-093(2). Three-dimensional nonlinear (material and geometry nonlinear) finite element models were established by using the commercial finite element package ABAQUS. (Hibbitt, Karlsson, and Sorensen, Inc., Pawtucket, R.I., 1994). "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                541,
+                929,
+                669
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Finite Element Mesh "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                511,
+                689,
+                669,
+                702
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Owing to the symmetry of a specimen and boundary conditions, only  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1/8"
+                    },
+                    {
+                        "type": "text",
+                        "content": " of the specimen with symmetric boundary conditions on the symmetric planes was analyzed. The core concrete and steel tube were modeled by 27-node solid elements (three degrees of freedom per node), while the stiffeners were modeled by two-node truss elements. Additionally, nine-node interface elements were also used to link the core concrete and the steel tube. The interface elements allow slipping between the core concrete and the steel tube when they are in contact. A coefficient of friction 0.25 was used, and the interface elements also allow the contact surface to open. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                710,
+                929,
+                866
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Material Modeling "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                511,
+                885,
+                651,
+                900
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The finite element analyses employed the basic material properties given in Table 1. The steel tube and stiffeners (if any) were "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                907,
+                929,
+                936
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "JOURNAL OF STRUCTURAL ENGINEERING / SEPTEMBER 2002 / "
+                    }
+                ]
+            },
+            "bbox": [
+                490,
+                946,
+                893,
+                959
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1227 "
+                    }
+                ]
+            },
+            "bbox": [
+                898,
+                946,
+                929,
+                959
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2002, 128(9): 1222-1230 "
+                    }
+                ]
+            },
+            "bbox": [
+                388,
+                984,
+                607,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/51247887ff1e5f45c1868a094a6bf876fcf77a53de7ab96a860f6a1d5f88e197.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 7. Uniaxial stress-strain relation for concrete "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                153,
+                42,
+                392,
+                204
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "assumed to be elastic-perfectly plastic and follow von Mises yield criterion. Meanwhile, the experimental results indicated that the steel tube might effectively confine the core concrete during testing. To account for the confinement, the uniaxial compressive stress versus strain given in Fig. 7 was used. In Fig. 7, the maximum concrete stress and the corresponding strain were estimated by the following equations: "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                261,
+                478,
+                359
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f _ {\\mathrm {c c}} ^ {\\prime} = f _ {c} ^ {\\prime} + k _ {1} f _ {l} \\tag {10a}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6dfdce6d89acfa219fb3765b83e387f138480c69541f71e2fbe0a586d4f7cb71.jpg"
+                }
+            },
+            "bbox": [
+                223,
+                367,
+                478,
+                385
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varepsilon_ {\\mathrm {c c}} = \\varepsilon_ {c} \\left(1 + k _ {2} \\frac {f _ {l}}{f _ {c} ^ {\\prime}}\\right) \\tag {10b}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9cad288a6924c2a75efd30a1598aff0b03f1a1492ea6c66b0e92c2dd7bfc5305.jpg"
+                }
+            },
+            "bbox": [
+                209,
+                391,
+                478,
+                426
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon_{c} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " strain corresponding to  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{c}^{\\prime}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and was set as  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0.3\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{l} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " confining pressure around the concrete core. Meanwhile, the constants  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " were set as 4.1 and 20.5 based on the studies of Richart et al. (1928). The stress-strain relation up to  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(f_{cc}^{\\prime},\\varepsilon_{cc})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " was defined by the following equation, which was a modification of Saenz's (1964): "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                431,
+                480,
+                516
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma = \\frac {E _ {c} \\varepsilon}{1 + \\left(R + R _ {e} - 2\\right) \\left(\\frac {\\varepsilon}{\\varepsilon_ {\\mathrm {c c}}}\\right) - (2 R - 1) \\left(\\frac {\\varepsilon}{\\varepsilon_ {\\mathrm {c c}}}\\right) ^ {2} + R \\left(\\frac {\\varepsilon}{\\varepsilon_ {\\mathrm {c c}}}\\right) ^ {3}} \\tag {11}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b8cc940b42df1ae04ccb8b7493f8c043940b25950a617f9d0a8d8b3b55d311df.jpg"
+                }
+            },
+            "bbox": [
+                94,
+                523,
+                478,
+                585
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                590,
+                106,
+                602
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R = \\frac {R _ {e} \\left(R _ {\\sigma} - 1\\right)}{\\left(R _ {\\varepsilon} - 1\\right) ^ {2}} - \\frac {1}{R _ {\\varepsilon}} \\tag {12a}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f8e4f1180bd77b8e47942c32927ec48d7048b7b7cdf4511b1a84df74e1eabc30.jpg"
+                }
+            },
+            "bbox": [
+                200,
+                609,
+                478,
+                643
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R _ {e} = E _ {c} / E _ {0} \\tag {12b}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d39e45900614aa11d12233e1c84d073f6bcf352f07f9824b5933cd6077df1365.jpg"
+                }
+            },
+            "bbox": [
+                233,
+                650,
+                478,
+                666
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "E _ {0} = f _ {\\mathrm {c c}} ^ {\\prime} / \\varepsilon_ {\\mathrm {c c}} \\tag {12c}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a9402bdde23e6ebebd83cf0828c92bc9a506d87d3b1ae37511705db65083b12f.jpg"
+                }
+            },
+            "bbox": [
+                232,
+                672,
+                478,
+                690
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R_{\\sigma}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R_{\\varepsilon}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " were set equal to 4, as suggested by Elwi and Murray (1979). The stress-strain relationship after  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(f_{cc}^{\\prime},\\varepsilon_{cc})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " was assumed to be linear, with  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " defining the stiffness degradation. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                695,
+                478,
+                738
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The values for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{l}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " have to be provided to completely define the uniaxial stress-strain relation. These two parameters are apparently dependent on the confining pressure, which varies during loading and depends on the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", cross-sectional shape, and stiffening means. Consequently, the appropriate values were determined by matching the numerical results with experimental results by trial and error. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                738,
+                478,
+                835
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Since the steel tube confines the core concrete, the core concrete experiences three-dimensional stress. To consider the behavior of the core concrete in multiple stress condition, the linear Drucker-Prager model was applied. The yield surface of this model expands with increasing hydrostatic pressure. During plastic deformation, the expansion of the yield surface was guided by the uniaxial stress-strain curve shown in Fig. 7. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                837,
+                480,
+                936
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0c987a6cae4386514ed34bf3c810fa07dda9c8fa591984b9d483fcca47c5490b.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                540,
+                42,
+                897,
+                215
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cae709f4342a5c9f5c1817a3d7fb1eea66b3729924937bda8ab44b87ada09b2a.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                540,
+                224,
+                903,
+                396
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/978ca64dcb4fc7e4d940375048b67b373c40303f408faf86217c0a4959ae3295.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 8. Comparison of experimental and analytical results "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                540,
+                405,
+                905,
+                578
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Results and Discussion "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                513,
+                645,
+                694,
+                659
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 8 shows good agreement between the experimental and analytical results by choosing appropriate values for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{l}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " as indicated in the figure. The convergence studies for different meshes were given in Wu's thesis (Wu 2000). Apparently, using a smaller value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for Specimen SU-070 than that shown in Fig. 8 will achieve closer agreement with the experimental results. However, using a smaller  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " caused a convergence problem in nonlinear analysis in this case. The values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " obtained for different specimens reflect the fact that the strength degradation rate of Specimen CU-070 after reaching the maximum load is smaller than those for Specimens SU-070 and SS-070-093(2). "
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                667,
+                929,
+                821
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{l}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " obtained for different specimens reveal that the value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{l}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for Specimen CU-070 is larger than that for SU-070, while the value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{l}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for Specimen SS-070-093(2) lies in between the above two values. Besides, the value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{l}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for Specimen SU-070 is zero. These values reflect the fact that confining pressure is greater for circular specimens than for square ones, and the proposed stiffening scheme enhances the confining pressure of a square specimen. The zero of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{l}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for Specimen SU-070 "
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                823,
+                929,
+                936
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "1228 / JOURNAL OF STRUCTURAL ENGINEERING / SEPTEMBER 2002 "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                946,
+                503,
+                960
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2002, 128(9): 1222-1230 "
+                    }
+                ]
+            },
+            "bbox": [
+                388,
+                984,
+                606,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/fd7cf7205358f151aeca62dbeb1cda12f21466181b3a032f3b7d4b1a23845166.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                151,
+                40,
+                357,
+                191
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/bb25ef498944c785bcda35fe61d1f563715aec7b22987ab65fb7680cfc2ffd72.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                151,
+                213,
+                395,
+                364
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/650694115e87c87ac89ea114185d9236531a38ee017e00499d61c4836d468e3e.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b) "
+                    },
+                    {
+                        "type": "text",
+                        "content": "(c) "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Fig. 9. Axial stress distribution at  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P = Pp"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(D / t) = 70"
+                    },
+                    {
+                        "type": "text",
+                        "content": ": (a) CU-70; (b) SU-70; and (c) SS-070-093(2) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                151,
+                375,
+                393,
+                534
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "means that the behavior of the concrete core, if considered in the uniaxial stress state, is just like an unconfined concrete cylinder under axial loading. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                625,
+                478,
+                666
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 9 displays the approximate distributions of concrete axial stresses at the cross section located  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / 6"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / 6"
+                    },
+                    {
+                        "type": "text",
+                        "content": ") above the middle cross section under the ultimate load. Since the problem is symmetrical, only the stress distribution of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 / 4"
+                    },
+                    {
+                        "type": "text",
+                        "content": " the cross section is shown. Notably, this cross section is a stiffened cross section for Specimen SS-070-093(2). The three specimens have totally different distribution patterns. Specimen CU-070 has an almost uniform distribution over the cross section, and the existence of stiffeners not only changes the pattern of the stress distribution but also increases stress capacity. Meanwhile, Specimen SU-070 has stress concentration around the corner, while Specimen SS-070-093(2) has stress concentration both around the corner and around the connections between the tie bars and the steel tube. The axial stresses around the stress concentration areas are much larger than  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{c}^{\\prime}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", meaning that confinement is better in these areas. Interestingly, the axial stresses at the stress concentration areas for square specimens exceed those for circular specimens. The axial stress at the corner for Specimen SU-070 was  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "50\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " greater than the cylinder strength, while the axial stresses at the stress concentration "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                667,
+                480,
+                935
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "areas for Specimen SS-070-093(2) were  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "73\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " greater than the cylinder strength. These figures confirm that the proposed stiffening scheme enhances confinement for square CFT columns. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                42,
+                929,
+                85
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Concluding Remarks "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                513,
+                112,
+                684,
+                128
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "This study mainly presents an experimental investigation of short concrete-filled steel tube columns under a concentric load. A stiffening scheme is also proposed to enhance the behavior of square cross-sectional columns in terms of ultimate strength and ductility. The parameters under investigation included the shape of the cross section (square and circular), width-to-thickness ratio  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(B / t = 40, 70, 150)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and stiffener arrangement, aiming to determine how these factors influenced ultimate strength, stiffness, and ductility. A nonlinear finite element analysis was also carried out to study the effects of cross-sectional shape and stiffener on axial stress distribution at a typical cross section. Several interesting points were noted: "
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                138,
+                929,
+                306
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1. Without stiffeners, only the load–strain relation for Specimen CU-040 shows elastic–perfectly plastic behavior, while the remaining specimens exhibit strain-softening characteristics. An appropriate arrangement of stiffeners in the proposed stiffening scheme can improve strength degradation after reaching the ultimate load, and can even alter strain-softening characteristics to achieve elastic–perfectly plastic behavior. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2. In terms of ultimate strength, stiffness, and ductility, the circular CFT columns, as expected, perform better than the square ones, even for large width-to-thickness ratios (i.e.,  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "D / t = 150"
+                            },
+                            {
+                                "type": "text",
+                                "content": "). The CFT column with a smaller width-to-thickness ratio behaves better. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3. The Eurocode 4 specifications provide a conservative estimate of the ultimate axial strength of CFT columns with circular cross sections, even for  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "D / t = 150"
+                            },
+                            {
+                                "type": "text",
+                                "content": ", and the underestimation may exceed  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "25\\%"
+                            },
+                            {
+                                "type": "text",
+                                "content": ". However, the Eurocode 4 specifications appear to only slightly overestimate the ultimate strength of a square CFT column with  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "B / t \\geqslant 70"
+                            },
+                            {
+                                "type": "text",
+                                "content": ", with the overestimation being under  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "5\\%"
+                            },
+                            {
+                                "type": "text",
+                                "content": ". "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4. The stiffness computed by directly superposing the stiffness of the steel tube and the core concrete is significantly overestimated, sometimes by over  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "40\\%"
+                            },
+                            {
+                                "type": "text",
+                                "content": ". "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "5. The proposed stiffening scheme can enhance the ultimate strength and ductility of square CFT columns but may somewhat decrease the stiffness for  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "B / t \\leqslant 70"
+                            },
+                            {
+                                "type": "text",
+                                "content": ". The enhancement, especially for ductility, becomes more significant as the longitudinal spacing of tie bars decreases (i.e.,  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "L_{s} = B / 4 - B / 6"
+                            },
+                            {
+                                "type": "text",
+                                "content": " for  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "B / t = 40 - 150"
+                            },
+                            {
+                                "type": "text",
+                                "content": "). The failure modes of the specimens indicate that the stiffening scheme effectively delays local buckling. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "6. The nonlinear finite element analysis reveals that the cross-sectional axial stress distribution for Specimen CU-070 is quite uniform at the ultimate strength. The existence of stiffeners alters the pattern of axial stress distribution for square cross-sectional specimens. Specimen SS-070-093(2) shows stress concentration around the corners and around the connections between the tie bars and the steel tube, while Specimen SU-070 only shows the stress concentration around the corners. The axial stresses at the stress concentration areas indicate that the proposed stiffening scheme improves the confinement of steel tube on the core concrete. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                513,
+                308,
+                929,
+                878
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The enhanced mechanical properties achieved by applying the proposed stiffening scheme to a square CFT column should also be valid for a CFT column with high strength core concrete, especially in improving the ductility of the high strength concrete. "
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                878,
+                929,
+                936
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "JOURNAL OF STRUCTURAL ENGINEERING / SEPTEMBER 2002 / "
+                    }
+                ]
+            },
+            "bbox": [
+                490,
+                946,
+                893,
+                959
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1229 "
+                    }
+                ]
+            },
+            "bbox": [
+                898,
+                946,
+                929,
+                959
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2002, 128(9): 1222-1230 "
+                    }
+                ]
+            },
+            "bbox": [
+                388,
+                984,
+                607,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Acknowledgments "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                42,
+                210,
+                56
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "This research was supported by the National Science Council, Republic of China (Grant No. NSC88-2711-3-319-200-06). The financial support is gratefully acknowledged. Thanks are also extended to the National Center for Research on Earthquake Engineering for assistance in carrying out experiments. "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                70,
+                480,
+                142
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "References "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                167,
+                156,
+                183
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "American Institute of Steel Construction (AISC). (1994). Manual of steel construction: Load and resistance factor design (LRFD), 2nd Ed., Chicago. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "American Institute of Steel Construction, Inc. (AISC). (1997) Seismic provisions for structural steel buildings, Chicago. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Architectural Institute of Japan (AIJ) (1997). Recommendations for design and construction of concrete-filled steel tubular structures, Tokyo Japan. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "ASTM. (1991). \"ASTM standards in building codes: specifications, test methods, practices, classifications, terminology,\" Philadelphia. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "British Standards Institution (BST). (1994). Design of composite steel and concrete structures. Eurocode 4, ENV 1994-1-1, London. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Elwi, A. A., and Murray, D. W. (1979). \"A 3D hypoelastic concrete constitutive relationship.\" J. Eng. Mech. Div., Am. Soc. Civ. Eng., 105(4), 623-641. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Furlong, R. W. (1967). \"Strength of steel-encased concrete beam-column.\" J. Struct. Div. ASCE, 93(5), 113-124. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Furlong, R. W. (1968). \"Design of steel-encased concrete beam-columns.\" J. Struct. Div. ASCE, 94(1), 267-281. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Gardner, N. J., and Jocobson, E. R. (1967). \"Structural behavior of concrete-filled steel tubes.\" ACI J., 64(7), 404-412. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Ge, H. B., and Usami, T. (1992). \"Strength of concrete-filled thin-walled steel box column: experiment.\" J. Constr. Steel Res., 30, 179-186. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Ge, H. B., and Usami, T. (1996). \"Cyclic tests of concrete-filled steel box columns.\" J. Struct. Eng., 122(10), 1169-1177. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Huang, C. S., Cheung, L. L., Yeh, Y.-K., Yeh, C. K., Lu, L. Y., and Liu, G.-Y. (1998). \"Review of researches on concrete-filled steel tubes.\" Rep. of National Center for Research on Earthquake Engineering No. NCREE-98-012, Taipei, Taiwan (in Chinese). "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                196,
+                480,
+                571
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Knowles, R. B., and Park, R. (1969). \"Strength of concrete-filled steel tubular column.\" J. Struct. Div. ASCE, 95(2), 2565-2587. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Kwon, Y. B., and Song, J. Y. (1998). \"A study on the structural behavior of concrete-filled steel box sections,\" Proc., Sixth Asia-Pacific Conf. on Structural Engineering and Construction, National Science Council, Taipei, Taiwan, 701-706. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Lin, T. I., and Huang, C. M. (1989). \"Axial strength of concrete-filled steel tubes.\" Rep. of Nation Science Council, No. NSC78-0410-E011-007, Taipei, Taiwan (in Chinese). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Lin, T. I., Huang, C. M., and Chen, S. Y. (1993). \"Concrete-filled tubular steel columns subjected to eccentric axial load.\" J. Chin. Inst. Civil Hydraulic Eng., 5(4), 377-386 (in Chinese). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Richart, F. E., Brandtzaeg, A., and Brown, R. L. (1928). \"A study of the failure of concrete under combined compressive stresses.\" Bulletin 185, University of Illinois Engineering Experimental Station,ampaign, Ill. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Saenz, L. P. (1964). \"Equation for the stress-strain curve of concrete.\" ACI J., 61(9), 1229-1235. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Sakino, K., Tomii, M., and Watanabe, K. (1985). \"Substaining load capacity of plain concrete stub columns by circular steel tubes.\" Proc., International Special Conf. on Concrete-filled Steel Tubular Structure, Technology Exchange Center in Heilongjiang Province, Harbin, China, 112-118. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Schneider, S. P. (1998). \"Axially loaded concrete-filled steel tubes.\" J. Struct. Eng., 124(10), 1125-1138. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Tomii, M., Yoshimmra, K., and Morishita, Y. (1977). \"Experimental studies on concrete-filled steel stub columns under concentric loading.\" Proc., International Colloquium on Stability of Structural Under Static and Dynamic Loads, National Science Foundation, Washington, D.C., 718-741. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Uy, B. (1998). \"Concrete-filled fabricated steel box columns for multi-story buildings: behaviour and design.\" Prog. Struct. Eng. Mater., 1(2), 150-158. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Wu, M. C. (2000). \"Numerical analysis of axially loaded concrete-filled steel tube columns with stiffened cross-section.\" MS thesis, National Cheng Kung Univ., Tainan, Taiwan. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Zahn, F. A., Park, R., and Priestley, M. J. N. (1990). \"Flexural strength and ductility of circular hollow reinforced concrete columns without confinement on inside face.\" ACI Struct. J., 87(2), 156-166. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Zhong, S. T. (1995). Concrete-filled steel tubular structures, Hei Lung Jiang Technology Publication Co., China (in Chinese). "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                42,
+                929,
+                571
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from ascelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                215,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1230 "
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                946,
+                94,
+                958
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "/ JOURNAL OF STRUCTURAL ENGINEERING / SEPTEMBER 2002 "
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                946,
+                503,
+                959
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2002, 128(9): 1222-1230 "
+                    }
+                ]
+            },
+            "bbox": [
+                390,
+                984,
+                607,
+                997
+            ]
+        }
+    ]
+]

@@ -1,0 +1,4587 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Behavior of Centrally Loaded Concrete-Filled Steel-Tube Short Columns "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                99,
+                83,
+                897,
+                136
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Kenji Sakino<sup>1</sup>; Hiroyuki Nakahara<sup>2</sup>; Shosuke Morino<sup>3</sup>; and Isao Nishiyama<sup>4</sup> "
+                    }
+                ]
+            },
+            "bbox": [
+                194,
+                148,
+                800,
+                167
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Abstract: A 5 year research on concrete-filled steel tubular (CFT) column system was carried out as a part of the fifth phase of the U.S.-Japan Cooperative Earthquake Research Program, and the tests of centrally loaded short columns were finished. The objectives of these tests were to clarify the synergistic interaction between steel tube and filled concrete, and to derive methods to characterize the load-deformation relationship of CFT columns. A total of 114 specimens was fabricated and tested in the experimental phase of investigations on centrally loaded hollow and CFT short columns. Parameters for the tests are as follows: (1) tube shape, (2) tube tensile strength, (3) tube diameter-to-thickness ratio, and (4) concrete strength. In determining the range of parameters, the emphasis was placed on obtaining a wide range of test data for establishing a generally applicable design method of CFT column systems. Design formulas to estimate the ultimate axial compressive load capacities are proposed for CFT columns with both circular and square sections based on tests results described in this paper. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                196,
+                931,
+                335
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DOI: 10.1061/(ASCE)0733-9445(2004)130:2(180) "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                343,
+                392,
+                357
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CE Database subject headings: Composite structures; Composite columns; Concrete; Steel; Nonlinear analysis; Stress strain curves. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                366,
+                929,
+                383
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Introduction "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                409,
+                165,
+                422
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Extensive experimental studies on the seismic performance of the concrete-filled steel tube (CFT) columns with square and circular sections have been made in the last 2 decades in Japan. The Japanese \"Recommendations for Design and Construction of Concrete Filled Steel Tubular Structures\" [Architectural Institute of Japan (AIJ) 1997] have been edited based on these investigations by the AIJ. They have, however, some limitations of applications concerning material strength and diameter (width)-to-thickness ratio of circular (square) steel tube. The main objective of a 5 year research on CFT column systems carried out as a part of the fifth phase of the U.S.-Japan Cooperative Earthquake Research Program was to expand the applications. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                439,
+                480,
+                626
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "All the symbols appearing in this paper are summarized in the Notation, and an international system of units is used. The soil mechanics convention for stress and strain is followed; namely, compressive stresses and strains are positive. "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                627,
+                480,
+                686
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "equation_inline",
+                                "content": "^{1}"
+                            },
+                            {
+                                "type": "text",
+                                "content": "Professor, Dept. of Architecture, Graduate School of Human Environmental Studies, Kyushu Univ., 6-10-1 Hakozaki, Higashi-ku, Fukuoka-shi 812-8581, Japan. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "equation_inline",
+                                "content": "^{2}"
+                            },
+                            {
+                                "type": "text",
+                                "content": "Research Associate, Dept. of Architecture, Faculty of Engineering, Kagoshima Univ., 1-21-40 Korimoto, Kagoshima-shi 890-0065, Japan. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "equation_inline",
+                                "content": "^{3}"
+                            },
+                            {
+                                "type": "text",
+                                "content": "Professor, Dept. of Architecture, Faculty of Engineering, Mie Univ., Kamihama-cho, Tsu-shi 514-8507, Japan. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "equation_inline",
+                                "content": "^{4}"
+                            },
+                            {
+                                "type": "text",
+                                "content": "Advanced Research Engineer, Dept. of Production Engineering, Building Research Institute, Tachihara-1, Tsukuba, Ibaraki 305-0802, Japan. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Note. Associate Editor: Sherif El-Tawil. Discussion open until July 1, 2004. Separate discussions must be submitted for individual papers. To extend the closing date by one month, a written request must be filed with the ASCE Managing Editor. The manuscript for this paper was submitted for review and possible publication on May 8, 2002; approved on March 25, 2003. This paper is part of the Journal of Structural Engineering, Vol. 130, No. 2, February 1, 2004. ©ASCE, ISSN 0733-9445/2004/2-180-188/$18.00. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                700,
+                480,
+                934
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/33d60ba0780576574d0485fb611e79a3a383d72d6086435cf2fb2d3dfb2efd8f.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 1. Axial Compressive Test Results of Steel Tubes Used for Concrete-Filled Steel Tube Specimens "
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Test No.</td><td>Specimen</td><td>D,B (mm)</td><td>t (mm)</td><td>D/t or B/t</td><td>σsy (MPa)</td><td>σscy (MPa)</td><td>σsu (MPa)</td><td>εsu (%)</td></tr><tr><td>1</td><td>CC4-A-0</td><td>149</td><td>2.96</td><td>50.2</td><td>283</td><td>308</td><td>340</td><td>1.21</td></tr><tr><td>2</td><td>CC4-C-0</td><td>301</td><td>2.96</td><td>102</td><td>283</td><td>279</td><td>284</td><td>0.46</td></tr><tr><td>3</td><td>CC4-D-0</td><td>450</td><td>2.96</td><td>152</td><td>283</td><td>—</td><td>273</td><td>0.28</td></tr><tr><td>4</td><td>CC6-A-0</td><td>122</td><td>4.54</td><td>26.8</td><td>579</td><td>576</td><td>636</td><td>1.79</td></tr><tr><td>5</td><td>CC6-C-0</td><td>238</td><td>4.54</td><td>52.5</td><td>579</td><td>507</td><td>531</td><td>0.65</td></tr><tr><td>6</td><td>CC6-D-0</td><td>360</td><td>4.54</td><td>79.3</td><td>579</td><td>525</td><td>548</td><td>0.60</td></tr><tr><td>7</td><td>CC8-A-0</td><td>108</td><td>6.47</td><td>16.6</td><td>835</td><td>853</td><td>940</td><td>1.73</td></tr><tr><td>8</td><td>CC8-C-0</td><td>222</td><td>6.47</td><td>34.3</td><td>835</td><td>843</td><td>875</td><td>0.74</td></tr><tr><td>9</td><td>CC8-D-0</td><td>336</td><td>6.47</td><td>52.0</td><td>835</td><td>823</td><td>863</td><td>1.22</td></tr><tr><td>10</td><td>CR4-A-0</td><td>149</td><td>4.38</td><td>33.9</td><td>262</td><td>287</td><td>300</td><td>0.50</td></tr><tr><td>11</td><td>CR4-C-0</td><td>215</td><td>4.38</td><td>49.0</td><td>262</td><td>—</td><td>227</td><td>0.22</td></tr><tr><td>12</td><td>CR4-D-0</td><td>323</td><td>4.38</td><td>73.8</td><td>262</td><td>—</td><td>157</td><td>0.14</td></tr><tr><td>13</td><td>CR6-A-0</td><td>144</td><td>6.36</td><td>22.7</td><td>618</td><td>632</td><td>651</td><td>1.01</td></tr><tr><td>14</td><td>CR6-C-0</td><td>211</td><td>6.36</td><td>33.2</td><td>618</td><td>—</td><td>587</td><td>0.28</td></tr><tr><td>15</td><td>CR6-D-0</td><td>318</td><td>6.36</td><td>50.0</td><td>618</td><td>—</td><td>413</td><td>0.32</td></tr><tr><td>16</td><td>CR8-A-0</td><td>120</td><td>6.47</td><td>18.5</td><td>835</td><td>848</td><td>908</td><td>1.37</td></tr><tr><td>17</td><td>CR8-C-0</td><td>175</td><td>6.47</td><td>27.0</td><td>835</td><td>—</td><td>799</td><td>0.50</td></tr><tr><td>18</td><td>CR8-D-0</td><td>265</td><td>6.47</td><td>40.9</td><td>835</td><td>—</td><td>555</td><td>0.59</td></tr><tr><td>19</td><td>CR4-A-0-2</td><td>211</td><td>5.84</td><td>36.1</td><td>294</td><td>315</td><td>324</td><td>0.39</td></tr><tr><td>20</td><td>CR4-C-0-2</td><td>211</td><td>4.50</td><td>46.9</td><td>277</td><td>—</td><td>263</td><td>0.24</td></tr><tr><td>21</td><td>CR6-A-0-2</td><td>210</td><td>8.83</td><td>23.8</td><td>536</td><td>540</td><td>635</td><td>0.98</td></tr><tr><td>22</td><td>CR6-C-0-2</td><td>204</td><td>5.95</td><td>34.3</td><td>540</td><td>—</td><td>504</td><td>0.35</td></tr><tr><td>23</td><td>CR8-A-0-2</td><td>180</td><td>9.45</td><td>19.0</td><td>825</td><td>656</td><td>913</td><td>1.33</td></tr><tr><td>24</td><td>CR8-C-0-2</td><td>180</td><td>6.60</td><td>27.3</td><td>824</td><td>—</td><td>799</td><td>0.50</td></tr><tr><td>25</td><td>CR4-A-0-2&#x27;</td><td>137</td><td>5.84</td><td>23.5</td><td>294</td><td>334</td><td>381</td><td>1.68</td></tr><tr><td>26</td><td>CR4-C-0-2&#x27;</td><td>100</td><td>4.50</td><td>22.2</td><td>277</td><td>328</td><td>364</td><td>1.82</td></tr><tr><td>27</td><td>CR6-A-0-2&#x27;</td><td>150</td><td>8.83</td><td>17.0</td><td>536</td><td>572</td><td>727</td><td>2.53</td></tr><tr><td>28</td><td>CR6-C-0-2&#x27;</td><td>102</td><td>5.95</td><td>17.1</td><td>540</td><td>605</td><td>772</td><td>2.74</td></tr><tr><td>29</td><td>CR8-A-0-2&#x27;</td><td>155</td><td>9.45</td><td>16.4</td><td>825</td><td>820</td><td>927</td><td>2.18</td></tr><tr><td>30</td><td>CR8-C-0-2&#x27;</td><td>102</td><td>6.60</td><td>15.5</td><td>824</td><td>802</td><td>941</td><td>2.81</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                511,
+                455,
+                931,
+                931
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Check for updates "
+                    }
+                ]
+            },
+            "bbox": [
+                669,
+                16,
+                746,
+                74
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from ascelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                215,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "180 / JOURNAL OF STRUCTURAL ENGINEERING © ASCE / FEBRUARY 2004 "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                946,
+                540,
+                960
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2004, 130(2): 180-188 "
+                    }
+                ]
+            },
+            "bbox": [
+                395,
+                984,
+                601,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/b3705ede238799ec8f53f8a261092194a88b3ca62d1f144769af8d3e6323e876.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 2. Experimental Variables and Test Results (Circular Concrete-Filled Steel Tubes) "
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Test No.</td><td>Specimen</td><td>D (mm)</td><td>t (mm)</td><td>σsy (MPa)</td><td>fc′ (MPa)</td><td>D/t</td><td>αc</td><td>γU</td><td>Nexp(kN)</td><td>Nexp/N0</td></tr><tr><td>1</td><td>CC4-A-2</td><td>149</td><td>2.96</td><td>308</td><td>25.4</td><td>50.4</td><td>0.075</td><td>0.96</td><td>941</td><td>1.16</td></tr><tr><td>2</td><td>CC4-A-4-1</td><td>149</td><td>2.96</td><td>308</td><td>40.5</td><td>50.3</td><td>0.075</td><td>0.96</td><td>1,064</td><td>1.02</td></tr><tr><td>3</td><td>CC4-A-4-2</td><td>149</td><td>2.96</td><td>308</td><td>40.5</td><td>50.4</td><td>0.075</td><td>0.96</td><td>1,080</td><td>1.03</td></tr><tr><td>4</td><td>CC4-A-8</td><td>149</td><td>2.96</td><td>308</td><td>77.0</td><td>50.5</td><td>0.075</td><td>0.96</td><td>1,781</td><td>1.11</td></tr><tr><td>5</td><td>CC4-C-2</td><td>301</td><td>2.96</td><td>279</td><td>25.4</td><td>101.5</td><td>0.137</td><td>0.88</td><td>2,382</td><td>1.04</td></tr><tr><td>6</td><td>CC4-C-4-1</td><td>300</td><td>2.96</td><td>279</td><td>41.1</td><td>101.4</td><td>0.137</td><td>0.88</td><td>3,277</td><td>1.01</td></tr><tr><td>7</td><td>CC4-C-4-2</td><td>300</td><td>2.96</td><td>279</td><td>41.1</td><td>101.4</td><td>0.137</td><td>0.88</td><td>3,152</td><td>0.97</td></tr><tr><td>8</td><td>CC4-C-8</td><td>301</td><td>2.96</td><td>279</td><td>80.3</td><td>101.5</td><td>0.137</td><td>0.88</td><td>5,540</td><td>0.99</td></tr><tr><td>9</td><td>CC4-D-2</td><td>450</td><td>2.96</td><td>279</td><td>25.4</td><td>152.0</td><td>0.206</td><td>0.84</td><td>4,415</td><td>0.99</td></tr><tr><td>10</td><td>CC4-D-4-1</td><td>450</td><td>2.96</td><td>279</td><td>41.1</td><td>152.0</td><td>0.206</td><td>0.84</td><td>6,870</td><td>1.05</td></tr><tr><td>11</td><td>CC4-D-4-2</td><td>450</td><td>2.96</td><td>279</td><td>41.1</td><td>152.0</td><td>0.206</td><td>0.84</td><td>6,985</td><td>1.07</td></tr><tr><td>12</td><td>CC4-D-8</td><td>450</td><td>2.96</td><td>279</td><td>85.1</td><td>152.0</td><td>0.206</td><td>0.84</td><td>11,665</td><td>0.95</td></tr><tr><td>13</td><td>CC6-A-2</td><td>122</td><td>4.54</td><td>576</td><td>25.4</td><td>26.9</td><td>0.075</td><td>0.98</td><td>1,509</td><td>1.24</td></tr><tr><td>14</td><td>CC6-A-4-1</td><td>122</td><td>4.54</td><td>576</td><td>40.5</td><td>26.8</td><td>0.075</td><td>0.98</td><td>1,657</td><td>1.22</td></tr><tr><td>15</td><td>CC6-A-4-2</td><td>122</td><td>4.54</td><td>576</td><td>40.5</td><td>26.8</td><td>0.075</td><td>0.98</td><td>1,663</td><td>1.22</td></tr><tr><td>16</td><td>CC6-A-8</td><td>122</td><td>4.54</td><td>576</td><td>77.0</td><td>26.8</td><td>0.075</td><td>0.98</td><td>2,100</td><td>1.23</td></tr><tr><td>17</td><td>CC6-C-2</td><td>239</td><td>4.54</td><td>507</td><td>25.4</td><td>52.5</td><td>0.129</td><td>0.91</td><td>3,035</td><td>1.15</td></tr><tr><td>18</td><td>CC6-C-4-1</td><td>238</td><td>4.54</td><td>507</td><td>40.5</td><td>52.5</td><td>0.129</td><td>0.91</td><td>3,583</td><td>1.12</td></tr><tr><td>19</td><td>CC6-C-4-2</td><td>238</td><td>4.54</td><td>507</td><td>40.5</td><td>52.4</td><td>0.129</td><td>0.91</td><td>3,647</td><td>1.14</td></tr><tr><td>20</td><td>CC6-C-8</td><td>238</td><td>4.54</td><td>507</td><td>77.0</td><td>52.4</td><td>0.129</td><td>0.91</td><td>5,578</td><td>1.22</td></tr><tr><td>21</td><td>CC6-D-2</td><td>361</td><td>4.54</td><td>525</td><td>25.4</td><td>79.4</td><td>0.202</td><td>0.87</td><td>5,633</td><td>1.17</td></tr><tr><td>22</td><td>CC6-D-4-1</td><td>361</td><td>4.54</td><td>525</td><td>41.1</td><td>79.4</td><td>0.202</td><td>0.87</td><td>7,260</td><td>1.19</td></tr><tr><td>23</td><td>CC6-D-4-2</td><td>360</td><td>4.54</td><td>525</td><td>41.1</td><td>79.3</td><td>0.202</td><td>0.87</td><td>7,045</td><td>1.15</td></tr><tr><td>24</td><td>CC6-D-8</td><td>360</td><td>4.54</td><td>525</td><td>85.1</td><td>79.4</td><td>0.202</td><td>0.87</td><td>11,505</td><td>1.17</td></tr><tr><td>25</td><td>CC8-A-2</td><td>108</td><td>6.47</td><td>853</td><td>25.4</td><td>16.7</td><td>0.069</td><td>1.00</td><td>2,275</td><td>1.17</td></tr><tr><td>26</td><td>CC8-A-4-1</td><td>109</td><td>6.47</td><td>853</td><td>40.5</td><td>16.8</td><td>0.069</td><td>1.00</td><td>2,446</td><td>1.19</td></tr><tr><td>27</td><td>CC8-A-4-2</td><td>108</td><td>6.47</td><td>853</td><td>40.5</td><td>16.7</td><td>0.069</td><td>1.00</td><td>2,402</td><td>1.17</td></tr><tr><td>28</td><td>CC8-A-8</td><td>108</td><td>6.47</td><td>853</td><td>77.0</td><td>16.7</td><td>0.069</td><td>1.00</td><td>2,713</td><td>1.17</td></tr><tr><td>29</td><td>CC8-C-2</td><td>222</td><td>6.47</td><td>843</td><td>25.4</td><td>34.3</td><td>0.140</td><td>0.92</td><td>4,964</td><td>1.10</td></tr><tr><td>30</td><td>CC8-C-4-1</td><td>222</td><td>6.47</td><td>843</td><td>40.5</td><td>34.3</td><td>0.141</td><td>0.92</td><td>5,638</td><td>1.13</td></tr><tr><td>31</td><td>CC8-C-4-2</td><td>222</td><td>6.47</td><td>843</td><td>40.5</td><td>34.3</td><td>0.140</td><td>0.92</td><td>5,714</td><td>1.15</td></tr><tr><td>32</td><td>CC8-C-8</td><td>222</td><td>6.47</td><td>843</td><td>77.0</td><td>34.4</td><td>0.141</td><td>0.92</td><td>7,304</td><td>1.19</td></tr><tr><td>33</td><td>CC8-D-2</td><td>337</td><td>6.47</td><td>823</td><td>25.4</td><td>52.1</td><td>0.208</td><td>0.87</td><td>8,475</td><td>1.15</td></tr><tr><td>34</td><td>CC8-D-4-1</td><td>337</td><td>6.47</td><td>823</td><td>41.1</td><td>52.0</td><td>0.208</td><td>0.87</td><td>9,668</td><td>1.14</td></tr><tr><td>35</td><td>CC8-D-4-2</td><td>337</td><td>6.47</td><td>823</td><td>41.1</td><td>52.0</td><td>0.208</td><td>0.87</td><td>9,835</td><td>1.16</td></tr><tr><td>36</td><td>CC8-D-8</td><td>337</td><td>6.47</td><td>823</td><td>85.1</td><td>52.0</td><td>0.208</td><td>0.87</td><td>13,776</td><td>1.18</td></tr><tr><td></td><td>mean</td><td>254</td><td>4.66</td><td>555</td><td>46.7</td><td>62.8</td><td>0.138</td><td>0.92</td><td>4,961</td><td>1.13</td></tr><tr><td></td><td>max</td><td>450</td><td>6.47</td><td>853</td><td>85.1</td><td>152.0</td><td>0.208</td><td>1.00</td><td>13,776</td><td>1.24</td></tr><tr><td></td><td>min</td><td>108</td><td>2.96</td><td>279</td><td>25.4</td><td>16.7</td><td>0.069</td><td>0.84</td><td>941</td><td>0.95</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                62,
+                56,
+                931,
+                667
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Experimental Investigation "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                66,
+                689,
+                274,
+                704
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Specimens, Parameters, and Test Procedure "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                66,
+                717,
+                398,
+                729
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A total of 114 specimens were tested in the experimental investigations on centrally loaded hollow and CFT short columns. The objectives of these tests were to investigate the confining effect of steel tubes on concrete strength and the restraining effect of the concrete fill on local buckling of the steel tube wall, and to derive methods to evaluate ultimate load and load-deformation relationships. "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                737,
+                478,
+                835
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Parameters for the tests are as follows: (1) tube shapes (circular and square); (2) tube tensile strength  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(400,600,800\\mathrm{MPa})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ; (3) tube diameter (width)-to-thickness  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio; and (4) design concrete strength (20, 40, 80 MPa). According to the values of the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio, the specimens were classified into three groups designated by a symbol code such as A, C, or D shown in Tables 1 and 2. In determining the range of parameters, "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                835,
+                478,
+                934
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "the emphasis was placed on obtaining a wide range of test data for establishing a generally applicable design method of CFT column systems. The value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio was controlled by changing the outside diameters of circular tubes (122-450 mm), or the widths of square tubes (120-324 mm). The circular steel tubes were cold formed from a flat plate by press bending and seam welding. The square steel tubes were fabricated by welding together two pieces of channel section, which were cold formed from a flat plate. The details of a typical specimen are shown in Fig. 1. The material properties of the steel tubes were obtained from tensile tests of coupons taken from each steel plate before manufacturing. Properties of all specimens are summarized in Tables 1, 2, and 3. The test setup shown in Fig. 1 was used to apply the axial load. Average longitudinal strains were obtained from four linear variable differential transducers that measured axial shortenings between the two end plates. "
+                    }
+                ]
+            },
+            "bbox": [
+                516,
+                689,
+                929,
+                934
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from ascelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                215,
+                16,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "JOURNAL OF STRUCTURAL ENGINEERING © ASCE / FEBRUARY 2004 / 181 "
+                    }
+                ]
+            },
+            "bbox": [
+                457,
+                948,
+                928,
+                959
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2004, 130(2): 180-188 "
+                    }
+                ]
+            },
+            "bbox": [
+                398,
+                984,
+                599,
+                996
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c7f7c5dbd65c73b000b20335adef0a316a2a3f542a0664c93193b8fe0d332a51.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 1. Test setup "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                187,
+                41,
+                810,
+                438
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Test Results "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                65,
+                494,
+                161,
+                508
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Hollow Steel Tube Columns "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                523,
+                256,
+                536
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The compressive stress  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{su}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " at the maximum axial load of hollow steel tube columns is given in Table 1, which includes the compressive yield stress  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{scy}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " defined as the stress corresponding to an offset strain of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0.2\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", as well as the tensile yield stress  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{sy}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " obtained from tensile coupon tests. In many cases of square columns with  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio of Type C or D, however, compressive yield stress was not obtained from the test, because an abrupt drop in axial load due to the local buckling occurred before yielding. "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                537,
+                480,
+                650
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Concrete-Filled Steel Tube Columns "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                664,
+                312,
+                678
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The maximum axial loads  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{\\mathrm{exp}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " of circular and square CFT columns are summarized in Tables 2 and 3, respectively. The nondimensional maximum axial loads in the form of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{\\mathrm{exp}} / N_0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " are also given in the tables, where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is the nominal squash load given by Eq. (1) "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                679,
+                480,
+                750
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N _ {0} = N _ {s 0} + N _ {c 0} = A _ {s} \\sigma_ {\\mathrm {s y}} + A _ {c} \\sigma_ {\\mathrm {c p}} = A _ {s} \\sigma_ {\\mathrm {s y}} + A _ {c} \\gamma_ {U} f _ {c} ^ {\\prime} \\tag {1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/163599359f65b6786cdc84c53bb708d8849c2176e9b50e63ffb1de967bae7f9b.jpg"
+                }
+            },
+            "bbox": [
+                114,
+                756,
+                480,
+                773
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{c} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " cross sectional area of steel tube and filled concrete, respectively; and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{cp}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " compressive strength of filled concrete which is estimated by multiplying the compressive strength  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{c}^{\\prime}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "10~\\mathrm{cm}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " by  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "20~\\mathrm{cm}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " cylinder by  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\gamma_{U}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\gamma_{U}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is a reduction factor introduced to take scale effect into consideration. In the case of circular CFT columns, the value of the compressive yield stress  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{scy}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " given in Table 1 was used to evaluate  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " from Eq. (1), instead of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{sy}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". In the case of square CFT columns, the tensile yield stress given in Table 1 is used as the yield stress because the compressive yield stress is not available for many CFT columns with large  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio (Type C or D). "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                777,
+                482,
+                936
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "As shown in Table 2, the maximum axial load  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{\\mathrm{exp}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is greater than the nominal squash load  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " in almost of all the circular CFT columns. A main reason for this augmentation of axial load capacity is attributed to the confinement effect of the steel tube on the filled concrete. On the other hand, the maximum load is less than the nominal squash load in the square CFT columns with the largest  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio of Type D as shown in Table 3. A main reason for this reduction of axial load capacity is attributed to the local buckling of steel tube wall. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                494,
+                931,
+                625
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Scale Effect "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                511,
+                638,
+                599,
+                651
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "One of the most important parameters in the experimental program is the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio of the steel tubes as mentioned in the preceding section. Steel tubes were cold formed from the steel plate with the same thickness for each grade of steel. The value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t(B / t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio was controlled by changing the outside diameter of circular steel tubes and the width of square steel tubes. This resulted in the great differences in diameter or width of specimens as shown in Fig. 2. As expected from Fig. 2, it seemed to be necessary to consider scale effect on the compressive strength of concrete. Based on careful investigations, it is concluded that the concrete compressive cylinder strength should be modified according to the test results obtained by Blanks and McNamara (1935), which is shown in Fig. 3. Symbols  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\bigcirc"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (□) with (A) and (B) [(C) and (D)] in Fig. 3 denote the diameter (width) of circular (square) CFT stub column specimens shown by corresponding symbols of (A), (B), (C), and (D) in Fig. 2. Although the conclusion on the scale effect shown in Fig. 3 should be limited to circular columns, Blanks's test results were applied to the square CFT columns by considering them as circular columns with the same sectional area. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                652,
+                931,
+                934
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "182 / JOURNAL OF STRUCTURAL ENGINEERING © ASCE / FEBRUARY 2004 "
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                946,
+                540,
+                960
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2004, 130(2): 180-188 "
+                    }
+                ]
+            },
+            "bbox": [
+                395,
+                984,
+                601,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/23f571983bb75631b0da49a5d77cac42e940598454668287fa83fa353778cb10.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 3. Experimental Variables and Test Results (Square Concrete-Filled Steel Tubes) "
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Test No.</td><td>Specimen</td><td>B (mm)</td><td>t (mm)</td><td>σsy (MPa)</td><td>fc&#x27;(MPa)</td><td>B/t</td><td>√αs</td><td>γU</td><td>Nexp(kN)</td><td>Nexp/N0</td></tr><tr><td>1</td><td>CR4-A-2</td><td>148</td><td>4.38</td><td>262</td><td>25.4</td><td>33.9</td><td>1.21</td><td>0.95</td><td>1,153</td><td>1.04</td></tr><tr><td>2</td><td>CR4-A-4-1</td><td>148</td><td>4.38</td><td>262</td><td>40.5</td><td>33.8</td><td>1.21</td><td>0.95</td><td>1,414</td><td>1.02</td></tr><tr><td>3</td><td>CR4-A-4-2</td><td>148</td><td>4.38</td><td>262</td><td>40.5</td><td>33.8</td><td>1.21</td><td>0.95</td><td>1,402</td><td>1.01</td></tr><tr><td>4</td><td>CR4-A-8</td><td>148</td><td>4.38</td><td>262</td><td>77.0</td><td>33.8</td><td>1.21</td><td>0.95</td><td>2,108</td><td>1.03</td></tr><tr><td>5</td><td>CR4-C-2</td><td>215</td><td>4.38</td><td>262</td><td>25.4</td><td>49.1</td><td>1.75</td><td>0.91</td><td>1,777</td><td>0.92</td></tr><tr><td>6</td><td>CR4-C-4-1</td><td>215</td><td>4.38</td><td>262</td><td>41.1</td><td>49.1</td><td>1.75</td><td>0.91</td><td>2,424</td><td>0.96</td></tr><tr><td>7</td><td>CR4-C-4-2</td><td>215</td><td>4.38</td><td>262</td><td>41.1</td><td>49.0</td><td>1.75</td><td>0.91</td><td>2,393</td><td>0.95</td></tr><tr><td>8</td><td>CR4-C-8</td><td>215</td><td>4.38</td><td>262</td><td>80.3</td><td>49.0</td><td>1.75</td><td>0.91</td><td>3,837</td><td>0.95</td></tr><tr><td>9</td><td>CR4-D-2</td><td>323</td><td>4.38</td><td>262</td><td>25.4</td><td>73.7</td><td>2.63</td><td>0.85</td><td>3,367</td><td>0.94</td></tr><tr><td>10</td><td>CR4-D-4-1</td><td>323</td><td>4.38</td><td>262</td><td>41.1</td><td>73.7</td><td>2.63</td><td>0.85</td><td>4,950</td><td>1.01</td></tr><tr><td>11</td><td>CR4-D-4-2</td><td>323</td><td>4.38</td><td>262</td><td>41.1</td><td>73.7</td><td>2.63</td><td>0.85</td><td>4,830</td><td>0.99</td></tr><tr><td>12</td><td>CR4-D-8</td><td>324</td><td>4.38</td><td>262</td><td>80.3</td><td>73.9</td><td>2.63</td><td>0.85</td><td>7,481</td><td>0.91</td></tr><tr><td>13</td><td>CR6-A-2</td><td>144</td><td>6.36</td><td>618</td><td>25.4</td><td>22.7</td><td>1.24</td><td>0.96</td><td>2,572</td><td>1.04</td></tr><tr><td>14</td><td>CR6-A-4-1</td><td>144</td><td>6.36</td><td>618</td><td>40.5</td><td>22.7</td><td>1.24</td><td>0.96</td><td>2,808</td><td>1.03</td></tr><tr><td>15</td><td>CR6-A-4-2</td><td>144</td><td>6.36</td><td>618</td><td>40.5</td><td>22.7</td><td>1.24</td><td>0.96</td><td>2,765</td><td>1.02</td></tr><tr><td>16</td><td>CR6-A-8</td><td>144</td><td>6.36</td><td>618</td><td>77.0</td><td>22.6</td><td>1.24</td><td>0.96</td><td>3,399</td><td>1.03</td></tr><tr><td>17</td><td>CR6-C-2</td><td>211</td><td>6.36</td><td>618</td><td>25.4</td><td>33.1</td><td>1.82</td><td>0.91</td><td>3,920</td><td>0.98</td></tr><tr><td>18</td><td>CR6-C-4-1</td><td>211</td><td>6.36</td><td>618</td><td>40.5</td><td>33.2</td><td>1.82</td><td>0.91</td><td>4,428</td><td>0.97</td></tr><tr><td>19</td><td>CR6-C-4-2</td><td>211</td><td>6.36</td><td>618</td><td>40.5</td><td>33.1</td><td>1.82</td><td>0.91</td><td>4,484</td><td>0.99</td></tr><tr><td>20</td><td>CR6-C-8</td><td>211</td><td>6.36</td><td>618</td><td>77.0</td><td>33.1</td><td>1.81</td><td>0.91</td><td>5,758</td><td>0.99</td></tr><tr><td>21</td><td>CR6-D-2</td><td>319</td><td>6.36</td><td>618</td><td>25.4</td><td>50.1</td><td>2.75</td><td>0.85</td><td>6,320</td><td>0.92</td></tr><tr><td>22</td><td>CR6-D-4-1</td><td>319</td><td>6.36</td><td>618</td><td>41.1</td><td>50.1</td><td>2.74</td><td>0.85</td><td>7,780</td><td>0.96</td></tr><tr><td>23</td><td>CR6-D-4-2</td><td>318</td><td>6.36</td><td>618</td><td>41.1</td><td>50.0</td><td>2.74</td><td>0.85</td><td>7,473</td><td>0.93</td></tr><tr><td>24</td><td>CR6-D-8</td><td>319</td><td>6.36</td><td>618</td><td>85.1</td><td>50.1</td><td>2.74</td><td>0.85</td><td>10,357</td><td>0.89</td></tr><tr><td>25</td><td>CR8-A-2</td><td>120</td><td>6.47</td><td>835</td><td>25.4</td><td>18.5</td><td>1.18</td><td>0.97</td><td>2,819</td><td>1.09</td></tr><tr><td>26</td><td>CR8-A-4-1</td><td>120</td><td>6.47</td><td>835</td><td>40.5</td><td>18.6</td><td>1.18</td><td>0.97</td><td>2,957</td><td>1.07</td></tr><tr><td>27</td><td>CR8-A-4-2</td><td>120</td><td>6.47</td><td>835</td><td>40.5</td><td>18.6</td><td>1.18</td><td>0.97</td><td>2,961</td><td>1.07</td></tr><tr><td>28</td><td>CR8-A-8</td><td>119</td><td>6.47</td><td>835</td><td>77.0</td><td>18.4</td><td>1.17</td><td>0.97</td><td>3,318</td><td>1.06</td></tr><tr><td>29</td><td>CR8-C-2</td><td>175</td><td>6.47</td><td>835</td><td>25.4</td><td>27.0</td><td>1.72</td><td>0.94</td><td>4,210</td><td>1.02</td></tr><tr><td>30</td><td>CR8-C-4-1</td><td>175</td><td>6.47</td><td>835</td><td>40.5</td><td>27.0</td><td>1.72</td><td>0.94</td><td>4,493</td><td>1.00</td></tr><tr><td>31</td><td>CR8-C-4-2</td><td>175</td><td>6.47</td><td>835</td><td>40.5</td><td>27.0</td><td>1.72</td><td>0.94</td><td>4,542</td><td>1.01</td></tr><tr><td>32</td><td>CR8-C-8</td><td>175</td><td>6.47</td><td>835</td><td>77.0</td><td>27.0</td><td>1.72</td><td>0.94</td><td>5,366</td><td>1.00</td></tr><tr><td>33</td><td>CR8-D-2</td><td>265</td><td>6.47</td><td>835</td><td>25.4</td><td>40.9</td><td>2.60</td><td>0.88</td><td>6,546</td><td>0.96</td></tr><tr><td>34</td><td>CR8-D-4-1</td><td>264</td><td>6.47</td><td>835</td><td>41.1</td><td>40.8</td><td>2.60</td><td>0.88</td><td>7,117</td><td>0.93</td></tr><tr><td>35</td><td>CR8-D-4-2</td><td>265</td><td>6.47</td><td>835</td><td>41.1</td><td>40.9</td><td>2.60</td><td>0.88</td><td>7,172</td><td>0.93</td></tr><tr><td>36</td><td>CR8-D-8</td><td>265</td><td>6.47</td><td>835</td><td>80.3</td><td>40.9</td><td>2.61</td><td>0.88</td><td>8,990</td><td>0.91</td></tr><tr><td>37</td><td>CR4-A-4-3</td><td>210</td><td>5.48</td><td>294</td><td>39.1</td><td>38.3</td><td>1.45</td><td>0.91</td><td>3,183</td><td>1.18</td></tr><tr><td>38</td><td>CR4-A-9</td><td>211</td><td>5.48</td><td>294</td><td>91.1</td><td>38.5</td><td>1.45</td><td>0.91</td><td>4,773</td><td>1.04</td></tr><tr><td>39</td><td>CR4-C-4-3</td><td>210</td><td>4.50</td><td>277</td><td>39.1</td><td>46.7</td><td>1.71</td><td>0.91</td><td>2,713</td><td>1.11</td></tr><tr><td>40</td><td>CR4-C-9</td><td>211</td><td>4.50</td><td>277</td><td>91.1</td><td>46.9</td><td>1.72</td><td>0.91</td><td>4,371</td><td>1.00</td></tr><tr><td>41</td><td>CR6-A-4-3</td><td>211</td><td>8.83</td><td>536</td><td>39.1</td><td>23.9</td><td>1.22</td><td>0.91</td><td>5,898</td><td>1.19</td></tr><tr><td>42</td><td>CR6-A-9</td><td>211</td><td>8.83</td><td>536</td><td>91.1</td><td>23.9</td><td>1.22</td><td>0.91</td><td>7,008</td><td>1.04</td></tr><tr><td>43</td><td>CR6-C-4-3</td><td>204</td><td>5.95</td><td>540</td><td>39.1</td><td>34.3</td><td>1.76</td><td>0.91</td><td>4,026</td><td>1.07</td></tr><tr><td>44</td><td>CR6-C-9</td><td>204</td><td>5.95</td><td>540</td><td>91.1</td><td>34.3</td><td>1.76</td><td>0.91</td><td>5,303</td><td>0.96</td></tr><tr><td>45</td><td>CR8-A-4-3</td><td>180</td><td>9.45</td><td>825</td><td>39.1</td><td>19.0</td><td>1.21</td><td>0.91</td><td>6,803</td><td>1.15</td></tr><tr><td>46</td><td>CR8-A-9</td><td>180</td><td>9.45</td><td>825</td><td>91.1</td><td>19.0</td><td>1.21</td><td>0.94</td><td>7,402</td><td>1.03</td></tr><tr><td>47</td><td>CR8-C-4-3</td><td>180</td><td>6.60</td><td>824</td><td>39.1</td><td>27.3</td><td>1.72</td><td>0.94</td><td>5,028</td><td>1.09</td></tr><tr><td>48</td><td>CR8-C-9</td><td>180</td><td>6.60</td><td>824</td><td>91.1</td><td>27.3</td><td>1.72</td><td>0.94</td><td>5,873</td><td>0.98</td></tr><tr><td></td><td>mean</td><td>210</td><td>6.00</td><td>566</td><td>51.1</td><td>37.0</td><td>1.79</td><td>0.91</td><td>4,626</td><td>1.01</td></tr><tr><td></td><td>max</td><td>324</td><td>9.45</td><td>835</td><td>91.1</td><td>73.9</td><td>2.75</td><td>0.97</td><td>10,357</td><td>1.19</td></tr><tr><td></td><td>min</td><td>119</td><td>4.38</td><td>262</td><td>25.4</td><td>18.4</td><td>1.17</td><td>0.85</td><td>1,153</td><td>0.89</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                62,
+                56,
+                931,
+                777
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Analytical Investigation "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                66,
+                820,
+                250,
+                835
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In the analytical phase of this study, analytical models to estimate the ultimate strength of CFT short columns have been developed. Based on the test results, separate stress-strain relations for filled concrete and for steel tubes have been proposed, so that the stress-strain relations can be used for a moment-curvature analysis of CFT columns. "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                849,
+                478,
+                933
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Ultimate Strength of Axially Loaded Short Columns "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                519,
+                821,
+                898,
+                835
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Circular Columns "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                517,
+                845,
+                638,
+                857
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In the initial stages of loading of the circular CFT columns subjected to axial load, Poisson's ratio for the concrete is lower than that for steel, therefore a separation between steel tube wall and concrete core takes place. As the load increases, the longitudinal strain reaches a certain critical strain, and the lateral deformation "
+                    }
+                ]
+            },
+            "bbox": [
+                517,
+                859,
+                928,
+                930
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                218,
+                16,
+                777
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "JOURNAL OF STRUCTURAL ENGINEERING © ASCE / FEBRUARY 2004 "
+                    }
+                ]
+            },
+            "bbox": [
+                457,
+                948,
+                893,
+                959
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "183 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                948,
+                928,
+                959
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2004, 130(2): 180-188 "
+                    }
+                ]
+            },
+            "bbox": [
+                398,
+                984,
+                598,
+                996
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0b5e5228932d6194b63af8518ca4c691e93244213b7335aeac4c9cb2d732e266.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 2. Size of specimens (same scale presentation) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                76,
+                41,
+                470,
+                233
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "of the concrete catches up with that of the steel tube. When the load increases further, a tensile hoop stress is developed in the steel tube, and the concrete core is subjected to triaxial compression. This phenomenon results in an increase of axial compressive load capacity. "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                282,
+                478,
+                353
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The equation for axial compressive load capacity is obtained by the following procedure: First, the strength of confined concrete,  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{ccB}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " , is assumed to be given by Eq. (2) "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                354,
+                480,
+                396
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma_ {\\mathrm {c c B}} = \\gamma_ {U} f _ {c} ^ {\\prime} + k \\sigma_ {r} \\tag {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c7f9b6a82afc7198ce5f0072ae29596076295a885d7bfedd384ca3793e54b54f.jpg"
+                }
+            },
+            "bbox": [
+                210,
+                402,
+                478,
+                419
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\gamma_{U} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " strength reduction factor for concrete  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= 1.67D_{c}^{-0.112}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (see Fig. 3);  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " confinement coefficient  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= 4.1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (Richart et al. 1929); and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{r} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " confining stress (lateral pressure). "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                424,
+                478,
+                467
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The stress of the steel tube at ultimate load is assumed to be given by Eq. (3) "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                468,
+                478,
+                496
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma_ {s \\theta} = \\alpha_ {u} \\sigma_ {\\mathrm {s y}}, \\quad \\sigma_ {s z} = \\beta_ {\\mathrm {u c}} \\sigma_ {\\mathrm {s y}} \\tag {3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e16415b05ec8590c61f50db96eb862a733bda246af14826dfc096485680b5838.jpg"
+                }
+            },
+            "bbox": [
+                179,
+                503,
+                478,
+                518
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{u}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\beta_{\\mathrm{uc}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " coefficients determined based on experimental results, assumed to be independent of material properties and dimensions of columns. "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                523,
+                478,
+                565
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The relation between the hoop stress  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{s\\theta}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and the lateral pressure  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_r"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is given by Eq. (4) "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                566,
+                478,
+                594
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma_ {r} = - \\frac {2 t}{D - 2 t} \\sigma_ {s \\theta} \\tag {4}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9e4ffbaecde85bcf8ccdf015924b891dd9496ae11236404ea65056a2d6a00993.jpg"
+                }
+            },
+            "bbox": [
+                210,
+                601,
+                478,
+                631
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In the course of the evaluation of the confining effect on concrete strength, it is assumed that the difference between the ultimate "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                638,
+                478,
+                667
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6967f0ef2f4ffb92f6c5801853e41204fc112eb660346eee18bcaca0e2f9f64f.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 3. Scale effect on compressive strength of circular plain concrete columns "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                112,
+                695,
+                433,
+                888
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e66ea5de81e18fbd87e07840a70529992b6e844a311a53d2503d8f2093b4215c.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 4. Experimental axial compressive load capacities of circular concrete-filled steel tube columns "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                563,
+                41,
+                882,
+                196
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "strength  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{u}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and the nominal squash load  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is provided by the confining effect on concrete strength, and this gain depends upon the tube strength  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{s0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and thus "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                265,
+                929,
+                308
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N _ {u} - N _ {0} = \\lambda N _ {s 0}; \\quad \\frac {N _ {u}}{N _ {0}} = 1. 0 + \\lambda \\frac {N _ {s 0}}{N _ {0}} \\tag {5}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2c0852e6630b5db62c1a5b9081688404f0c40b9005af47682f7a20ca48492eb1.jpg"
+                }
+            },
+            "bbox": [
+                604,
+                314,
+                929,
+                347
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{s0} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " axial yield strength of steel tube  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(= A_{s}\\sigma_{sy})"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " augmentation factor determined based on experimental results. On the other hand,  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{u}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is given by Eq. (6) "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                352,
+                929,
+                395
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N _ {u} = A _ {s} \\sigma_ {s z} + A _ {c} \\sigma_ {\\mathrm {c c B}} \\tag {6}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3bfe0891951e0ec618264fd2ae083b2d7e04b3b7b08367f24373397d14b05956.jpg"
+                }
+            },
+            "bbox": [
+                653,
+                401,
+                929,
+                417
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "From Eqs. (1)-(6), the factor  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is given by Eq. (7) "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                422,
+                844,
+                436
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\lambda = \\frac {N _ {u} - N _ {0}}{N _ {s 0}} = \\beta_ {\\mathrm {u c}} - 1 - \\frac {(D - 2 t)}{2 (D - t)} k \\alpha_ {u} \\tag {7}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9f1202850a091416be160618598efbc2b2ccd84aaa3d011ef6e25e14cc61632e.jpg"
+                }
+            },
+            "bbox": [
+                599,
+                441,
+                929,
+                474
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Eq. (7) shows that the value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda"
+                    },
+                    {
+                        "type": "text",
+                        "content": " becomes constant for the steel tube with the same  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " if the values of coefficients  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{u}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\beta_{\\mathrm{uc}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " are constant. A constant value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda"
+                    },
+                    {
+                        "type": "text",
+                        "content": " defines the normalized axial compressive load capacity as a linear function of the parameter  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{s0} / N_0"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda"
+                    },
+                    {
+                        "type": "text",
+                        "content": " was determined by a regression analysis based on available experimental data as described later. The relation between stress coefficients  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{u}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\beta_{\\mathrm{uc}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is obtained from the assumption that steel stresses at the ultimate state given by Eq. (3) satisfies the von Mises yield criterion given by Eq. (8) "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                479,
+                929,
+                609
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma_ {s \\theta} ^ {2} - \\sigma_ {s \\theta} \\sigma_ {s z} + \\sigma_ {s z} ^ {2} = \\sigma_ {\\mathrm {s y}} ^ {2} \\tag {8}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/99153fb2e67216793624f293063b1a748ffc4934b0278f526599ec7576424fdb.jpg"
+                }
+            },
+            "bbox": [
+                643,
+                613,
+                929,
+                633
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{s\\theta} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " hoop stress of steel tube in yield condition;  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{sz} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " axial stress of steel tube in yield condition; and thus "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                637,
+                929,
+                664
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\alpha_ {u} ^ {2} - \\alpha_ {u} \\beta_ {\\mathrm {u c}} + \\beta_ {\\mathrm {u c}} ^ {2} = 1. 0 \\tag {9}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/07a4bcda2902f9b2ceb24116d555034c7e1373a65dc15ababb4a6d91737a39ac.jpg"
+                }
+            },
+            "bbox": [
+                648,
+                670,
+                929,
+                689
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Once the value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is fixed, the values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{u}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\beta_{\\mathrm{uc}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " are determined by solving Eqs. (7) and (9), where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k = 4.1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " as described before, and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t = 50"
+                    },
+                    {
+                        "type": "text",
+                        "content": " as a representative value to avoid the dependency of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{u}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\beta_{\\mathrm{uc}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " on the  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                694,
+                929,
+                750
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 4 shows the relationships between experimental axial load capacity  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{\\mathrm{exp}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " of CFT columns and yield load of the steel tube  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{s0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The open circles show the existing experimental results obtained elsewhere in Japan. The design formula in AIJ Recommendations was proposed based on the open circle data, where the slope of the dotted line defines  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda"
+                    },
+                    {
+                        "type": "text",
+                        "content": " of Eq. (5), and the value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda"
+                    },
+                    {
+                        "type": "text",
+                        "content": " was determined as 0.27. The solid circles show the results of the U.S.-Japan data. The slope of the solid line based on the U.S.-Japan data is slightly lower than that of the dotted line. However, it is not necessary to revise the existing design formula. The value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda"
+                    },
+                    {
+                        "type": "text",
+                        "content": " equal to 0.27 gives values of coefficients  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{u}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\beta_{uc}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " as  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-0.19"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and 0.89, respectively, from Eqs. (7) and (9). Fig. 5 shows comparisons between experimental results on the axial load ca "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                751,
+                931,
+                934
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from ascclibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                777
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "184 "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                946,
+                91,
+                958
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "JOURNAL OF STRUCTURAL ENGINEERING © ASCE / FEBRUARY 2004 "
+                    }
+                ]
+            },
+            "bbox": [
+                96,
+                946,
+                540,
+                960
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2004, 130(2): 180-188 "
+                    }
+                ]
+            },
+            "bbox": [
+                395,
+                984,
+                599,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/53864a7359e2e165c0a04e3e8b458ada41530fdbeef66aae32e3cc69cf53655c.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 5. Comparisons between experimental and calculated results (circular concrete-filled steel tubes) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                76,
+                40,
+                472,
+                224
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "pacity of circular CFT stub columns tested in the U.S.-Japan Research Program and calculated capacities obtained by using  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda = 0.27"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                284,
+                480,
+                328
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Square Columns "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                340,
+                181,
+                354
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In the case of square columns, it is necessary to take into consideration a capacity reduction due to local buckling of the steel tube wall of the column with large  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio rather than the confinement effect of the steel tube. Fig. 6 shows relationships between the axial load capacity factor of the steel tube  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "S"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and the normalized width-to-thickness ratio  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(B / t)\\sqrt{\\sigma_{\\mathrm{sy}} / E_s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "S"
+                    },
+                    {
+                        "type": "text",
+                        "content": " denotes the ultimate compressive strength divided by the yield axial strength of the steel tube. The axial load capacity factor of the hollow steel tube stub columns and the steel tube in CFT stub columns shown in Fig. 6 are given by Eqs. (10), (11), and (12) "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                354,
+                480,
+                498
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N _ {\\mathrm {s u}} = A _ {s} \\sigma_ {\\mathrm {s c r}}, \\quad \\sigma_ {\\mathrm {s c r}} = \\min  (\\sigma_ {\\mathrm {s y}}, S \\sigma_ {\\mathrm {s y}}) \\tag {10}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e02e63028fe56026ef7ddc968d6ebf030c5b6d20c3a733d6a5afaa1b7b05c720.jpg"
+                }
+            },
+            "bbox": [
+                151,
+                503,
+                480,
+                520
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {1}{S} = 0. 6 9 8 + 0. 1 2 8 \\left(\\frac {B}{t}\\right) ^ {2} \\frac {\\sigma_ {\\mathrm {s y}}}{E _ {s}} \\tag {11}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bebda9a69ccd1f30ef9069912ff3b1dedbc7c78744a340a49c64b1aba8dc22c9.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                523,
+                480,
+                558
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "for hollow steel tube stub columns "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                564,
+                290,
+                577
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {1}{S} = 0. 6 9 8 + 0. 1 2 8 \\left(\\frac {B}{t}\\right) ^ {2} \\frac {\\sigma_ {\\mathrm {s y}}}{E _ {s}} \\times \\frac {4 . 0 0}{6 . 9 7} \\tag {12}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/393490aa55f37099ed756ada7b6ce095cff234c250ca693d9c7b832f38a3481d.jpg"
+                }
+            },
+            "bbox": [
+                161,
+                583,
+                480,
+                617
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "for steel tube in CFT stub columns. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                622,
+                294,
+                636
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6ffc9cd921a6009752b022f273048be73a3d5990d012ef563d14898036203c37.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 6. Axial compressive load capacities of hollow square steel tubes "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                84,
+                662,
+                460,
+                895
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/82fd610658025f3d6647ca1ac776ea0a153c0bb6c4d7c65cf1c8c592b6964d48.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 7. Comparisons between experimental and calculated results (square concrete-filled steel tubes) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                531,
+                40,
+                913,
+                223
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Eq. (11) was obtained by a regression analysis using the experimental results of the hollow steel tube stub columns tested in the U.S.-Japan research program, and modified into Eq. (12) by multiplying 4.0/6.97. This modification is based on an elastic buckling theory by considering the difference in boundary conditions or buckling modes between the hollow steel tube (simply supported plate) and steel tube in CFT columns (clamped plate) shown in Fig. 6. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                292,
+                929,
+                406
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The axial load capacity of CFT short columns can be estimated by Eq. (13) "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                406,
+                929,
+                434
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N _ {u} = N _ {\\mathrm {s u}} + N _ {c 0} = A _ {s} \\sigma_ {\\mathrm {s c r}} + A _ {c} \\gamma_ {U} f _ {c} ^ {\\prime} \\tag {13}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5c9348dbf7e7c167277ed5b00e40352f2b099c679a2916a3384fb51684fd30b0.jpg"
+                }
+            },
+            "bbox": [
+                614,
+                441,
+                929,
+                458
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 7 shows comparisons between experimental results on axial load capacity of the square CFT stub columns tested in the U.S.- Japan research program and calculated capacities obtained by Eq. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                463,
+                929,
+                505
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(13) which gives a slightly conservative value for columns with small  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio. The reason for this is considered to be a strain hardening effect of steel tubes rather than the confinement effect. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                505,
+                929,
+                547
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/92b51d08a71368113d744ccf93f99a4cba0b648f967d5d2ba887f87bf34c7a8d.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 4. Specific Values for Stress-Strain Models for Concrete "
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td></td><td>Original</td><td>Circular CFT</td><td>Square CFT</td></tr><tr><td>X=</td><td>εc/εcc0</td><td>εc/εcc0</td><td>εc/εc0</td></tr><tr><td>Y=</td><td>σc/σccB</td><td>σc/σccB</td><td>σc/σcp</td></tr><tr><td>V=</td><td>Ecεcc0/σccB</td><td>Ecεcc0/σccB</td><td>Ecεc0/σcp</td></tr><tr><td>σre=</td><td>2t2(B-t) σsy/b3</td><td>k/krσr</td><td>2t2(B-t) σsy/b3</td></tr><tr><td>σccB/σcp = K=</td><td>1 + ke/σcp</td><td>1 + k/σr/σcp</td><td>1</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                511,
+                595,
+                931,
+                803
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "W = 1. 5 0 - 1 7. 1 \\times 1 0 ^ {- 3} \\sigma_ {\\mathrm {c p}} + 2. 3 9 \\sqrt {\\sigma_ {\\mathrm {r e}}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0b33a8f30efa378b04cc7c74331acd623f78524d8a54515375a7d0373613cd23.jpg"
+                }
+            },
+            "bbox": [
+                514,
+                806,
+                733,
+                823
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "E _ {c} = (6. 9 0 + 3. 3 2 \\sqrt {\\sigma_ {\\mathrm {c p}}}) \\times 1 0 ^ {3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/90a1647f1d1dc154a40eaf34020681d278e044689645331b74665669c459b76b.jpg"
+                }
+            },
+            "bbox": [
+                514,
+                823,
+                681,
+                838
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varepsilon_ {c 0} = 0. 9 4 \\left(\\sigma_ {\\mathrm {c p}}\\right) ^ {1 / 4} \\times 1 0 ^ {- 3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fdde3a18d5ce719a200ad82123795d8e5a2a3946348894ed2f1cea3db18d00dd.jpg"
+                }
+            },
+            "bbox": [
+                514,
+                838,
+                661,
+                853
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {\\varepsilon_ {c c 0}}{\\varepsilon_ {c 0}} = \\left\\{ \\begin{array}{l l} 1. 0 + 4. 7 (K - 1) & K \\leqslant 1. 5 \\\\ 3. 4 + 2 0 (K - 1) & K > 1. 5 \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4ff2fd113f14c8a46cac223732e4587fd111bd4bc71e6f7492cd8c3e487921f1.jpg"
+                }
+            },
+            "bbox": [
+                514,
+                854,
+                720,
+                888
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k = 4. 1, \\quad k _ {e} = 2 3, \\quad \\alpha_ {u} = - 0. 1 9, \\quad \\sigma_ {r} = - \\frac {2 t \\alpha_ {u} \\sigma_ {\\mathrm {s y}}}{D - 2 t}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9b52487dbcc0fed1b8bfd1624c43f360c73e6c4e7912be21f7e3d0200203e688.jpg"
+                }
+            },
+            "bbox": [
+                514,
+                892,
+                805,
+                920
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "JOURNAL OF STRUCTURAL ENGINEERING © ASCE / FEBRUARY 2004 "
+                    }
+                ]
+            },
+            "bbox": [
+                455,
+                946,
+                893,
+                959
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "185 "
+                    }
+                ]
+            },
+            "bbox": [
+                905,
+                946,
+                929,
+                959
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2004, 130(2): 180-188 "
+                    }
+                ]
+            },
+            "bbox": [
+                395,
+                983,
+                601,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4bb8998ca59b98a0a4469c3cf90da9304ef545edbe1f03bbeba906139a8eca7a.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 8. Stress-strain models for concrete in concrete-filled steel tube columns "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                91,
+                41,
+                454,
+                224
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Stress-Strain Models for Filled Concrete "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                290,
+                375,
+                304
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To predict the load-deformation relationships of centrally loaded CFT columns, a stress-strain model for confined concrete is necessary. Sakino and Sun have proposed a unified stress-strain model for concrete confined by steel tubes and/or conventional rectilinear hoops (Sakino and Sun 1994). This model is expressed by Eq. (14) "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                311,
+                480,
+                398
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "Y = \\frac {V X + (W - 1) X ^ {2}}{1 + (V - 2) X + W X ^ {2}} \\tag {14}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/193a3b0624d6c04ef0d2adb54601bc8250e640fe2e97db569b2d150964bf170d.jpg"
+                }
+            },
+            "bbox": [
+                192,
+                404,
+                478,
+                440
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "X"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "Y ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " concrete stress  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(\\sigma_{c})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and strain  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(\\varepsilon_{c})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " normalized by corresponding peak values  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{ccB}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon_{\\mathrm{cc0}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", respectively. As shown in Table 4, the model is a two parameter model for which the stress-strain curve can be determined if the strengths of unconfined (plain) and confined concrete are given. In the case of circular CFT columns, the strength enhancement factor  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "K"
+                    },
+                    {
+                        "type": "text",
+                        "content": " defined as  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{ccB}} / \\sigma_{\\mathrm{cp}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is given by Eq. (15) which is obtained from Eqs. (2) and (4) "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                446,
+                480,
+                559
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "K = 1. 0 - k \\frac {2 t}{(D - 2 t)} \\frac {\\sigma_ {s \\theta}}{\\sigma_ {\\mathrm {c p}}} \\tag {15}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bc1d0ccc6b83096ba387959154e689aba3866d33b4a9df0037c9a89e6597140a.jpg"
+                }
+            },
+            "bbox": [
+                192,
+                566,
+                478,
+                599
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In the case of square CFT columns, the value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "K"
+                    },
+                    {
+                        "type": "text",
+                        "content": " factor should be 1.0 from the viewpoint of axial load capacity of centrally loaded short columns; in other words the confinement effect on ultimate axial load cannot be expected as described before. It is "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                604,
+                480,
+                661
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e64726ac609c0f731348f3604b10cc6c2f9641193f15df79d6446b5d41747f88.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 9. Stress-strain model for steel tubes in circular concrete-filled steel tube columns "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                91,
+                688,
+                454,
+                891
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c92b903de643b42d3de1034a2585f2519e0e765e78654d56e6b473010776b9bd.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 10. Stress-strain models for steel tubes in square concrete-filled steel tube columns "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                544,
+                41,
+                903,
+                242
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "expected, however, that the axial deformation capacity of filled concrete after reaching ultimate axial load can be improved by the confinement effect of square steel tubes as observed in many experimental results. The slope of the falling branch of the stress-strain curve for the confined concrete is governed by the constant  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "W"
+                    },
+                    {
+                        "type": "text",
+                        "content": " in Eq. (14), which is a function of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{cp}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and effective lateral pressure index  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{re}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " defined in Table 4. The empirical formula to estimate the value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "W"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for a square steel tube acting only as the transverse reinforcement (referred to as the steel jacket) has also been proposed by Sakino and Sun, and is shown in Table 4 as the \"original\" model. In this paper, it is assumed that the value of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "W"
+                    },
+                    {
+                        "type": "text",
+                        "content": " for the square steel tube in the CFT column is equal to that for the square steel jacket. Table 4 gives all the information to obtain stress-strain curves for concrete confined by square steel jackets and steel tubes of circular and square CFT columns. Fig. 8 shows these stress-strain curve models along with the curve for unconfined concrete. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                306,
+                929,
+                546
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Stress-Strain Models for Steel Tube and Comparisons of Experiment and Analytical Model "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                513,
+                566,
+                926,
+                595
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "For the circular CFT columns, the stress-strain relationship of the steel tube is developed as an elastic-perfectly plastic relation model as shown in Fig. 9. The maximum stress of the steel tube is  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0.89\\sigma_{\\mathrm{sy}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " as described before. In the case of square CFT columns, the stress-strain models for steel tubes are proposed as shown in Fig. 10. The three types of multilinear model are described in the figure, where Type 1 is the model for steel tubes with small  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio and the maximum stress is expected to be larger than the "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                601,
+                929,
+                715
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/948a4bea8b56d98c3c414182c05a2f0e35147438453330218e7451eba5786952.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 5. Specific Values for Stress-Strain Models for Steel Tubes in Square Concrete-Filled Steel Tube Columns "
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td></td><td>Type 1\n√αs≤1.54</td><td>Type 2\n1.54&lt;√αs&lt;2.03</td><td>Type 3\n2.03≤√αs</td></tr><tr><td>σsB=</td><td>σsySEq.(11)</td><td>σsy</td><td>σsySEq.(12)</td></tr><tr><td>εsB=</td><td>(6.06 1/αs2-0.801 1/αs+1.10) εsy</td><td>εsy</td><td>σsB/Es</td></tr><tr><td>εsE=</td><td>εsy</td><td>εsy</td><td>σsB/Es</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                514,
+                772,
+                931,
+                883
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {\\left(\\varepsilon_ {\\mathrm {s T}} - \\varepsilon_ {\\mathrm {s B}}\\right)}{\\varepsilon_ {\\mathrm {s E}}} = 3. 5 9, \\quad \\sigma_ {\\mathrm {s T}} = 1. 1 9 - 0. 2 0 7 \\sqrt {\\alpha_ {s}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e908955904e90168feeacba9de827884126454c48a6cb4e4a88803fc731bcbc4.jpg"
+                }
+            },
+            "bbox": [
+                514,
+                888,
+                772,
+                919
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "186 "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                946,
+                91,
+                958
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "JOURNAL OF STRUCTURAL ENGINEERING © ASCE / FEBRUARY 2004 "
+                    }
+                ]
+            },
+            "bbox": [
+                96,
+                946,
+                540,
+                960
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2004, 130(2): 180-188 "
+                    }
+                ]
+            },
+            "bbox": [
+                395,
+                984,
+                601,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c22f6d0189f959b45ff772e45b67181714d525e8a044881f9a440cb4548c8c0f.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                91,
+                40,
+                359,
+                167
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/05c74da22bdd3e03bcc2f92b4c771b1fb683a4109f23b076edcaee8134b02d5c.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                366,
+                42,
+                630,
+                169
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/086f9b6a195f68db7a34b8fd53a38ef918c0991edba1ee9f7eb8d5edb61a208c.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Circular CFTs "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                637,
+                44,
+                903,
+                170
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/085c9aa56064d38ae52173e210629dbffd279d108df7418e91fe5723df489fbc.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a) CC4-A,C,D-4 "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                89,
+                213,
+                359,
+                339
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/365ac371229bc5ba3754acea0fcc1acbfd110b33aaa09d7e10e123b25160d9a5.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                364,
+                215,
+                630,
+                340
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8df64d2e8314e08746e355e85fb90731fda0da96a51ff626866108c521442398.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b) CC8-A,C,D-8 "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Circular CFTs "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Fig. 11. Comparisons between experimental results and proposed models: (a) CC4-A,C,D-4 circular concrete-filled steel tubes and (b) CC8-A,C,D-8 circular concrete-filled steel tubes "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                635,
+                215,
+                901,
+                340
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "yield stress due to the strain hardening effect. The maximum stress of steel tubes with large  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio (Type 3) does not reach the yield stress due to local buckling. In the case of the steel tube with the medium  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio (Type 2), the maximum stress of the steel tube is defined as the yield stress. The classification for modeling is according to the value of the generalized  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio, as "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                434,
+                480,
+                521
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "shown in Fig. 6. The specific values of  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{sB}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon_{\\mathrm{sB}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon_{\\mathrm{sE}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{sT}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon_{\\mathrm{sT}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", are calculated by using the equations summarized in Table 5 for each type. "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                434,
+                929,
+                477
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The proposed analytical load-deformation curves are compared with the six experimental results for each shape of CFT columns in Figs. 11 and 12. These figures show the relations "
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                477,
+                929,
+                520
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7999b9da5fb0130ce7f5ca74f94f9f126a36aa079451c3db2cb1015b53622ac4.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                88,
+                553,
+                357,
+                681
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0e8c75c64c45ee3fdd71916f3571ee78880cee9e2f3cdf3bf4913bbeb8d0296b.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                364,
+                555,
+                632,
+                681
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/bae2727e5ea607ed4dbd9ecc9e36ac6dadc2ef3776c03431d4d6d91d363325a1.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Square CFTs "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                638,
+                556,
+                906,
+                684
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2f257d9e6111167f32a50f7879abac311008ab5d5b45b3912d0ad726a5dc8dc6.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a) CR4-A,C,D-4 "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                86,
+                733,
+                352,
+                859
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0ece18433abd0cf83d4a8fdfcc49f437ee9e5ac90caca4627503f7dce9b388ed.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                361,
+                734,
+                625,
+                861
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/eadb6b2c46f5e212ca6e0291a66fe8e40cc25a60cdcb55661d24b91c2d536e4e.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b) CR8-A,C,D-8"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Square CFTs "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Fig. 12. Comparisons between experimental results and proposed models: (a) CR4-A,C,D-4 square concrete-filled steel tubes and (b) CR8-A,C,D-8 square concrete-filled steel tubes "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                635,
+                737,
+                898,
+                863
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "JOURNAL OF STRUCTURAL ENGINEERING © ASCE / FEBRUARY 2004 "
+                    }
+                ]
+            },
+            "bbox": [
+                454,
+                946,
+                893,
+                959
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "187 "
+                    }
+                ]
+            },
+            "bbox": [
+                905,
+                948,
+                929,
+                959
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2004, 130(2): 180-188 "
+                    }
+                ]
+            },
+            "bbox": [
+                395,
+                984,
+                599,
+                997
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "between experimental or calculated axial load of CFT columns divided by the nominal squash load  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and longitudinal strain. In each figure, specimens with different  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " or  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B / t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ratio are shown for comparison. "
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                41,
+                480,
+                99
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Conclusions "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                125,
+                168,
+                138
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The following conclusions are reached based on the experimental results of 114 centrally loaded stub columns. "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                152,
+                480,
+                181
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1. The difference between the ultimate strength and the nominal squash load of circular CFT columns, which is provided by confining the concrete, can be estimated as a linear function of the tube yield strength. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2. The capacity reduction factor due to local buckling of the square steel tube wall was empirically derived based on the test results of hollow square steel tube columns with a thin wall, and then modified applicable to the steel tube in square CFT columns by considering the restraining effect of filled concrete on local buckling of the steel tube wall. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3. Stress-strain models for concrete in CFT columns are formulated based on Sakino-Sun's model which has been proposed for concrete confined by a square steel tube acting only as the transverse reinforcement \"so called\" steel jacket. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4. A stress-strain model for a square steel tube is formulated based on the experimental results. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                181,
+                480,
+                404
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Notation "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                431,
+                135,
+                446
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The following symbols are used in this paper: "
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                460,
+                359,
+                474
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{c} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " area of concrete at cross section; "
+                    }
+                ]
+            },
+            "bbox": [
+                101,
+                474,
+                359,
+                488
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{s} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " area of steel tube at cross section; "
+                    }
+                ]
+            },
+            "bbox": [
+                101,
+                488,
+                366,
+                502
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "B ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " width of square steel tube; "
+                    }
+                ]
+            },
+            "bbox": [
+                107,
+                503,
+                318,
+                516
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "D ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " diameter of circular steel tube; "
+                    }
+                ]
+            },
+            "bbox": [
+                106,
+                517,
+                344,
+                530
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "D_{c} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " diameter of concrete core  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(\\mathrm{mm})"
+                    }
+                ]
+            },
+            "bbox": [
+                101,
+                531,
+                354,
+                544
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "E_{s} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " modulus of elasticity of steel; "
+                    }
+                ]
+            },
+            "bbox": [
+                101,
+                545,
+                336,
+                558
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{c}^{\\prime} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " cylinder strength of concrete; "
+                    }
+                ]
+            },
+            "bbox": [
+                102,
+                558,
+                336,
+                573
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "K ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " strength enhancement factor of confined concrete; "
+                    }
+                ]
+            },
+            "bbox": [
+                107,
+                574,
+                403,
+                599
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "k ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " confinement coefficient  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= 4.1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (Richart et al. 1929); "
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                601,
+                419,
+                628
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{\\mathrm{exp}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " experimental axial load capacity of concrete-filled steel tube short columns; "
+                    }
+                ]
+            },
+            "bbox": [
+                91,
+                630,
+                460,
+                656
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{\\mathrm{su}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " axial load capacity of square steel tube short columns; "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                657,
+                434,
+                684
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{s0} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " axial yield strength of steel tube  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(= A_{s}\\cdot \\sigma_{\\mathrm{sy}})"
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                686,
+                434,
+                700
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "N_{u} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " axial load capacity of concrete-filled steel tube short columns; "
+                    }
+                ]
+            },
+            "bbox": [
+                98,
+                700,
+                444,
+                727
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "N_0 ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " nominal squash load; "
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                728,
+                284,
+                743
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "S ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " axial load capacity factor of square steel; "
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                743,
+                410,
+                757
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "t ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " wall thickness of steel tube; "
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                757,
+                326,
+                768
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "V, W ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " nondimensional parameter to express stress-strain relation for concrete; "
+                    }
+                ]
+            },
+            "bbox": [
+                535,
+                42,
+                834,
+                71
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "X, Y ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " stress and strain normalized by peak values of stress-strain relations for concrete; "
+                    }
+                ]
+            },
+            "bbox": [
+                540,
+                71,
+                895,
+                99
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{c} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " normalized diameter-to-thickness ratio of circular steel tube  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm{= (D / t)(\\sigma_{sy} / E_s)}"
+                    }
+                ]
+            },
+            "bbox": [
+                550,
+                99,
+                861,
+                128
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sqrt{\\alpha_s} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " normalized width-to-thickness ratio of square steel tube  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\equiv (B / t)\\sqrt{\\sigma_{sy} / E_s}"
+                    }
+                ]
+            },
+            "bbox": [
+                542,
+                128,
+                887,
+                159
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{u}, \\beta_{uc} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " normalized hoop stress and axial stress in circular steel tube at ultimate load; "
+                    }
+                ]
+            },
+            "bbox": [
+                517,
+                159,
+                864,
+                185
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\gamma_{U} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " strength reduction factor for concrete  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= 1.67D_{c}^{-0.112}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (see Fig. 3); "
+                    }
+                ]
+            },
+            "bbox": [
+                549,
+                186,
+                834,
+                215
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon_{\\mathrm{cc0}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " strain at maximum stress of confined concrete; "
+                    }
+                ]
+            },
+            "bbox": [
+                542,
+                215,
+                895,
+                229
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon_{\\mathrm{sE}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " strain at elastic limit in stress-strain models for square steel tubes; "
+                    }
+                ]
+            },
+            "bbox": [
+                547,
+                229,
+                903,
+                256
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon_{s0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon_{sT} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " strain at characteristic points in stress-strain models for square steel tubes; "
+                    }
+                ]
+            },
+            "bbox": [
+                516,
+                258,
+                880,
+                284
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " augmentation factor; "
+                    }
+                ]
+            },
+            "bbox": [
+                558,
+                286,
+                728,
+                299
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{ccB}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " strength of confined concrete; "
+                    }
+                ]
+            },
+            "bbox": [
+                540,
+                300,
+                787,
+                313
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{cp}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " compressive strength of plain concrete; "
+                    }
+                ]
+            },
+            "bbox": [
+                545,
+                314,
+                846,
+                328
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_r ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " confining stress (lateral pressure); "
+                    }
+                ]
+            },
+            "bbox": [
+                549,
+                329,
+                812,
+                342
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{re}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " effective lateral pressure provided by steel tubes (see Table 3); "
+                    }
+                ]
+            },
+            "bbox": [
+                549,
+                343,
+                906,
+                369
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{sB}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " maximum stress in stress-strain models for square steel tubes; "
+                    }
+                ]
+            },
+            "bbox": [
+                545,
+                371,
+                875,
+                398
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{scr}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " ultimate compressive stress of square steel tubes, taken as minimum value of yield strength and buckling strength; "
+                    }
+                ]
+            },
+            "bbox": [
+                545,
+                398,
+                869,
+                441
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{scy}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " compressive yield stress of circular steel tubes; "
+                    }
+                ]
+            },
+            "bbox": [
+                542,
+                441,
+                898,
+                455
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{sE}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " strain at elastic limit in stress-strain models for square steel tubes; "
+                    }
+                ]
+            },
+            "bbox": [
+                547,
+                455,
+                903,
+                482
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{sT}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " stress at terminal point of falling branch in stress-strain models for square steel tubes; "
+                    }
+                ]
+            },
+            "bbox": [
+                547,
+                484,
+                872,
+                510
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{su}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " maximum stress of steel tube obtained by stub column test; "
+                    }
+                ]
+            },
+            "bbox": [
+                547,
+                512,
+                895,
+                537
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{\\mathrm{sy}} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " tensile yield stress of steel tubes; "
+                    }
+                ]
+            },
+            "bbox": [
+                547,
+                540,
+                808,
+                554
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{sz} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " axial stress of steel tube in yield condition; and "
+                    }
+                ]
+            },
+            "bbox": [
+                547,
+                555,
+                901,
+                568
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma_{s\\theta} ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " hoop stress of steel tube in yield condition. "
+                    }
+                ]
+            },
+            "bbox": [
+                545,
+                569,
+                872,
+                580
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "References "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                514,
+                611,
+                607,
+                625
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Architectural Institute of Japan (AIJ). (1997). \"Recommendations for design and construction of concrete filled steel tubular structures.\" Tokyo, 333. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Blanks, R. F., and McNamara, C. C. (1935). \"Mass concrete tests in large cylinders.\" ACI J., 31, 280-303. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Richart, F. E., Brandzaeg, A., and Brown, R. L. (1929). \"The failure of plain and spirally reinforced concrete in compression.\" Bulletin No. 190, Univ. Illinois, Engineering Experimental Station, Urbana, Ill. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Sakino, K., and Sun, Y. (1994). \"Stress-strain curve of concrete confined by rectilinear hoop.\" J. Struct. Constr. Eng. AIJ, 461, 95-104. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                641,
+                931,
+                770
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "Downloaded from asccelibrary.org by Beijing University of Tech on 01/21/26. Copyright ASCE. For personal use only; all rights reserved. "
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                217,
+                17,
+                779
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "188 "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                946,
+                91,
+                958
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "JOURNAL OF STRUCTURAL ENGINEERING © ASCE / FEBRUARY 2004 "
+                    }
+                ]
+            },
+            "bbox": [
+                96,
+                946,
+                540,
+                960
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "J. Struct. Eng., 2004, 130(2): 180-188 "
+                    }
+                ]
+            },
+            "bbox": [
+                395,
+                984,
+                599,
+                997
+            ]
+        }
+    ]
+]

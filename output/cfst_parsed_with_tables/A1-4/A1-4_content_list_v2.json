@@ -1,0 +1,2304 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "文章编号：1004－9762（2005）01－0005－04"
+                    }
+                ]
+            },
+            "bbox": [
+                48,
+                82,
+                362,
+                98
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "钢管混凝土柱的承载能力分析●"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                211,
+                137,
+                753,
+                170
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "李 斌12郝润霞2"
+                    }
+                ]
+            },
+            "bbox": [
+                389,
+                192,
+                577,
+                214
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（1∙西安建筑科技大学 建筑与土木工程学院陕西 西安 710055；2∙内蒙古科技大学 建筑与土木工程学院内蒙古 包头 014010）"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                217,
+                941,
+                234
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "关键词 钢管混凝土柱 承载能力 试验分析 约束效应"
+                    }
+                ]
+            },
+            "bbox": [
+                52,
+                271,
+                463,
+                287
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "中图分类号 文献标识码：A"
+                    }
+                ]
+            },
+            "bbox": [
+                54,
+                290,
+                375,
+                306
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "摘 要 通过对 根钢管混凝土轴压短柱承载力的试验 研究了该种构件承载力的组成及钢管对混凝土的约束效应 分析了各阶段构件的承载能力 认为 钢管混凝土柱的计算可分为使用阶段和极限承载阶段 并提出了相应的推荐公式 理论计算与试验结果吻合较好 可用于指导工程设计"
+                    }
+                ]
+            },
+            "bbox": [
+                52,
+                309,
+                914,
+                364
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "The analysis of concrete filled steel tube column carrying capacity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                63,
+                385,
+                903,
+                412
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "LI Bin12HAO Run-xia2"
+                    }
+                ]
+            },
+            "bbox": [
+                381,
+                425,
+                583,
+                443
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（1∙Architecture and Civil Enginering SchoolXi’an Architecture University of Science and TechnologyXi’an 710055China；2．Architecture and Civil Enginering SchoolUST Inner MongoliaBaotou014010China） "
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                448,
+                953,
+                485
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Key words：concrete filled steel tube column；carrying capacity；experiment analysis；effect of restriction "
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                503,
+                703,
+                518
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Abstract：Through the experiment of 12CFST columnthe composing of carrying capacity and restriction of steel tube were discussed and the carrying capacity was analyzed．It can be concluded that the force process of CFST column was made up of phases-normal phase and limit capability phase．Based on the coincidence of theoretical calculation and experimentthe corresponding commend formula was proposedwhich may guide the engineering design "
+                    }
+                ]
+            },
+            "bbox": [
+                11,
+                520,
+                953,
+                596
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "钢管混凝土结构因其抗压强度高 抗震性能好施工方便 外形美观和造价经济等优点 在实际工程中得到广泛的应用．我国已经制定了3本有关钢管混凝土的结构设计规程 或规范 然而 由于相关规程（或规范）所采用的理论各不相同因此制定出的3本规程［1～3］中的有关表达式也不尽相同"
+                    }
+                ]
+            },
+            "bbox": [
+                11,
+                616,
+                468,
+                742
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本文通过对 根钢管混凝土短柱的试验研究及理论分析 提出钢管混凝土柱分别在使用阶段和极限承载阶段的承载力计算公式 以便更好地利用这种组合构件的优越性"
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                744,
+                468,
+                827
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1 钢管混凝土短柱承载力计算公式"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                15,
+                838,
+                439,
+                862
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1∙1 基本假定"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                15,
+                871,
+                168,
+                890
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（1）由于钢管很薄径向压应力 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { r }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "很小可略去"
+                    }
+                ]
+            },
+            "bbox": [
+                54,
+                894,
+                467,
+                913
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "不计近似认为钢管的纵向压应力 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和环向拉应力"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "沿壁厚不变化"
+                    }
+                ]
+            },
+            "bbox": [
+                500,
+                616,
+                953,
+                655
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（ ）为了便于计算和实践工程中应用假定钢管屈服时服从最大剪应力理论钢管受纵压环拉力"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "异号则有"
+                    }
+                ]
+            },
+            "bbox": [
+                500,
+                662,
+                953,
+                721
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma_ {1} + \\sigma_ {2} = f _ {\\mathrm {y}}.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c4056db260ef6f1df8ef2607f996dc97a62af4eeefaebff715bd8057267fb67c.jpg"
+                }
+            },
+            "bbox": [
+                666,
+                728,
+                786,
+                748
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "为了推导公式的方便令 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { 2 } = \\beta  { f _ { \\mathrm { y } } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "则"
+                    }
+                ]
+            },
+            "bbox": [
+                540,
+                750,
+                870,
+                771
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma_ {1} = (1 - \\beta) f _ {\\mathrm {y}}, \\beta = \\frac {1}{1 + \\sigma_ {1} / \\sigma_ {2}}. \\tag {1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a607ce1e6b9951c9d3b9022b3a3ef822a8dc76873906b1ee1170751cdf78da18.jpg"
+                }
+            },
+            "bbox": [
+                544,
+                774,
+                951,
+                805
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（3） 在蔡绍怀等人［4］ 提出的破坏准则的基础上提出三向受压下混凝土的强度极限条件为"
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                809,
+                953,
+                850
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma_ {0} = f _ {\\mathrm {c}} \\left(1 + 5. 6 \\frac {\\sigma_ {r}}{f _ {\\mathrm {c}}}\\right). \\tag {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ca4d73f6ca43993aa1d905c2600e9a3443ac800b701633374f0520ad50b0ca11.jpg"
+                }
+            },
+            "bbox": [
+                633,
+                856,
+                951,
+                890
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "其中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { r }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为核心混凝土及钢管的径向应力"
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                894,
+                870,
+                913
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DOI:10．16559／j．cnki．2095－2295．2005．01．002 "
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                0,
+                356,
+                13
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "年 月"
+                    }
+                ]
+            },
+            "bbox": [
+                46,
+                12,
+                135,
+                24
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "第24卷第1期"
+                    }
+                ]
+            },
+            "bbox": [
+                36,
+                26,
+                149,
+                41
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "包 头 钢 铁 学 院 学 报"
+                    }
+                ]
+            },
+            "bbox": [
+                401,
+                10,
+                587,
+                26
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Journal of Baotou University of Iron and Steel Technology "
+                    }
+                ]
+            },
+            "bbox": [
+                304,
+                26,
+                684,
+                41
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "March,2005 "
+                    }
+                ]
+            },
+            "bbox": [
+                841,
+                10,
+                926,
+                24
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Vol．24No．1 "
+                    }
+                ]
+            },
+            "bbox": [
+                839,
+                26,
+                926,
+                40
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "*收稿日期.2004—12—16 "
+                    }
+                ]
+            },
+            "bbox": [
+                36,
+                932,
+                222,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "：2004－12－16基金项目 内蒙古自然科学基金资助项目"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                944,
+                430,
+                956
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "作者简介：李 斌（1961－）男内蒙古达拉特人内蒙古科技大学教授西安建筑科技大学博士研究生"
+                    }
+                ]
+            },
+            "bbox": [
+                36,
+                956,
+                730,
+                968
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": []
+            },
+            "bbox": [
+                36,
+                960,
+                961,
+                975
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（4） 采用 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\beta"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L / D"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的近似关系［5］ 为"
+                    }
+                ]
+            },
+            "bbox": [
+                54,
+                60,
+                372,
+                79
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\beta = 0. 4 - 0. 0 2 L / D.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f082f5406b5c62401ba4e4f9288371118cab6bf36f1f25d9e333d5bb8187992f.jpg"
+                }
+            },
+            "bbox": [
+                147,
+                80,
+                333,
+                99
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1∙2 钢管与混凝土的受力示意图"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                501,
+                62,
+                841,
+                82
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "钢管与混凝土的受力示意图如图1所示∙ "
+                    }
+                ]
+            },
+            "bbox": [
+                540,
+                85,
+                903,
+                102
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2d9cc19586247dcfbd48ca5f0804d63677b533862355495f6db779702302b8aa.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图1 钢管与混凝土受力图"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Fig．1 The force relationship of steel tube and concrete "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                189,
+                140,
+                769,
+                299
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1∙3 公式推导"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                13,
+                411,
+                168,
+                431
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "钢管在弹塑性状态下 应力与 个方向的应变均有关 当塑性变形充分发展时 金属材料遵循体积不变定律即"
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                434,
+                468,
+                493
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varepsilon_ {1} + \\varepsilon_ {2} + \\varepsilon_ {r} = 0,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/262ee37471df6b7fff1559e97154eff5b80823e286daf739934c3dd21ff3baa2.jpg"
+                }
+            },
+            "bbox": [
+                162,
+                497,
+                317,
+                515
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "式中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon _ { r }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "表示钢管的径向应变"
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                520,
+                279,
+                538
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由塑性理论可知主剪应力与主剪应变成正比："
+                    }
+                ]
+            },
+            "bbox": [
+                54,
+                543,
+                465,
+                558
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {\\sigma_ {1} - \\sigma_ {r}}{\\varepsilon_ {1} - \\varepsilon_ {r}} = \\frac {\\sigma_ {2} - \\sigma_ {r}}{\\varepsilon_ {2} - \\varepsilon_ {r}},",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d8dc3102c955d179467e05f366ec249fddfeac8e3712af857e0c8bec0482be3d.jpg"
+                }
+            },
+            "bbox": [
+                153,
+                565,
+                323,
+                597
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "式中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为钢管的纵向应力； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为钢管的环向应力； ε "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathfrak { E } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "分别为与 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { 1 }"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "对应的应变 "
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                604,
+                463,
+                642
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "根据基本假定在钢管表面径向应力为零故得："
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                647,
+                465,
+                686
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {\\sigma_ {1}}{\\sigma_ {2}} = \\frac {2 \\varepsilon_ {1} + \\varepsilon_ {2}}{2 \\varepsilon_ {2} + \\varepsilon_ {1}}, \\tag {3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0451a4744a07180363988cb831a8e880192fefa7e19e4c567b0e20cdea0e718a.jpg"
+                }
+            },
+            "bbox": [
+                170,
+                690,
+                465,
+                724
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "根据半圈钢管的平衡条件得："
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                731,
+                271,
+                748
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma_ {2} = \\frac {d}{2 t} \\sigma_ {r}.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/15737d3469b3d2c849088787fd15b7c9a1ae25401a1ccd852bdad0f6995fc112.jpg"
+                }
+            },
+            "bbox": [
+                193,
+                755,
+                284,
+                784
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由于管壁很薄近似得"
+                    }
+                ]
+            },
+            "bbox": [
+                54,
+                790,
+                253,
+                805
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {4 t}{d} = \\frac {A _ {\\mathrm {s}}}{A _ {\\mathrm {c}}},",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3587acbfe2a9d1d5a5da6f17317e6b0c0f4d522485eb9eee617a59bc09a05db8.jpg"
+                }
+            },
+            "bbox": [
+                195,
+                812,
+                281,
+                846
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则： "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { 2 } = \\frac { 2 } { \\alpha } \\sigma _ { r } ( \\alpha"
+                    },
+                    {
+                        "type": "text",
+                        "content": "表示含钢率） （4）"
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                851,
+                465,
+                879
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "根据上述可以得出："
+                    }
+                ]
+            },
+            "bbox": [
+                54,
+                885,
+                230,
+                900
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l} \\sigma_ {r} = \\frac {2 t}{d} \\left(0. 4 - 0. 0 2 \\frac {L}{D}\\right) f _ {\\mathrm {y}} = \\\\ \\frac {1}{2} \\frac {A _ {\\mathrm {s}}}{A _ {\\mathrm {c}}} \\left(0. 4 - 0. 0 2 \\frac {L}{D}\\right) f _ {\\mathrm {y}}. \\tag {5} \\\\ \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/56a9c0b5f825d9cf61e4cbd5f303c9405606c3a9e01fcd10d435894d1146cf1f.jpg"
+                }
+            },
+            "bbox": [
+                56,
+                900,
+                467,
+                975
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "钢管的承载力："
+                    }
+                ]
+            },
+            "bbox": [
+                540,
+                411,
+                676,
+                427
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N _ {\\mathrm {s}} = A _ {\\mathrm {s}} \\sigma_ {1} = A _ {\\mathrm {s}} \\left(f _ {\\mathrm {y}} - \\sigma_ {2}\\right).",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0156c9d7950931d23d1b864c48cdf0b33aeb7d83f5e3764991515bb10c6f12b4.jpg"
+                }
+            },
+            "bbox": [
+                608,
+                433,
+                841,
+                450
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "混凝土的承载力："
+                    }
+                ]
+            },
+            "bbox": [
+                540,
+                456,
+                697,
+                473
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N _ {\\mathrm {c}} = A _ {\\mathrm {c}} \\sigma_ {0} = A _ {\\mathrm {c}} f _ {\\mathrm {c}} \\left(1 + 5. 6 \\frac {\\sigma_ {r}}{f _ {\\mathrm {c}}}\\right).",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7d84d6af4590ac8e96df57a2ee9aff79a43e27fbff673a47e46fbfb7489434f2.jpg"
+                }
+            },
+            "bbox": [
+                583,
+                470,
+                866,
+                515
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "钢管混凝土的极限承载力为："
+                    }
+                ]
+            },
+            "bbox": [
+                540,
+                518,
+                798,
+                534
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l} N = N _ {\\mathrm {s}} + N _ {\\mathrm {c}} = A _ {\\mathrm {s}} \\left(f _ {\\mathrm {y}} - \\sigma_ {2}\\right) + A _ {\\mathrm {c}} f _ {\\mathrm {c}} (1 + \\\\ 5. 6 \\frac {\\sigma_ {r}}{f _ {\\mathrm {c}}}) = A _ {\\mathrm {s}} f _ {\\mathrm {y}} + A _ {\\mathrm {c}} f _ {\\mathrm {c}} (1 + 1. 8 \\hat {\\xi} (0. 4 - \\\\ 0. 0 2 L / D)) = A _ {\\mathrm {s}} f _ {\\mathrm {y}} + \\eta A _ {\\mathrm {c}} f _ {\\mathrm {c k}}, \\tag {6} \\\\ \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6fc749672602cac2d53e682abf69f8da8b6094337fda01991161bcd50f2c1ac2.jpg"
+                }
+            },
+            "bbox": [
+                542,
+                538,
+                951,
+                616
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\eta = \\frac { 1 } { 1 . 4 } \\biggl ( 1 + 1 . 8 \\hat { \\mathsf { \\mathsf { \\mathsf { \\xi } } } } ( 0 . 4 - 0 . 0 2 \\frac { L } { D } ) \\biggr ) \\ ,"
+                    }
+                ]
+            },
+            "bbox": [
+                500,
+                627,
+                951,
+                663
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\eta"
+                    },
+                    {
+                        "type": "text",
+                        "content": "代表核心混凝土强度提高综合系数主要和长细比、套箍系数有关它综合了钢管纵向应力的下降和核心混凝土强度的提高； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol { \\xi }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为套箍系数．根据式（ ）计算得出的 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\eta _ { _ { \\mathrm { t } } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "见表"
+                    }
+                ]
+            },
+            "bbox": [
+                500,
+                665,
+                953,
+                746
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2 试验结果与计算结果的比较"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                500,
+                758,
+                877,
+                781
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2∙1 试件受力的两个阶段"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                500,
+                792,
+                777,
+                812
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "大量的试验研究表明在正常含钢率范围（ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha ="
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "7 \\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": "） 内钢管混凝土短柱的荷载 应变曲线基本可分为弹性、弹塑性及塑性 个阶段如图 所示．本次试验试件的含钢率均大于 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "9 \\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": "．从图 可以看出在"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a"
+                    },
+                    {
+                        "type": "text",
+                        "content": "点以前荷载与纵横向应变基本按比例增加．另外由于曲线 oabb′与碳素结构钢的荷载应变曲线类似因而将轴心受压钢管混凝土柱当成理想弹塑"
+                    }
+                ]
+            },
+            "bbox": [
+                500,
+                815,
+                953,
+                960
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6 "
+                    }
+                ]
+            },
+            "bbox": [
+                40,
+                26,
+                52,
+                37
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "包 头 钢 铁 学 院 学 报"
+                    }
+                ]
+            },
+            "bbox": [
+                362,
+                26,
+                546,
+                41
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2005年3月 第24卷 第1期"
+                    }
+                ]
+            },
+            "bbox": [
+                699,
+                26,
+                926,
+                41
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PublishingHouse.Allrightsreserved.htp://www.cnki.net "
+                    }
+                ]
+            },
+            "bbox": [
+                34,
+                960,
+                961,
+                975
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/a0b3ac595edebbb58b2a43bc0f6ac6674c46316abf76363719412e73ac070769.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "表1 钢管混凝土试件及试验数据一览表"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Table1 CFST member and test data "
+                    }
+                ],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "注 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D , t , L"
+                    },
+                    {
+                        "type": "text",
+                        "content": "分别代表钢管的外直径 厚度 和长度 ）；f 为混凝土强度标准值； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f _ { \\mathrm { y } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为钢管的屈服强度； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N _ { \\mathrm { u } } ^ { \\mathrm { e } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "代表极限承载力的试验值； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N _ { \\mathrm { u } } ^ { \\mathrm { t } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "表示按文献［3］ 计算得出的极限承载力理论值； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\eta"
+                    },
+                    {
+                        "type": "text",
+                        "content": "表示核心混凝土承载力提高系数； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\eta _ { \\mathrm { t } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为按公式（7） 计算得出； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\eta _ { \\mathrm { e } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "根据试验分析得出； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N _ { 0 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "表示使用阶段承载力；ξ表示套箍系数； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k = \\mathrm { ~ ( ~ } N _ { \\mathrm { u } } ^ { \\mathrm { e } } - N _ { \\mathrm { 0 } } \\mathrm { ) / } N _ { \\mathrm { 0 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "代表使用阶段安全储备率； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N _ { \\mathrm { u } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "按公式（6） 计算得出．"
+                    }
+                ],
+                "html": "<table><tr><td>试件</td><td>D×t×L</td><td>fy /MPa</td><td>ξ</td><td>Neu /MPa</td><td>N0 /MPa</td><td>Nu /MPa</td><td>k/%</td><td>Nu /MPa</td><td>Nu/Nu</td><td>Nu/Nu</td><td>ηt</td><td>ηe</td></tr><tr><td>SC-1</td><td>164×3.8×520</td><td>342</td><td>1.116</td><td>1650</td><td>1239</td><td>1358</td><td>33</td><td>1356</td><td>0.822</td><td>0.823</td><td>1.20</td><td>1.7</td></tr><tr><td>SC-2</td><td>164×3.8×520</td><td>342</td><td>1.116</td><td>1710</td><td>1239</td><td>1358</td><td>38</td><td>1356</td><td>0.793</td><td>0.794</td><td>1.20</td><td></td></tr><tr><td>SC-3</td><td>164×3.8×520</td><td>342</td><td>1.116</td><td>1600</td><td>1239</td><td>1358</td><td>29</td><td>1356</td><td>0.848</td><td>0.849</td><td>1.20</td><td></td></tr><tr><td>SC-4</td><td>159×4.8×520</td><td>366</td><td>1.559</td><td>1600</td><td>1383</td><td>1488</td><td>16</td><td>1587</td><td>0.992</td><td>0.930</td><td>1.38</td><td>1.5</td></tr><tr><td>SC-5</td><td>159×4.8×520</td><td>366</td><td>1.559</td><td>1700</td><td>1383</td><td>1488</td><td>23</td><td>1587</td><td>0.934</td><td>0.875</td><td>1.38</td><td></td></tr><tr><td>SC-6</td><td>159×4.8×520</td><td>366</td><td>1.559</td><td>1600</td><td>1383</td><td>1488</td><td>16</td><td>1587</td><td>0.992</td><td>0.930</td><td>1.38</td><td></td></tr><tr><td>SC-7</td><td>159×5.2×520</td><td>379</td><td>1.763</td><td>1800</td><td>1480</td><td>1578</td><td>22</td><td>1728</td><td>0.960</td><td>0.877</td><td>1.47</td><td>1.6</td></tr><tr><td>SC-8</td><td>159×5.2×520</td><td>379</td><td>1.763</td><td>1850</td><td>1480</td><td>1578</td><td>25</td><td>1728</td><td>0.934</td><td>0.853</td><td>1.47</td><td></td></tr><tr><td>SC-9</td><td>159×5.2×520</td><td>379</td><td>1.763</td><td>1700</td><td>1480</td><td>1578</td><td>15</td><td>1728</td><td>1.034</td><td>0.928</td><td>1.47</td><td></td></tr><tr><td>SC-10</td><td>159×6.3×520</td><td>360</td><td>2.119</td><td>2000</td><td>1602</td><td>1714</td><td>45</td><td>1918</td><td>0.959</td><td>0.857</td><td>1.62</td><td>1.8</td></tr><tr><td>SC-11</td><td>159×6.3×520</td><td>360</td><td>2.119</td><td>1950</td><td>1602</td><td>1714</td><td>41</td><td>1918</td><td>0.984</td><td>0.879</td><td>1.62</td><td></td></tr><tr><td>SC-12</td><td>159×6.3×520</td><td>360</td><td>2.119</td><td>2100</td><td>1602</td><td>1714</td><td>52</td><td>1918</td><td>0.913</td><td>0.816</td><td>1.62</td><td></td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                25,
+                95,
+                941,
+                368
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "性体也是可行的 如何很好地利用钢管混凝土的受力特性 这就需要将其分阶段来分析 很显然 达到极限阶段可有效地发挥材料的性能 但是可能会产生大的变形 因此 将钢管的某个薄弱点达到屈服为分界点将钢管达到屈服以前的阶段称为使用阶段钢管屈服后 由于混凝土的存在 构件的承载力继续提高并达到极限承载力的阶段称为极限承载阶段"
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                446,
+                468,
+                592
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/79d20dcb980ec80cbd0f644a2c5003e0c1bd8c946bb2ba9a2e372f97e09b5581.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图2 荷载 应变关系图"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Fig．2 Curve of load-strain "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                15,
+                595,
+                465,
+                731
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "第一阶段（使用阶段）："
+                    }
+                ]
+            },
+            "bbox": [
+                54,
+                804,
+                253,
+                821
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N _ {0} = N _ {\\mathrm {s}} + N _ {\\mathrm {c}} = f _ {\\mathrm {y}} A _ {\\mathrm {s}} + f _ {\\mathrm {c k}} A _ {\\mathrm {c}},",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e844f8544c0b86fdcb49804a6953b4bbd7a3ffac4746a2133213f50e667747ec.jpg"
+                }
+            },
+            "bbox": [
+                102,
+                825,
+                374,
+                844
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "式中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N _ { 0 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "表示使用阶段轴压承载力； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N _ { \\mathrm { s } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "表示钢管承担的荷载； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N _ { \\mathrm { c } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "表示混凝土承担的荷载"
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                847,
+                465,
+                886
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "此阶段通过试验研究发现钢管与混凝土的相互作用几乎没有或只是初级阶段但由于混凝土的浇筑无腹筋的影响浇筑质量好其与钢管共同受力材料强度可充分发挥用混凝土的标准值代替设"
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                889,
+                468,
+                971
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "计强度值其承载力有一定的提高 "
+                    }
+                ]
+            },
+            "bbox": [
+                500,
+                446,
+                808,
+                465
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "第二阶段（极限承载阶段）："
+                    }
+                ]
+            },
+            "bbox": [
+                540,
+                469,
+                779,
+                487
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "此阶段表达式见式（ ）．此阶段可作为安全储备用来抵抗突发事故和地震灾害保证结构有足够的承载能力和变形能力防止结构体系发生灾难性破坏"
+                    }
+                ]
+            },
+            "bbox": [
+                500,
+                489,
+                953,
+                569
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "这样分为 个阶段的表达可以使人一目了然概念清晰．在使用阶段钢管和混凝土分别按照各自的刚度承担载荷．在极限承载阶段由于钢管和混凝土之间相互作用使核心混凝土的承载力提高变形能力增强可充分发挥 种材料组合的优越性"
+                    }
+                ]
+            },
+            "bbox": [
+                500,
+                573,
+                953,
+                674
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2∙2 试验过程描述"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                500,
+                678,
+                709,
+                697
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对试验全过程的观测表明：所有的试件都有较好的延性和后期承载能力．在试验开始各试件按其预期极限荷载的 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 / 1 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "进行加载．受荷初期试件处于弹性阶段其外形无明显的变化；当荷载加至极限荷载的 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "4 0 \\% \\sim 5 0 \\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": "时钢管表面出现轻微的铁皮脱落局部开始出现 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "4 5 ^ { \\circ }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "滑移线表明钢管已局部达到比例极限逐渐进入弹塑性阶段；随后各试件按其预期极限荷载的 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 / 1 5"
+                    },
+                    {
+                        "type": "text",
+                        "content": "加载随着外载的继续增加滑移线逐步布满钢管；当荷载加到极限荷载的 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "70 \\%"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sim 8 0 \\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": "时在钢管混凝土试件中部开始有局部凸出现象表明钢管已部分进入塑性阶段此时钢管的环向应变急剧增大而试件的承载力有一定的下降但很快又逐渐回升表明钢管的纵向应力在下降其"
+                    }
+                ]
+            },
+            "bbox": [
+                500,
+                700,
+                953,
+                971
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "李 斌等：钢管混凝土柱的承载能力分析"
+                    }
+                ]
+            },
+            "bbox": [
+                69,
+                26,
+                379,
+                41
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7 "
+                    }
+                ]
+            },
+            "bbox": [
+                912,
+                26,
+                926,
+                37
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "承担的部分荷载转移到核心混凝土上环向应力迅速增大环箍效应发挥比较充分；此时慢速连续加载试件的上端部也开始出现局部凸出现象；最后试件的下端部也出现局部凸出现象试件达到极限承载力但是试件的承载力在一定范围内保持不变并没有下降的趋势表明构件具有较好的后期承载能力"
+                    }
+                ]
+            },
+            "bbox": [
+                11,
+                62,
+                468,
+                206
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "通过对钢管混凝土短试件的试验总结和受力分析表明在受荷初期钢管和混凝土之间不产生相互作用力．在钢管达到弹性比例极限时混凝土的横向变形系数已经赶上或超过钢管的变形系数但是它们之间的相互抑制作用较弱在这个阶段根据前面的试验分析钢管和混凝土可看作是由 个单独受力的组合体构成．超过弹性比例阶段构件进入弹塑性工作阶段核心混凝土受到的侧压应力不断增大其横向变形系数 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol { \\mu } _ { \\mathrm { ~ c ~ } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "增大钢管进入塑性状态但试件不仅不会破坏仍能继续增加外荷钢管的横向变形系数达到 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mu _ { \\mathrm { _ s } } = 0 . 5"
+                    },
+                    {
+                        "type": "text",
+                        "content": "核心混凝土 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mu _ { \\mathrm { c } } > 0 . 5"
+                    },
+                    {
+                        "type": "text",
+                        "content": "紧箍作用继续存在混凝土不但承担了由于钢管塑流的卸荷而且还承担了不断增大的外荷横向变形急剧增大应力 应变曲线平缓上升"
+                    }
+                ]
+            },
+            "bbox": [
+                11,
+                210,
+                468,
+                503
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "试验结果与计算结果比较"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                13,
+                507,
+                339,
+                526
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "根据对国内外大量的试验研究结果的分析文献 提出标准试件长径比的范围为 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "_ \\mathrm { L } / \\mathrm { D } = 3 . 0 \\sim"
+                    },
+                    {
+                        "type": "text",
+                        "content": "．可有效减小端部效应的影响并减少偏心的影响．因此本试验选取钢管混凝土构件的长细比为"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L / D = 3 . 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "．钢管采用无缝钢管和焊管无缝钢管有三种壁厚分别为 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbf { \\nabla } _ { [ D } \\times \\mathbf { \\nabla } _ { t } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "）： "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 5 9 \\times 4 . 8 , 1 5 9 \\times 5 . 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "及"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 5 9 \\times 6 . 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "焊管的尺寸为 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 6 4 \\times 3 . 8 "
+                    },
+                    {
+                        "type": "text",
+                        "content": "核心混凝土强度等级按 进行配制最后测得 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f _ { \\mathrm { c k } } = 3 0 . 5 ~ \\mathrm { M P a } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": "．具体数值见表1"
+                    }
+                ]
+            },
+            "bbox": [
+                11,
+                530,
+                467,
+                717
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "从表1试验数据分析可以看出："
+                    }
+                ]
+            },
+            "bbox": [
+                54,
+                721,
+                333,
+                738
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（ ） 钢管混凝土轴压构件极限承载力远远大于钢管和核心混凝土承载力之和 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k"
+                    },
+                    {
+                        "type": "text",
+                        "content": "平均值达 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "3 0 \\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": "左"
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                742,
+                467,
+                781
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "右"
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                62,
+                534,
+                78
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（2） 核心混凝土的强度提高综合系数η试验值达 ． 以上充分说明使用钢管混凝土这种结构的优越性所在"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（3） "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "N _ { \\mathrm { u } } / N _ { \\mathrm { u } } ^ { \\mathrm { e } }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "与 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "N _ { \\mathrm { u } } ^ { \\mathrm { t } } / N _ { \\mathrm { u } } ^ { \\mathrm { e } }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "值相比前者略大于后者或相持平 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "N _ { \\mathrm { u } } / N _ { \\mathrm { u } } ^ { \\mathrm { e } }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "的平均值为0．930均方差为0．0673可见理论值与试验值符合较好"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（4） "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\eta _ { \\mathrm { _ t } } / \\eta _ { \\mathrm { _ e } }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "的平均值约为0．861充分说明核心混凝土强度提高综合系数理论值与试验值吻合很好"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                500,
+                83,
+                953,
+                253
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3 结论"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                501,
+                267,
+                600,
+                288
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "采用最大剪应力理论得出的钢管混凝土极限承载力计算公式求得的极限承载力值与试验结果所得吻合较好 将钢管混凝土的计算分为两个阶段 便于理解和应用．在正常的受力情况下在正常含钢率范围内使用阶段的计算公式便可满足要求．当地震来临时 钢管和混凝土相互作用的发挥使其有足够的强度和变形来耗散和吸收能量 抵御突然的灾害 使用阶段计算时 可将钢管和混凝土的受力均按一维情况考虑 因此计算比较简洁 从试验数据来看 也合乎规范的安全度水平的要求"
+                    }
+                ]
+            },
+            "bbox": [
+                500,
+                303,
+                953,
+                512
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "参考文献："
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                501,
+                527,
+                596,
+                546
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "［1］ CECS－中国工程建设标准化协会标准钢管混凝土结构设计与施工规程［S］"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "［2］ JCJ－国家建筑材料工业局标准钢管混凝土结构设计与施工规程［S ］"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "［3］ DL／T－中国电力行业标准钢管混凝土组合结构设计规程 ［S ］"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "［4］ 潘友光．混凝土强度理论及在钢管混凝土中的应用哈尔滨建筑工程学院学报"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "［5］ 李继读．钢管混凝土轴压承载力的研究［J］．工业建筑1985，(2).25-31."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "韩林海 钢管混凝土结构 北京 科学出版社"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                503,
+                561,
+                951,
+                770
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8 "
+                    }
+                ]
+            },
+            "bbox": [
+                40,
+                26,
+                54,
+                39
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "包 头 钢 铁 学 院 学 报"
+                    }
+                ]
+            },
+            "bbox": [
+                362,
+                26,
+                548,
+                41
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2005年3月 第24卷 第1期"
+                    }
+                ]
+            },
+            "bbox": [
+                699,
+                26,
+                926,
+                41
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": []
+            },
+            "bbox": [
+                32,
+                959,
+                961,
+                977
+            ]
+        }
+    ]
+]

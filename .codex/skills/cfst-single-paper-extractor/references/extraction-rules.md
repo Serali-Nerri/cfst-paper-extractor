@@ -48,25 +48,45 @@ Invalid output shape:
 ## 3. Field Dictionary
 
 Metadata:
-- `title`
-- `authors` (list)
-- `journal` (`"Unknown"` if not found)
-- `year` (integer)
+- `title`: full paper title.
+- `authors`: all authors as a list.
+- `journal`: journal or conference name (`"Unknown"` if not found).
+- `year`: publication year (integer).
 
 Specimen fields:
-- `ref_no` (string, can be empty)
-- `specimen_label`
-- `fc_value` (MPa)
-- `fc_type`
-- `fy` (MPa)
-- `fcy150` fixed `""`
-- `r_ratio` (%) and use `0` for normal concrete
-- `b`, `h`, `t`, `r0`, `L` (mm)
+- `ref_no`: fixed empty string `""` for all rows in this skill (reserved field, do not auto-number)
+- `specimen_label`: unique specimen ID/label.
+- `fc_value`: concrete compressive strength value in MPa.
+- `fc_type`: concrete strength specification text
+  - if size is explicitly provided, keep explicit form, for example:
+    - `Cube 150`
+    - `Cylinder 100x200`
+    - `Prism 150x150x300mm`
+  - if size is not provided but specimen shape is clear, use one of:
+    - `cube`
+    - `cylinder`
+    - `prism`
+  - if only symbolic strength notation appears (for example `f'c`, `fcu`, `fck`) and the paper does not explicitly define specimen type, do NOT infer type from symbol alone; set `fc_type` to `Unknown`
+  - symbolic notation (`f'c`, `fcu`, `fck`, etc.) must not be written directly as `fc_type` output
+  - do not output synthetic labels that are not directly supported by the paper text/table
+- `fy`: steel yield strength in MPa.
+- `fcy150`: fixed `""`.
+- `r_ratio`: recycled aggregate ratio in percent; use `0` for normal concrete.
+- `b`, `h`: section dimensions in mm, mapped by group rules in Section 2.
+- `t`: steel tube wall thickness in mm.
+- `r0`: external corner radius in mm, mapped by group rules in Section 2.
+- `L`: specimen length in mm.
 - `e1`, `e2` (mm)
+  - `e1`: top-end eccentricity; `e2`: bottom-end eccentricity
   - if only one eccentricity `e` exists, set `e1 = e2 = e`
   - set `e1 = e2 = 0` for axial loading
-- `n_exp` (kN), must be test ultimate/peak load
-- `source_evidence` (for example `Page [X], Table [Y]`)
+- `n_exp`: test ultimate/peak load in kN
+  - must be experimental value; do not use FE/theoretical values
+  - if raw unit is `N` or `MN`, convert to `kN`
+- `source_evidence`: page/table localization string
+  - baseline format example: `Page [X], Table [Y]`
+  - when available, append resolved image references for traceability, for example:
+    - `Page [6], Table [2]; setup=images/xxx.jpg; table=table/yyy.jpg`
 
 ## 4. Numeric and Rounding Rules
 
@@ -138,3 +158,8 @@ Top-level keys must be:
 - `Group_A`
 - `Group_B`
 - `Group_C`
+
+`reason` rules:
+- when `is_valid=true`, `reason` must be non-empty single-line text
+- do not include line breaks (`\n`, `\r`) or control characters
+- when `is_valid=false`, use fixed value: `Not experimental CFST column paper`

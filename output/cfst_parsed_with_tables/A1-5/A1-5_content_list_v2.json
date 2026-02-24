@@ -1,0 +1,2776 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "钢管高强混凝土轴压力学性能的理论分析与试验研究"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                196,
+                81,
+                751,
+                142
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "韩林海"
+                    }
+                ]
+            },
+            "bbox": [
+                436,
+                167,
+                508,
+                186
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（ 哈尔滨建筑大学 150008）"
+                    }
+                ]
+            },
+            "bbox": [
+                365,
+                189,
+                574,
+                206
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "摘 要：利用数值分析方法对钢管高强混凝土在轴心受压时的荷载－变形关系曲线进行了全过程分析。为了验证理论分析结果，进行了不同套箍系数的轴压标准试件的试验研究，计算曲线和试验曲线吻合。 最后，提供了钢管高强混凝土轴压强度承载力的简化计算公式。"
+                    }
+                ]
+            },
+            "bbox": [
+                77,
+                247,
+                867,
+                302
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "关键词：钢管高强混凝土 轴压 套箍系数 全过程分析 延性"
+                    }
+                ]
+            },
+            "bbox": [
+                118,
+                308,
+                614,
+                324
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "THEORETICAL ANALYSES AND EXPERIMENTAL RESEARCHES FOR THE BEHAVIORS OF HIGH STRENGTH CONCRETE FILLED STEEL TUBES SUBJECTED TO AXIAL COMPRESSION "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                68,
+                369,
+                881,
+                439
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Han L inhai "
+                    }
+                ]
+            },
+            "bbox": [
+                429,
+                471,
+                517,
+                483
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（ Harbin U niversity of Civil Engineering and A rchitecture 150008） "
+                    }
+                ]
+            },
+            "bbox": [
+                215,
+                491,
+                724,
+                507
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Abstract：Integral method is applied for the analyses of complete curves of load "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-"
+                    },
+                    {
+                        "type": "text",
+                        "content": "deformation and behaviors of high strength concrete filled steel tubes （ HSCFST ） subjected to axial compression.Some HSCFST w ith different confining ratios ξare tested in order toprove the corrections of the theoretical analysis results，and the theoretical results fit w ith those of tests satisfactorily.Finally，simplified calculating fo-r mula of the strength of HSCFST is put forw ard. "
+                    }
+                ]
+            },
+            "bbox": [
+                77,
+                537,
+                867,
+                639
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Keywords： high strength concrete filled steel tube （ HSCFST ） axial compression confiningratiocomplete analysis ductility"
+                    }
+                ]
+            },
+            "bbox": [
+                77,
+                646,
+                848,
+                685
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1 前 言"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                8,
+                759,
+                103,
+                775
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "高强混凝土 在我国一般指立方试块强度"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "6 0 _ { \\mathrm { M P a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的混凝土 是近年来国内外进行研究的热门课题。 它的主要优点是强度高，可以节约水泥，减小构件截面面积和减轻结构自重等。目前，我国已开始采用强度指标为 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C } 6 0 \\mathrm { \\sim } \\mathrm { C } 8 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的高强混凝土，它比普遍采用的 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C } 2 0 \\mathrm { \\sim } \\mathrm { C } 5 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "混凝土的强度提高 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 { \\sim } 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "倍，因"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                784,
+                453,
+                927
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "而用于荷载很大的结构，如高层建筑、地下工程和大跨结构的支柱等，效果十分显著，是一种有很大发展前途的材料。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                732,
+                936,
+                796
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "然而，高强混凝土的弱点是脆性大，这就阻碍了其实际工程应用，尤其在复杂受力状态下，将由脆性破坏控制，可靠性大大降低。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                802,
+                936,
+                867
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DOI ：10．13204／j ．gyjz1997．11．010"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                0,
+                299,
+                16
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "本项目得到霍英东教育基金会资助。"
+                    }
+                ]
+            },
+            "bbox": [
+                493,
+                891,
+                786,
+                908
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "收稿日期： － －"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                910,
+                682,
+                925
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Industrial Construction 1997，Vol.27，No.11 "
+                    }
+                ]
+            },
+            "bbox": [
+                35,
+                946,
+                436,
+                967
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "工业建筑 1997年第27卷第11期"
+                    }
+                ]
+            },
+            "bbox": [
+                574,
+                949,
+                878,
+                965
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": []
+            },
+            "bbox": [
+                894,
+                949,
+                914,
+                961
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "如果将高强混凝土灌入钢管中组成钢管高强混凝土，混凝土受到钢管的约束，在复杂应力状态下，钢管具有很强的抗剪和抗扭能力，从而可以有效地防止高强混凝土发生脆性破坏，使钢管高强混凝土具有良好的延性，也使得高强混凝土的实际工程应用得以实现，经济效果得以充分发挥。 众所周知，采用普通混凝土的钢管混凝土承压构件比普通钢筋混凝土的承压构件可节约混凝土约 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 0 \\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，［1］，当采用高强混凝土时至少节约混凝土约 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "6 0 \\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，钢材用量也能做到约略相等。由此可见，深入研究钢管高强混凝土的力学性能及其承载力计算方法具有十分显著的经济意义。在国外，已有一些应用钢管高强混凝土的工程实例。 例如， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 9 8 8 { \\sim } 1 9 8 9"
+                    },
+                    {
+                        "type": "text",
+                        "content": "年在美国华盛顿州西雅图建成的 58层 Two Union Square 大厦和 44层的 大厦，以及澳大利亚悉尼市的 M arket City 工程和墨尔本市的 43层的 Casse-工程等，均采用了钢管高强混凝土柱，取得了较好的经济和建筑效果。"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                22,
+                455,
+                434
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "在实际结构中，钢管混凝土被经常用作轴心受压构件。 在过去的 20多年里，国内外的众多学者对钢管普通混凝土轴压构件的工作机理进行了极为深入的研究［1～3］，已形成了较成熟的承载力计算方法。对钢管高强混凝土轴压力学性能的研究则相对较少，且主要以试验研究为主［4～6］还未见到从理论方面入手，深入研究钢管高强混凝土轴压荷载－变形全过程关系的报道，所提供的承载力计算公式往往基于试验数据的回归，不利于深入认识这类构件的工作机理。"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                440,
+                455,
+                667
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2 轴压荷载－变形关系曲线的全过程分析"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                6,
+                695,
+                381,
+                713
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "文献［ ］确定了钢材在三向应力状态下的本构关系模型；文献［ ］确定了钢管高强混凝土中高强混凝土的应力－应变关系模型。在此基础上，本文利用数值分析方法计算钢管高强混凝土在轴心受压时的荷载－变形全过程关系曲线。"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                719,
+                453,
+                830
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "钢管高强混凝土在不同轴心压力 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的作用下，应符合以下三个条件："
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                835,
+                451,
+                876
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（1） 内外力平衡条件："
+                    }
+                ]
+            },
+            "bbox": [
+                52,
+                882,
+                268,
+                903
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N = N _ {\\mathrm {s}} + N _ {\\mathrm {c}} \\tag {1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3484f839f5a05f3ed2db3439e4e07d866bd137537ea1d5d0dba81594f7885cb9.jpg"
+                }
+            },
+            "bbox": [
+                156,
+                908,
+                447,
+                928
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "纵向变形协调条件："
+                    }
+                ]
+            },
+            "bbox": [
+                493,
+                23,
+                696,
+                40
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\xi_ {i} = \\xi_ {i} \\tag {2a}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d7937dfe1d2d8a725b8ad5f3a65949e642035bdcc25faf60a8044df50edda8c7.jpg"
+                }
+            },
+            "bbox": [
+                682,
+                45,
+                933,
+                63
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（3） 径向变形协调条件："
+                    }
+                ]
+            },
+            "bbox": [
+                493,
+                69,
+                696,
+                86
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\triangle_ {\\mathrm {s r}} = \\triangle_ {\\mathrm {c r}} \\tag {2b}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e9b5254090dad2c315068f1de56a6524cd80342057c0f1ebe1fb50a09d961adb.jpg"
+                }
+            },
+            "bbox": [
+                667,
+                91,
+                933,
+                111
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "式中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N _ { \\mathrm { ~ s ~ } } { + } N"
+                    },
+                    {
+                        "type": "text",
+                        "content": "分别为钢管和核心离强混凝土承受的轴心力。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                115,
+                936,
+                155
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "求解时，首先给定一个纵向应变增量 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\textrm { d } \\&"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，可求得本步应变值 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pmb { \\mathfrak { E } } _ { \\mathrm { i } } + 1 = \\pmb { \\mathfrak { E } } _ { \\mathrm { i } } + \\mathrm { d } \\ \\pmb { \\mathfrak { E } } _ { \\mathrm { i } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "（ εli为前一步应变值） ，由钢管和混凝土的应力－应变关系可求得对应的纵向应力 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbb { Q } _ { i } + 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbb { Q } _ { i + 1 } \\mathbb { L } ^ { [ 2 ] }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "；如果存在紧箍力 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则需根据径向变形协调条件确定紧箍力后才能求得钢管的应力值。 根据钢管和混凝土的应力计算内力 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N _ { \\mathrm { ~ c ~ } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和ε就可得到的一组值。依此类推，可绘出钢管高强混凝土轴心受压时的荷载－变形全曲线。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                163,
+                938,
+                342
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当钢管和混凝土单独工作，界面间无紧箍力时，钢管为弹性工作，核心高强混凝土在无约束状态下工作，需满足前两个条件。 这样，可求得钢管应力 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathfrak { Q } _ { 1 }"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= _ { E _ { \\mathrm { s } } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ε和混凝土的应力 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathfrak { q } ^ { [ 1 ] }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。"
+                    }
+                ]
+            },
+            "bbox": [
+                493,
+                348,
+                938,
+                434
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "如果核心高强混凝土的横向变形系数 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mu _ { \\mathrm { c } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "超过钢格的泊松比 μ，钢管和混凝土界面将产生紧箍力，混凝土三向受压，钢管双向受力，仍保持弹性工作。假设紧箍力为 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则钢管的环向拉力 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathfrak { g } = - \\frac { 2 } { \\alpha } { \\cal P } ( \\mathrm { ~ \\mu ~ }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "2 P （ α"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= _ { A \\textrm { s } / A } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": "，为构件截面的含钢率） 。 在这一阶段，三个条件都应满足，方程的求解需要迭代。"
+                    }
+                ]
+            },
+            "bbox": [
+                493,
+                440,
+                944,
+                580
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当钢管应力强度达到比例极限时进入弹塑性阶段，与此同时，高强混凝土的纵向应力也不断增加，在钢管弹塑性阶段结束前的某一时刻，混凝土的纵向应力达到其极限强度，但由于紧箍力的存在，混凝土并不破坏。 在此阶段采用弹性增量理论求解［2］。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                584,
+                938,
+                695
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "随着荷载的不断增加，钢管的应力强度达到"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f _ { \\boldsymbol { \\textrm { y } } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，钢材进入塑性阶段。由于核心高强混凝土的横向变形系数 μ的表达式在该阶段不再适用［1，2］，为此根据钢管高强混凝土轴压试验结果作如下处理：给定纵向应变增量 ε，环向和径向应变增量取为 ε＝ S ＋ηS ／S ， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { ~ d ~ } \\mathfrak { s } = \\left( \\mathbf { \\nabla } _ { S _ { \\mathrm { r } } } - \\mathfrak { p } _ { \\mathrm { h } } \\right) / S \\mathrm { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，其中， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "S 1 \\ r , S _ { \\mathrm { h } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "S _ { \\mathrm { r } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "分别为核心高强度混凝土纵向、环向和径向应力偏量。调整η值使纵向变形符合试验结果。计算结果表明，η值在第一次塑流阶段取为 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0 ~ . 0 4 \\sim 0 ~ . 0 0 5"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，在强化阶段 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { ~ 0 ~ . 0 0 5 \\sim 0 ~ . 0 0 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，在第二次塑流阶段为"
+                    }
+                ]
+            },
+            "bbox": [
+                488,
+                701,
+                938,
+                928
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "40 "
+                    }
+                ]
+            },
+            "bbox": [
+                30,
+                949,
+                52,
+                962
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "工业建筑 年第 卷第 期"
+                    }
+                ]
+            },
+            "bbox": [
+                605,
+                948,
+                907,
+                965
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": []
+            },
+            "bbox": [
+                30,
+                962,
+                1000,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { ~ 0 ~ . 0 0 1 { \\sim } 0 ~ . 0 0 0 5 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "较适宜。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                23,
+                215,
+                38
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "利用上述方法可以计算出钢管高强混凝土轴压荷载－变形全过程关系曲线，如图 所示。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                45,
+                451,
+                86
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/260d9bddbbc01085231dfa87c8ff80a1937b817a3f277a655dca1fb61bc6125e.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图1 轴压典型 N（ σ） －ε全曲线"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                70,
+                96,
+                392,
+                241
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "（1） 弹性阶段（ O A ）"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                48,
+                281,
+                209,
+                298
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "在此阶段，钢管和核心混凝土一般均为单独受力， 点大致相当于钢材进入弹塑性阶段的起点。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                304,
+                451,
+                344
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "（2） 弹塑性阶段（ A B）"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                48,
+                351,
+                226,
+                367
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "进入此阶段后，核心混凝土在纵向压力作用下，微裂缝不断扩展。 如果横向变形系数超过了钢材的泊松比，则产生对核心高强混凝土的紧箍力，且紧箍力的大小随着纵向变形的增加而增大。 点时，钢材一般进入弹塑性阶段。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                373,
+                453,
+                483
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "（3） 塑性强化段（ BC）"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                48,
+                491,
+                222,
+                508
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "钢管进入塑性阶段屈服后，紧箍力继续增长，（ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathfrak { q } ^ { - }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ε关系曲线的幅度有继续增长的趋势。 当套箍系数 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\xi = ( \\operatorname { \\mathbb { g } } _ { \\mathrm { y } } / f _ { \\mathrm { c k } } ) > 1 . 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "时，曲线强化段可持续增长；当 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { \\{ K 1 \\_ 0 } "
+                    },
+                    {
+                        "type": "text",
+                        "content": "时，在强化阶段的某一点 ′，曲线开始趋于平缓甚至出现下降段 ′′。 ′的位置与 ξ值的大小有关，ξ值越小，′点越靠近 点，反之则越远离 点。 下降段 ′′的下降幅度也与 ξ值的大小有关，ξ值越小，下降幅度越小，反之则越大。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                513,
+                453,
+                692
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "利用上述分析方法对搜集到的 多个轴压短试件的荷载－变形关系试验曲线进行了验算，结果表明，理论曲线与试验曲线吻合良好，图 给出了二者对比情况的部分结果。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                700,
+                453,
+                787
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3 钢管高强混凝土轴压试验 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                8,
+                816,
+                262,
+                833
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "为了更全面地了解钢管高强混凝土的轴压工作性能，更全面地验证本文理论分析方法的正确性，进行了种不同套箍指标 ξ，共计 个钢管高强混凝土标准试件的荷载－变形全过程关系曲线的试验研究。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                839,
+                453,
+                925
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/051814eeb0f23941f21c94125cce9eb2be6f59b45df24ca86e8e40d01c917450.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                508,
+                23,
+                911,
+                183
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d480baf357ce8f5ffe8eed1fd986e785a95d630bb90db61aea832ef2d9ba383d.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图 轴压荷载－变形关系"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                526,
+                229,
+                909,
+                402
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.1 试验概况 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                493,
+                455,
+                640,
+                471
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "试件采用了 种不同屈服强度的钢管，屈服强度 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f _ { y } = 3 0 9 \\ . 5 { \\sim } 4 8 2 \\ . 5 \\mathrm { { M P a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，通过标准试件的拉伸试验测得。 高强混凝土的配合比为： 号硅酸盐水泥， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 0 0 \\mathrm { k g / m } ^ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "；水， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { 1 4 4 k g / m ^ { 3 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "；砂， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 7 8 \\mathbf { k g } / \\mathbf { m } ^ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "；辉绿岩碎石（ 粒径为 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 \\sim 2 5 _ { \\mathrm { { m m } } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "） ， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 2 2 8 \\mathrm { { k g / m } ^ { 3 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "； 高效减水剂和泵送剂各 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { 5 k g / m ^ { 3 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。高强混凝土的立方试块的抗压强度 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f _ { \\mathrm { c u } } { = } 7 6 ~ . 8 \\mathrm { { M P a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，换算为标准抗压强度 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f \\mathrm { c k }"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= 5 3 \\ . 4 \\mathrm { { M P a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。立方试块与试件在同条件下自然养护。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                479,
+                936,
+                660
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "试件按长径比 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L / D ^ { = 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "设计［3］。 制作时，先焊好一端的盖板，再将混凝土灌入钢管。 待混凝土养护"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 0 \\mathrm { d }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "左右基本上无干缩时，用适量水泥砂浆将另一端的核心混凝土截面与钢管截面抹平，再焊上端板，以保证钢管和核心混凝土在施荷初期就共同受力。有关试件的详细资料见表 。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                664,
+                936,
+                799
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "试验时，试件两端采用平板铰。在试件中部对称布置了 对应变计，以测定纵向应变和环向应变。另外，沿试件的纵向还设置了两个电测位移计。试验数据由 电子应变仪自动采集。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                805,
+                936,
+                893
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "钢管高强混凝土轴压力学性能的理论分析与试验研究－－韩林海"
+                    }
+                ]
+            },
+            "bbox": [
+                17,
+                948,
+                577,
+                965
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "41 "
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                949,
+                914,
+                961
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/d4a513986f0b9d7c31cae8a0274eddd06f395621900bad83023a1a1ab6216664.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "表 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "钢管高强混凝土的试件参数"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>试件号</td><td>D×t×L\nmm</td><td>fy\nMPa</td><td>fck\nMPa</td><td>ξ</td><td>荷载-变形关系曲线特征</td></tr><tr><td>HSC1-1</td><td rowspan=\"3\">159 8×6 3×476</td><td rowspan=\"3\">482 5</td><td rowspan=\"3\">53 4</td><td rowspan=\"3\">1 .62</td><td rowspan=\"3\">无下降段</td></tr><tr><td>HSC1-2</td></tr><tr><td>HSC1-3</td></tr><tr><td>HSC2-1</td><td rowspan=\"4\">159 9×4 9×350</td><td rowspan=\"4\">309 5</td><td rowspan=\"4\">53 4</td><td rowspan=\"4\">1 .12</td><td rowspan=\"4\">有下降段</td></tr><tr><td>HSC2-2</td></tr><tr><td>HSC2-3</td></tr><tr><td>HSC2-4</td></tr><tr><td>HSC3-1</td><td rowspan=\"3\">141 8×4 3×420</td><td rowspan=\"3\">433 0</td><td rowspan=\"3\">53 4</td><td rowspan=\"3\">1 .08</td><td rowspan=\"3\">有下降段</td></tr><tr><td>HSC3-2</td></tr><tr><td>HSC3-3</td></tr><tr><td>HSC4-1</td><td rowspan=\"3\">114 8×3 9×337</td><td rowspan=\"3\">357 7</td><td rowspan=\"3\">53 4</td><td rowspan=\"3\">1 .01</td><td rowspan=\"3\">有下降段</td></tr><tr><td>HSC4-2</td></tr><tr><td>HSC4-3</td></tr><tr><td>HSC5-1</td><td rowspan=\"3\">165 7×5 1×494</td><td rowspan=\"3\">373 3</td><td rowspan=\"3\">53 4</td><td rowspan=\"3\">0 .94</td><td rowspan=\"3\">有下降段</td></tr><tr><td>HSC5-2</td></tr><tr><td>HSC5-3</td></tr><tr><td>HSC6-1</td><td>133 1×4 5×397</td><td>324 3</td><td>53 4</td><td>0 .91</td><td>有下降段</td></tr><tr><td>HSC7-1</td><td rowspan=\"3\">113 6×3 2×337</td><td rowspan=\"3\">354 6</td><td rowspan=\"3\">53 4</td><td rowspan=\"3\">0 .82</td><td rowspan=\"3\">有下降段</td></tr><tr><td>HSC7-2</td></tr><tr><td>HSC7-3</td></tr><tr><td>HSC8-1</td><td>111 3×2 0×339</td><td>354 6</td><td>53 4</td><td>0 .50</td><td>有下降段</td></tr><tr><td>HSC9-1</td><td>130 6×2 3×396</td><td>324 3</td><td>53 4</td><td>0 .45</td><td>有下降段</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                8,
+                44,
+                453,
+                339
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "试验在哈尔滨建筑大学结构－力学实验中心进行，采用 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 0 0 _ { \\mathrm { t } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "液压压力试验机。 在预计的弹性阶段，一次加载约为预计极限荷载的 ／ 。 超过弹性阶段以后，每次加载约为极限荷载的 ／ 。 每次加载稳定 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 \\sim \\mathrm { { 3 } _ { m i n } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "后再读数；当应变超过 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 ^ { - 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "后，连续缓慢加载，同时快速记录各级荷载所对应的变形值。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                363,
+                453,
+                500
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "试验结果表明，钢管高强混凝土在加载初期，试件外形没有明显的变化。随着外荷载的增加，试件逐渐出现不同程度的鼓曲。当试件临近破坏时，对于套箍系数较大的情况，例如 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathfrak { F } ) = 1 \\ . 6 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "时，试件呈腰鼓破坏形态，与同 ξ值的钢管普通强度混凝土试件的破坏形态基本类似［3］。 试件的荷载－变形关系曲线没有下降段，但强度提高幅度不如同 ξ值的钢管普通强度混凝土轴压试件的提高幅度大［3］；对于套箍系数较小的情况，例如 ξ . 时，试件表面出现明显的剪切滑移线，并逐渐形成剪切滑移面，荷载－变形曲线都有下降，且基本上是 ξ值越大，滑移面和下降段出现得越晚，下降段下降的幅度越小；ξ值越小，则滑移面和下降段出现得越早，下降段的下降幅度越大，试件的破坏形态与同 ξ值的钢管普通强度混凝土有所差异，即剪切破坏特征越明显［3］。试件的荷载－变形关系曲线的下段也较同 ξ值的钢管普通强度混凝土出现得早，下降幅度也较大［4］。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                505,
+                455,
+                905
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图3所示为全部试件的轴压力（ N） －纵向应变"
+                    }
+                ]
+            },
+            "bbox": [
+                48,
+                910,
+                453,
+                928
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（ ε） 的试验曲线，同时给出与本文理论曲线的对比情况，由图3可见，由于钢管的有效约束，高强度混凝土的延性得到很大程度的改善和提高。 试件－1和 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H S C 4 ^ { - 2 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "没有测到全部下降段部分，主要由于荷载达极限状态后钢管的直焊缝突然断裂所致。由图 可见，理论计算曲线与试验曲线吻合较好，只是对于第 组试件，理论计算曲线明显高于试验曲线，这可能是试件实测钢材屈服极限 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f _ { y } ( = 4 8 2 \\mathbf { M } \\mathrm { { P a } ) }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "高于实际值，从而导致计算结果偏高。 图 中，纵向应变 ε在 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 ^ { - 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "前取应变计的实测值；在 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 ^ { - 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "以后取位移计的实测值。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                22,
+                938,
+                275
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "如果定义荷载 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N"
+                    },
+                    {
+                        "type": "text",
+                        "content": "下降到峰值 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "8 5 \\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": "时的应变与峰值应力时应变的比值为延性比 β，本次试验测得的 β值最小的情况为试件 9－1，β＝1.74，对应的 ξ值为0.45。 其余有下降段的试件延性比 β均大于2.62。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                281,
+                938,
+                391
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4 轴压强度承载力的简化计算"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                493,
+                422,
+                766,
+                440
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "全过程分析从理论上描述了钢管高强混凝土轴心受压时的工作性能，理论分析结果与试验结果吻合较好，为从机理方面入手，深入地认识钢管高强混凝土轴压力学性能提供了一条有效途径。 为了便于实际应用，在对钢管高强混凝土轴压荷载－变形全过程关系曲线分析的基础上，下面提供钢管高强混凝土轴压强度承载力的简化计算方法。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                446,
+                938,
+                609
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4.1 轴压强度承载力指标的定义"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                493,
+                618,
+                828,
+                636
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图4为 235钢、 60混凝土的钢管高强混凝土在不同 ξ值情况下的一簇 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^ - \\sigma"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ε关系计算曲线。 由图可见，对应于不同的 ξ值， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^ - \\sigma"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ε关系曲线总体上呈上升、平缓或下降趋势，故 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\bar { \\boldsymbol { \\sigma } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ε关系曲线存在强度承载力的定义问题。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                643,
+                938,
+                758
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\{ < 1 ~ . 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "时，σ－ε关系曲线没有下降段，根据分析结果，在工程常用钢材 钢、 钢和"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 5 \\mathrm { { M n V } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "钢 、常用混凝土等级 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C 5 0 { \\sim } C ^ { 8 0 } ) }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和常用含钢率 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\infty = 0 \\ . 0 5 \\sim 0 \\ . 2 0 )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "范围内，建议取 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^ - \\sigma"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ε关系曲线上 纵 向 应 变 为 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon _ { \\mathrm { c } } ^ { \\mathrm { y } } = 2 4 0 0 \\times 1 0 ^ { - 6 } + 7 2 0 [ ( \\mathrm { f _ { c k } } -"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 3 ~ 5 ) / 1 3 ~ 5 ] ^ { 1 } ~ ^ { 0 5 } \\times \\xi ^ { 2 } \\times 1 0 ^ { - 6 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "时对应的荷载为承载力指标，这主要由于钢管高强混凝土的弹性阶段在纵"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                764,
+                938,
+                928
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "42 "
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                949,
+                52,
+                961
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "工业建筑1997年第27卷第11期"
+                    }
+                ]
+            },
+            "bbox": [
+                605,
+                949,
+                907,
+                964
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "42 工业建筑 1997年第27卷第11期"
+                    }
+                ]
+            },
+            "bbox": [
+                39,
+                955,
+                1000,
+                974
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/fdaa1137cfe70567264abeeda359cffb0203b76458d0ba78bd44dacc15f349ba.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图4 σ－ε关系曲线"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                37,
+                23,
+                433,
+                232
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "向应变为 εy 左右时结束，钢管和核心高强混凝土都达到了极限状态。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                268,
+                455,
+                305
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "根据上述对钢管高强混凝土轴压强度承载力的定义，进行了大量的计算，通过回归分析得出轴压强度承载力的计算公式，即无论构件的荷载－变形曲线出现下降段与否，其强度承载力计算公式可用同一表达式表示："
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                311,
+                455,
+                412
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N _ {\\mathrm {u}} = (1. 2 1 2 + B \\xi + C \\xi f _ {\\mathrm {c k}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6aba75b2cb2866bebbeda948b50a95e24ddcafeebd0948c71d4bd35f2b955ccf.jpg"
+                }
+            },
+            "bbox": [
+                103,
+                415,
+                361,
+                434
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "式中， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { \\Delta B = 0 \\ . 1 7 5 9 f _ { y } / 2 3 5 + 0 \\ . 9 7 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { c } = - \\mathrm { ~ 0 ~ } . 1 0 3 8 \\mathrm { f } _ { c k } /"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 0 + 0 \\ . 0 3 0 9 , \\mathrm { f } _ { y }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbf { f } _ { c k }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "均以 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\bf { M P a }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "计。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                437,
+                455,
+                476
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "表 所示为按式 计算的承载力与部分试验结果的比较情况，平均值 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline { { X } } = 1 \\ . 0 3 8"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，均方差 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Bumpeq"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". ，可见计算结果与试验结果吻合良好。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                480,
+                455,
+                540
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5 结 语"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                8,
+                563,
+                103,
+                581
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（1） 钢管高强混凝土在轴压荷载作用下的力学性能和破坏形态随着套箍系数 ξ的不同而有着较大的差异。 ξ值较大 例如 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "{ \\mathfrak { S } } 1 \\ . 0 )"
+                            },
+                            {
+                                "type": "text",
+                                "content": "时，轴压荷载－变形关系曲线没有下降段，其力学性能与破坏形态和钢管普通强度混凝土基本类似；ξ值较小 例如 ξ＜ .时荷载－变形关系曲线趋于平缓或出现下降段，ξ越小，下降段越陡，构件延性越差，其力学性能和破坏形态与钢管普通强度混凝土有所不同。 因此，在进行钢管高强混凝土的设计时不能简单套用钢管普通强度混凝土的设计方法。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "由于钢管的有效约束，高强混凝土的延性得到改善。 试验结果表明，钢管高强混凝土轴心受压时"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                586,
+                455,
+                836
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/199e97fda080e04017fff84feeb2bef9fb06882cc07e7a0862d90e2855cdf746.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "表 2 轴压强度承载力计算和实测值比较"
+                    }
+                ],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "* 对于一组多个试件的情况， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": ", N _ { \\mathrm { u e } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为实测承载力的平均值。"
+                    }
+                ],
+                "html": "<table><tr><td>试件数量</td><td>Dmm</td><td>tmm</td><td>Lmm</td><td>fyMPa</td><td>fckMPa</td><td>ξ</td><td>计算NuekN</td><td>实测Nue* kN</td><td>NueNue</td><td>试验数据来源</td></tr><tr><td>2</td><td>152</td><td>1</td><td>65</td><td>500</td><td>270</td><td>58</td><td>40</td><td>2075</td><td>1530</td><td>1498</td></tr><tr><td>2</td><td>250</td><td>2</td><td>0</td><td>750</td><td>260</td><td>48</td><td>00</td><td>1788</td><td>3267</td><td>3400</td></tr><tr><td>2</td><td>178</td><td>9</td><td>0</td><td>360</td><td>283</td><td>36</td><td>71</td><td>8345</td><td>2600</td><td>2671</td></tr><tr><td>2</td><td>179</td><td>5</td><td>5</td><td>360</td><td>248</td><td>36</td><td>60</td><td>9185</td><td>1979</td><td>2034</td></tr><tr><td>2</td><td>174</td><td>3</td><td>0</td><td>360</td><td>266</td><td>34</td><td>60</td><td>5263</td><td>1558</td><td>1642</td></tr><tr><td>3</td><td>159</td><td>8</td><td>6</td><td>3 476</td><td>482</td><td>5</td><td>534</td><td>162</td><td>2917</td><td>2350</td></tr><tr><td>4</td><td>115</td><td>9</td><td>4</td><td>9 350</td><td>309</td><td>5</td><td>534</td><td>112</td><td>1203</td><td>1174</td></tr><tr><td>3</td><td>141</td><td>8</td><td>4</td><td>3 420</td><td>433</td><td>53</td><td>4</td><td>108</td><td>1961</td><td>1618</td></tr><tr><td>3</td><td>141</td><td>8</td><td>3</td><td>9 337</td><td>357</td><td>7</td><td>534</td><td>101</td><td>1225</td><td>1150</td></tr><tr><td>3</td><td>165</td><td>7</td><td>5</td><td>1 494</td><td>373</td><td>3</td><td>534</td><td>094</td><td>2507</td><td>2309</td></tr><tr><td>1</td><td>133</td><td>1</td><td>4</td><td>5 397</td><td>324</td><td>3</td><td>534</td><td>091</td><td>1573</td><td>1535</td></tr><tr><td>3</td><td>113</td><td>6</td><td>3</td><td>2 337</td><td>354</td><td>6</td><td>534</td><td>082</td><td>1137</td><td>1145</td></tr><tr><td>1</td><td>111</td><td>3</td><td>2</td><td>0 339</td><td>354</td><td>6</td><td>534</td><td>050</td><td>921</td><td>894</td></tr><tr><td>1</td><td>130</td><td>6</td><td>2</td><td>3 396</td><td>3243</td><td>53</td><td>4</td><td>045</td><td>1224</td><td>1250</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                491,
+                40,
+                936,
+                382
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "的延性好坏与套箍系数 ξ的取值大小有很大的关系。 为了保证钢管高强混凝土有足够的延性，ξ值不应太小，建议实际工程应用时 ξ值不小于 .。"
+                    }
+                ]
+            },
+            "bbox": [
+                488,
+                421,
+                936,
+                483
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本文理论计算的钢管高强混凝土在轴压荷载作用下的荷载－变形全过程曲线和试验结果吻合较好，从机理方面深入认识钢管高强混凝土的轴压力学性能提供了一条有效途径。 基于全过程分析结果导出的钢管高强混凝土轴压强度承协力计算公式与试验结果吻合令人满意，可供工程应用时参考。"
+                    }
+                ]
+            },
+            "bbox": [
+                488,
+                491,
+                938,
+                624
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "参考文献"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                671,
+                643,
+                755,
+                660
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "韩林海，钟善桐 .钢管混凝土力学 .大连：大连理工大学出版社，19961"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "韩林海，冯九斌 .混凝土的本构关系模型及其在钢管混凝土数值分析中的应用 .哈尔滨建筑大学学报， .（5）"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "钟善桐 .钢管混凝土结构 .哈尔滨：黑龙江科学技术出版社， ."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4 Russell Bridge，et al.T hin w alled circular concrete filled steel tubular columns.Proc.of an Engineering Foundation Conference.N ew York：the Structural Div-i sion of the ASCE， "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "1 9 9 2 \\ . 6 3 4 \\sim 6 4 9 "
+                            },
+                            {
+                                "type": "text",
+                                "content": "（ 下转第13页） "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                488,
+                678,
+                938,
+                915
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "44 "
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                949,
+                52,
+                962
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "工业建筑 年第 卷第 期"
+                    }
+                ]
+            },
+            "bbox": [
+                605,
+                948,
+                907,
+                965
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "44  1997 27 11 "
+                    }
+                ]
+            },
+            "bbox": [
+                37,
+                955,
+                1000,
+                974
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.3 开挖与建造的模拟"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                8,
+                22,
+                257,
+                41
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.3.1 开挖效果的模拟"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                8,
+                45,
+                259,
+                63
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "采用邓肯提出的反转应力释放法，开挖后释放的不平衡荷载 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\{ F \\} = \\spadesuit"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\big [ } B { \\big ] } ^ { T } ~ { \\big \\{ } \\sigma { \\big \\} } \\mathrm { d } v"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                69,
+                453,
+                121
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.3.2 建造过程的模拟"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                8,
+                124,
+                259,
+                143
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/dcbdf98a01ce0e8a27fa4c174e74cf448b9384d3e1f7d1774d342a685c3a40bc.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                22,
+                151,
+                140,
+                204
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e54b463ef6df06baba96968022d3932d7b9fec7f53e5a31b54f606c0b453735f.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                182,
+                152,
+                295,
+                204
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/35a876117bb532767c5837bad2936616bb697b61574e0f0d58669d84fd516748.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "（c）"
+                    },
+                    {
+                        "type": "text",
+                        "content": "图3 建造过程的模拟"
+                    }
+                ],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "（ a） －开挖前；（ b） －第一次开挖并支设土钉；"
+                    },
+                    {
+                        "type": "text",
+                        "content": "（ ） －第二次开挖并支设土钉"
+                    }
+                ]
+            },
+            "bbox": [
+                332,
+                154,
+                449,
+                204
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/80f163ee87c0eaa31ad99338ee98c0dfceeddede7221fdb5d7bb39e18cadd055.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                17,
+                308,
+                154,
+                357
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a01e23c1591cdb53e37262cbf23b3ed1bd84e7a0a98094ca10a27ce80b51993c.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                158,
+                308,
+                292,
+                354
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ed76275c0078a4cebc65a8db089173df92348299fc09ade207f87ab5eaf35f8c.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图 有限元网格"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                303,
+                308,
+                444,
+                357
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4 有限元计算结果的分析"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                8,
+                397,
+                281,
+                416
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "为了弄清土钉墙的支护作用机理，本文针对某一工程，分别计算同一地质及开挖条件下有土钉墙和无土钉墙支护情况，计算结果分别见图 和图 ，图中的黑色部分是滑移面，滑移面以外是破坏带 塑性区 ，对比两种情况下的图形可以清楚地发现有土钉墙支护的基坑破裂滑移面明显较无土钉墙支护的要靠近开挖面，也就是说土体的破坏带明显要小。 因此可以认为土钉的作用是增强土体的整体性能，减小破坏带的范围，从而减小基坑的侧向变形。 实际上土钉并不能阻止开挖附近土体的破坏，但可以限制其向纵深部发展，土钉墙的混凝土面层的作用是防止破坏土体的塌落，从而引发纵深部土体新的塌落。"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                421,
+                455,
+                744
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/abae1137b18341fdd3ca14073f2cb6ba35dd08b7b1b88031f07f748ce8d30083.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                504,
+                20,
+                927,
+                115
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/301ac13043316d73343d5e4dce1a89cff4436dfab107892314901d599ebcffcd.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图 有土钉墙支护的基坑破裂滑移面"
+                    },
+                    {
+                        "type": "text",
+                        "content": "图 无土钉墙支护的基坑破裂滑移面"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                502,
+                161,
+                918,
+                258
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5 土钉墙的设计建议"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                493,
+                301,
+                718,
+                321
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "土钉的长度应能保证大多数土钉有足够的有效锚固长度 指超出滑移面以外的长度。）"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（2） 土钉应有足够的抗剪强度，以抵抗已破坏土体向下滑移。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "土钉墙的混凝土面层应具备足够的抗力限制土钉间土体的滑落和侧向变形。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                493,
+                324,
+                936,
+                485
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "众所周知，由于地质条件的千变万化，土钉墙的设计很难用一二个公式来描述，应具体问题具体分析，最好采用有限元 法来进行土钉墙的设计。"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                489,
+                936,
+                578
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "参考文献"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                667,
+                593,
+                764,
+                612
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1 程良奎等 .岩土工程加固实用技术 .北京：地震出版社，"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2 孙钧等.地下结构有限元解析.上海：同济大学出版社，1988"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "钱家欢等.土工原理与计算.北京：水利电力出版社，"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4 章根德 .土的本构模型及其土工程应用 .北京：科学出版社1995"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                493,
+                627,
+                936,
+                738
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "（ 上接第44页）"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                8,
+                792,
+                158,
+                811
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "5 Prion HGL ，et al.Beam － column behavior of steel tubes filled with high strength concrete ·Proc of the 4th Inter.Colloquium N orth A merican Session.N ew York：Structural Stability Research Council，1989. 439~448 "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                814,
+                455,
+                906
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "6 Kenji Sakino，et al "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\cdot"
+                            },
+                            {
+                                "type": "text",
+                                "content": "Behaviors of concrete filled steeltubular columns under concentric loadings.Proc.ofthe T hird Inter.Confer on Steel－Concrete Composite－ ， ： . ～ "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "2 5 \\sim 3 0 9"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                493,
+                814,
+                936,
+                888
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "土钉墙作用机理的非线性分析－－胡孔国等"
+                    }
+                ]
+            },
+            "bbox": [
+                17,
+                948,
+                396,
+                965
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13 "
+                    }
+                ]
+            },
+            "bbox": [
+                894,
+                949,
+                916,
+                962
+            ]
+        }
+    ]
+]

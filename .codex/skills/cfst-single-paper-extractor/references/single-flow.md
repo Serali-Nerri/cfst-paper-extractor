@@ -60,6 +60,13 @@ If any required file/folder is missing, fail fast and report the missing path.
 - do not use mental arithmetic for conversion or derived geometry values
 - enforce numeric precision to `0.001`
 - enforce group geometry mapping and constraints
+- enforce `ref_no=""` for every specimen row (no auto numbering)
+- set `fc_type` from explicit concrete specification text:
+  - keep size when provided (for example `Cylinder 100x200`, `Cube 150`, `Prism 150x150x300mm`)
+  - if size is absent but shape is known, use `cylinder` / `cube` / `prism`
+  - do not infer type from symbols alone (`f'c`, `fcu`, `fck`)
+  - if symbol exists but type is not explicitly defined in text/table notes, set `fc_type=Unknown`
+  - do not output symbols themselves as `fc_type`
 
 ## Special-Case Examples
 
@@ -77,6 +84,8 @@ If any required file/folder is missing, fail fast and report the missing path.
 - output keys must be exactly:
   - `is_valid`, `reason`, `ref_info`, `Group_A`, `Group_B`, `Group_C`
 - keep numeric fields unit-free
+- when `is_valid=true`, `reason` must be non-empty single-line text (no newline/control chars)
+- `source_evidence` must at least include page/table localization; include setup/table image references when available
 
 9. Validation:
 - run `scripts/validate_single_output.py` on produced JSON

@@ -5,11 +5,18 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 from collections import defaultdict
 from typing import Any
 
 EPS = 1e-3
+FC_TYPE_ALLOWED_SHAPE_ONLY = {"cube", "cylinder", "prism", "unknown"}
+FC_TYPE_SIZED_PATTERN = re.compile(
+    r"^(cube|cylinder|prism)\s+\d+(\.\d+)?(?:\s*[x×*]\s*\d+(\.\d+)?){0,2}\s*(mm)?$",
+    re.IGNORECASE,
+)
+FC_TYPE_DISALLOWED_SYMBOL_PATTERN = re.compile(r"\b(f'?c|fc'|fcu|fck|fcm|fcd)\b", re.IGNORECASE)
 
 TOP_LEVEL_KEYS = {
     "is_valid",
@@ -63,6 +70,20 @@ def _has_3dp(value: float) -> bool:
     return abs(round(float(value), 3) - float(value)) <= 1e-6
 
 
+def _has_control_chars(value: str) -> bool:
+    return any(ord(ch) < 32 for ch in value)
+
+
+def _is_valid_fc_type(value: str) -> bool:
+    text = value.strip()
+    if not text:
+        return False
+    lowered = text.lower()
+    if lowered in FC_TYPE_ALLOWED_SHAPE_ONLY:
+        return True
+    return FC_TYPE_SIZED_PATTERN.fullmatch(text) is not None
+
+
 def _validate_ref_info(obj: dict[str, Any], errors: list[str], allow_empty: bool = False) -> None:
     if not isinstance(obj, dict):
         errors.append("`ref_info` must be an object.")
@@ -109,8 +130,40 @@ def _validate_specimen(
 
     if "specimen_label" in specimen and not isinstance(specimen["specimen_label"], str):
         errors.append(f"`{tag}.specimen_label` must be string.")
-    if "source_evidence" in specimen and not isinstance(specimen["source_evidence"], str):
-        errors.append(f"`{tag}.source_evidence` must be string.")
+    if "ref_no" in specimen:
+        if not isinstance(specimen["ref_no"], str):
+            errors.append(f"`{tag}.ref_no` must be string.")
+        elif specimen["ref_no"] != "":
+            errors.append(f"`{tag}.ref_no` must be empty string.")
+    if "fc_type" in specimen:
+        if not isinstance(specimen["fc_type"], str):
+            errors.append(f"`{tag}.fc_type` must be string.")
+        else:
+            fc_type = specimen["fc_type"].strip()
+            if not fc_type:
+                errors.append(f"`{tag}.fc_type` must be non-empty.")
+            else:
+                if FC_TYPE_DISALLOWED_SYMBOL_PATTERN.search(fc_type):
+                    errors.append(
+                        f"`{tag}.fc_type` must not use symbolic notation like f'c/fcu/fck. "
+                        "Use cube/cylinder/prism (with optional size) or `Unknown`."
+                    )
+                elif not _is_valid_fc_type(fc_type):
+                    errors.append(
+                        f"`{tag}.fc_type` invalid. Allowed forms: cube/cylinder/prism/Unknown "
+                        "or sized forms like `Cylinder 100x200`."
+                    )
+    if "source_evidence" in specimen:
+        if not isinstance(specimen["source_evidence"], str):
+            errors.append(f"`{tag}.source_evidence` must be string.")
+        elif not specimen["source_evidence"].strip():
+            errors.append(f"`{tag}.source_evidence` must be non-empty.")
+        else:
+            lowered = specimen["source_evidence"].lower()
+            if "page" not in lowered:
+                warnings.append(f"`{tag}.source_evidence` should include page localization.")
+            if all(token not in lowered for token in ("table", "fig", "figure", "text section")):
+                warnings.append(f"`{tag}.source_evidence` should include table/figure/text locator.")
 
     if "n_exp" in specimen and _is_number(specimen["n_exp"]) and specimen["n_exp"] <= 0:
         errors.append(f"`{tag}.n_exp` must be > 0.")
@@ -167,6 +220,16 @@ def validate_payload(
         errors.append("`is_valid` must be boolean.")
     if "reason" in payload and not isinstance(payload["reason"], str):
         errors.append("`reason` must be string.")
+    if isinstance(payload.get("reason"), str):
+        reason = payload["reason"]
+        if payload.get("is_valid") is True and not reason.strip():
+            errors.append("`reason` must be non-empty when `is_valid=true`.")
+        if "\n" in reason or "\r" in reason:
+            errors.append("`reason` must be single-line (no newline characters).")
+        if _has_control_chars(reason):
+            errors.append("`reason` must not contain control characters.")
+        if payload.get("is_valid") is False and reason != "Not experimental CFST column paper":
+            errors.append("Invalid-paper `reason` must be `Not experimental CFST column paper`.")
 
     for group_name in ("Group_A", "Group_B", "Group_C"):
         if group_name in payload and not isinstance(payload[group_name], list):
