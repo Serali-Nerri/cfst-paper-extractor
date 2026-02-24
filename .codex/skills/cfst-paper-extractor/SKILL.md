@@ -76,6 +76,13 @@ Use a parent-child model for every extraction task:
 7. Parent preflight is limited to git/path checks and optional script-based preprocess; parent MUST NOT manually read raw paper markdown/json/images.
 8. Parent MUST NOT read raw paper markdown/json/images once workers are launched.
 9. Parent waits for worker results, records pass/fail, and retries only failed workers.
+10. Parent MUST tell each worker the repository may be concurrently modified by other workers.
+11. Parent MUST declare worker ownership paths at launch, at least:
+- one paper folder path
+- one output JSON path
+- one worker worktree path
+12. Worker MUST ignore unrelated repository changes and MUST NOT edit/revert files outside declared ownership paths.
+13. Parent MUST keep the same ownership boundary during retry and cleanup phases.
 
 ## Git Repository Gate (Required, No Fallback)
 
@@ -270,6 +277,7 @@ Use this structure for multi-paper execution:
 - launch worker command through `worker_sandbox.py` (mandatory)
 - spawn one worker that runs only the sandboxed command
 - assign only that paper path and output path
+- explicitly declare ownership boundary and forbid edits outside owned paths
 - when one worker finishes, launch the next pending paper
 7. Wait until all queued papers are completed.
 8. Retry only failed workers according to retry policy (retry phase also keeps max 3 active workers).

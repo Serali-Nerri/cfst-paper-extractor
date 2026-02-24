@@ -7,6 +7,11 @@ Use this file as the worker execution contract for one paper.
 - Process exactly one paper folder: `<paper_dir_relpath>`.
 - Run only inside `worker_sandbox.py` runtime (`CFST_SANDBOX=1` must exist).
 - Do not read files outside this paper folder, skill references, and skill scripts.
+- Treat repository as non-exclusive runtime: other workers may change unrelated files concurrently.
+- Do not edit or revert files outside this worker ownership scope:
+  - `<paper_dir_relpath>`
+  - `<output_json_path>`
+  - current worker worktree metadata paths required by orchestrator
 - Return only validated JSON result or a clear failure reason.
 
 ## Required Paper Layout
