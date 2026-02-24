@@ -1,6 +1,6 @@
 {
   "is_valid": true,
-  "reason": "Valid experimental CFST concentric axial compression paper.",
+  "reason": "Experimental CFST short-column study with 14 concentrically axially loaded specimens and tabulated test results.",
   "ref_info": {
     "title": "AXIALLY LOADED CONCRETE-FILLED STEEL TUBES",
     "authors": [
@@ -14,7 +14,7 @@
       "ref_no": "",
       "specimen_label": "S1",
       "fc_value": 30.454,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 356,
       "fcy150": "",
       "r_ratio": 0,
@@ -26,13 +26,13 @@
       "e1": 0,
       "e2": 0,
       "n_exp": 917,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [S1]; Page [6], Table [2], Row [S1]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "S2",
       "fc_value": 26.044,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 357,
       "fcy150": "",
       "r_ratio": 0,
@@ -44,31 +44,31 @@
       "e1": 0,
       "e2": 0,
       "n_exp": 1095,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [S2]; Page [6], Table [2], Row [S2]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "S3",
       "fc_value": 23.805,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 322,
       "fcy150": "",
       "r_ratio": 0,
       "b": 126.9,
-      "h": 127,
+      "h": 127.0,
       "t": 4.55,
       "r0": 0,
       "L": 609.6,
       "e1": 0,
       "e2": 0,
       "n_exp": 1113,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [S3]; Page [6], Table [2], Row [S3]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "S4",
       "fc_value": 23.805,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 312,
       "fcy150": "",
       "r_ratio": 0,
@@ -80,13 +80,13 @@
       "e1": 0,
       "e2": 0,
       "n_exp": 1202,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [S4]; Page [6], Table [2], Row [S4]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "S5",
       "fc_value": 23.805,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 347,
       "fcy150": "",
       "r_ratio": 0,
@@ -98,31 +98,31 @@
       "e1": 0,
       "e2": 0,
       "n_exp": 2069,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [S5]; Page [6], Table [2], Row [S5]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "R1",
       "fc_value": 30.454,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 430,
       "fcy150": "",
       "r_ratio": 0,
       "b": 76.6,
       "h": 152.3,
-      "t": 3,
+      "t": 3.0,
       "r0": 0,
       "L": 609.2,
       "e1": 0,
       "e2": 0,
       "n_exp": 819,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [R1]; Page [6], Table [2], Row [R1]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "R2",
       "fc_value": 26.044,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 383,
       "fcy150": "",
       "r_ratio": 0,
@@ -134,13 +134,13 @@
       "e1": 0,
       "e2": 0,
       "n_exp": 1006,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [R2]; Page [6], Table [2], Row [R2]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "R3",
       "fc_value": 26.044,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 413,
       "fcy150": "",
       "r_ratio": 0,
@@ -152,13 +152,13 @@
       "e1": 0,
       "e2": 0,
       "n_exp": 1144,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [R3]; Page [6], Table [2], Row [R3]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "R4",
       "fc_value": 23.805,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 365,
       "fcy150": "",
       "r_ratio": 0,
@@ -170,13 +170,13 @@
       "e1": 0,
       "e2": 0,
       "n_exp": 1224,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [R4]; Page [6], Table [2], Row [R4]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "R5",
       "fc_value": 23.805,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 324,
       "fcy150": "",
       "r_ratio": 0,
@@ -188,13 +188,13 @@
       "e1": 0,
       "e2": 0,
       "n_exp": 1335,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [R5]; Page [6], Table [2], Row [R5]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "R6",
       "fc_value": 23.805,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 358,
       "fcy150": "",
       "r_ratio": 0,
@@ -206,7 +206,7 @@
       "e1": 0,
       "e2": 0,
       "n_exp": 1691,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [R6]; Page [6], Table [2], Row [R6]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     }
   ],
   "Group_B": [
@@ -214,25 +214,25 @@
       "ref_no": "",
       "specimen_label": "C1",
       "fc_value": 28.18,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 285,
       "fcy150": "",
       "r_ratio": 0,
       "b": 140.8,
       "h": 140.8,
-      "t": 3,
+      "t": 3.0,
       "r0": 70.4,
       "L": 605.44,
       "e1": 0,
       "e2": 0,
       "n_exp": 881,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [C1]; Page [6], Table [2], Row [C1]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "C2",
       "fc_value": 23.805,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 313,
       "fcy150": "",
       "r_ratio": 0,
@@ -244,25 +244,25 @@
       "e1": 0,
       "e2": 0,
       "n_exp": 1825,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [C2]; Page [6], Table [2], Row [C2]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     },
     {
       "ref_no": "",
       "specimen_label": "C3",
       "fc_value": 28.18,
-      "fc_type": "Normal concrete (cylinder f'c)",
+      "fc_type": "cylinder",
       "fy": 537,
       "fcy150": "",
       "r_ratio": 0,
-      "b": 140,
-      "h": 140,
+      "b": 140.0,
+      "h": 140.0,
       "t": 6.68,
-      "r0": 70,
-      "L": 616,
+      "r0": 70.0,
+      "L": 616.0,
       "e1": 0,
       "e2": 0,
       "n_exp": 2715,
-      "source_evidence": "Fig. 1 (concentric axial setup), Table 1 (specimen/material properties), Table 2 (Pu)."
+      "source_evidence": "Page [3], Table [1], Row [C3]; Page [6], Table [2], Row [C3]; setup=images/b0c8474f6bcb2b0aea7cff9dcdfa8285f96d6a0906b02ba434997b5dd4fdeec8.jpg; table=table/TABLE 1. Properties for Concrete-Filled Steel Tube Components.jpg; table=table/TABLE 2. Comparison of Experimental Data to Predicted Axial Capacity.jpg"
     }
   ],
   "Group_C": []

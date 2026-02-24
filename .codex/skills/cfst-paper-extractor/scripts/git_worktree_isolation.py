@@ -66,6 +66,41 @@ def _resolve_repo_relative(repo_root: Path, raw_path: str) -> tuple[Path, str]:
     return abs_path, rel
 
 
+def _resolve_under_root(root: Path, raw_path: str, label: str) -> Path:
+    raw = Path(raw_path)
+    if raw.is_absolute():
+        raise ValueError(f"{label} must be a relative path under {root}: {raw_path}")
+    abs_path = (root / raw).resolve()
+    try:
+        abs_path.relative_to(root)
+    except ValueError as exc:
+        raise ValueError(f"{label} escapes {root}: {raw_path}") from exc
+    return abs_path
+
+
+def _build_sandbox_paths(
+    wt_path: Path,
+    paper_rel: str,
+    skill_rel: str,
+    output_dir: str,
+) -> tuple[list[str], list[str], str]:
+    paper_path = (wt_path / paper_rel).resolve()
+    output_path = (wt_path / output_dir).resolve()
+    skill_root = (wt_path / skill_rel).resolve()
+
+    allowed_rw = [
+        str(paper_path),
+        str(output_path),
+    ]
+    allowed_ro = [
+        str(skill_root / "SKILL.md"),
+        str(skill_root / "references"),
+        str(skill_root / "scripts"),
+    ]
+    entry_cwd = str(paper_path)
+    return allowed_rw, allowed_ro, entry_cwd
+
+
 def _create(args: argparse.Namespace) -> int:
     cwd = Path.cwd()
     repo_root = _repo_root(cwd)
@@ -114,11 +149,19 @@ def _create(args: argparse.Namespace) -> int:
     try:
         _copy_tree(paper_abs, wt_path / paper_rel)
         _copy_tree(skill_abs, wt_path / skill_rel)
-        (wt_path / args.output_dir).mkdir(parents=True, exist_ok=True)
+        output_dir_abs = _resolve_under_root(wt_path, args.output_dir, "Output dir")
+        output_dir_abs.mkdir(parents=True, exist_ok=True)
     except Exception as exc:  # noqa: BLE001
         _run(["git", "-C", str(repo_root), "worktree", "remove", "--force", str(wt_path)])
         _run(["git", "-C", str(repo_root), "branch", "-D", branch])
         return _fail(f"Failed to prepare worktree payload: {exc}")
+
+    sandbox_allowed_rw, sandbox_allowed_ro, sandbox_entry_cwd = _build_sandbox_paths(
+        wt_path=wt_path,
+        paper_rel=paper_rel,
+        skill_rel=skill_rel,
+        output_dir=args.output_dir,
+    )
 
     result = {
         "repo_root": str(repo_root),
@@ -127,6 +170,9 @@ def _create(args: argparse.Namespace) -> int:
         "worktree_path": str(wt_path),
         "branch": branch,
         "output_dir": args.output_dir,
+        "sandbox_allowed_rw": sandbox_allowed_rw,
+        "sandbox_allowed_ro": sandbox_allowed_ro,
+        "sandbox_entry_cwd": sandbox_entry_cwd,
     }
     print(json.dumps(result, ensure_ascii=False))
     return 0

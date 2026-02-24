@@ -5,6 +5,7 @@ Use this file as the worker execution contract for one paper.
 ## Worker Contract
 
 - Process exactly one paper folder: `<paper_dir_relpath>`.
+- Run only inside `worker_sandbox.py` runtime (`CFST_SANDBOX=1` must exist).
 - Do not read files outside this paper folder, skill references, and skill scripts.
 - Return only validated JSON result or a clear failure reason.
 
@@ -21,6 +22,7 @@ If any required file/folder is missing, fail fast and report the missing path.
 ## Mandatory Execution Order
 
 1. Input guard:
+- assert `CFST_SANDBOX=1`; if missing, fail fast with sandbox-required error
 - verify required files/folders exist
 - load `references/extraction-rules.md` first
 

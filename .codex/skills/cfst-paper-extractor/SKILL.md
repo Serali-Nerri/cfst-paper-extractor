@@ -90,9 +90,11 @@ If this fails:
 - report current directory is not a git repository
 - ask user to initialize git first, then rerun skill
 
-## Worker Directory Isolation (Required via Git Worktree)
+## Worker Runtime Isolation (Required via Git Worktree + Bubblewrap)
 
 For each paper folder, parent MUST allocate one dedicated git worktree and branch. Plain `workdir` isolation without worktree is not allowed.
+Parent MUST then launch the worker command through `scripts/worker_sandbox.py`.
+Direct worker execution without the sandbox launcher is forbidden.
 
 Create one worker worktree:
 
@@ -105,13 +107,36 @@ Returned JSON includes:
 - `worktree_path`
 - `branch`
 - `paper_rel`
+- `skill_rel`
+- `output_dir`
+- `sandbox_allowed_rw`
+- `sandbox_allowed_ro`
+- `sandbox_entry_cwd`
 
-Use `worktree_path` as worker `workdir`.
+Use `worktree_path` as worker `workdir` when invoking the sandbox launcher.
 
-Worker read scope inside its worktree:
-- `./<paper_dir_relpath>/`
-- `./.codex/skills/cfst-paper-extractor/references/*`
-- `./.codex/skills/cfst-paper-extractor/scripts/*`
+Launch worker command in sandbox:
+
+```bash
+python .codex/skills/cfst-paper-extractor/scripts/worker_sandbox.py \
+  --worktree-path <worker_worktree_path> \
+  --paper-dir-relpath <paper_rel> \
+  --skill-dir-relpath <skill_rel> \
+  --output-dir <output_dir> \
+  -- <worker_command>
+```
+
+Sandbox contract:
+- `sandbox_allowed_rw` is the only writable host path set
+- `sandbox_allowed_ro` is the only skill-policy readable host path set
+- worker process gets `CFST_SANDBOX=1`
+- if `bwrap` is unavailable or sandbox startup fails, stop immediately (no fallback to soft isolation)
+
+Worker read scope is enforced by filesystem sandbox:
+- RW: `./<paper_dir_relpath>/`, `./<output_dir>/`
+- RO: `./.codex/skills/cfst-paper-extractor/SKILL.md`
+- RO: `./.codex/skills/cfst-paper-extractor/references/*`
+- RO: `./.codex/skills/cfst-paper-extractor/scripts/*`
 
 Expected paper-local files:
 - `<paper_token>.md`
@@ -242,7 +267,8 @@ Use this structure for multi-paper execution:
 5. Build a pending-paper queue.
 6. Launch workers in batches with a hard cap of 3 active workers:
 - create dedicated worktree via `git_worktree_isolation.py create`
-- spawn one worker with `workdir=<worktree_path>`
+- launch worker command through `worker_sandbox.py` (mandatory)
+- spawn one worker that runs only the sandboxed command
 - assign only that paper path and output path
 - when one worker finishes, launch the next pending paper
 7. Wait until all queued papers are completed.
@@ -257,7 +283,7 @@ Use this structure for multi-paper execution:
 Tool-call template:
 
 ```text
-spawn_agent(agent_type="worker", message="<single-paper contract with runtime paths>")
+spawn_agent(agent_type="worker", message="<single-paper contract with runtime paths + sandbox launch command>")
 wait(ids=["<worker-id>"])
 send_input(id="<worker-id>", interrupt=true, message="<focused fix request>")
 ```
