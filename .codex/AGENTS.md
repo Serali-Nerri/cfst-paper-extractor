@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-This repository centers on one skill: `.codex/skills/cfst-single-paper-extractor/`.
+This repository centers on one skill: `.codex/skills/cfst-paper-extractor/`.
 - `SKILL.md`: end-to-end workflow and runtime contracts.
 - `references/`: extraction rules and single-paper flow (`extraction-rules.md`, `single-flow.md`).
 - `scripts/`: operational Python tools (`reorganize_parsed_with_tables.py`, `validate_single_output.py`, `safe_calc.py`, git worktree/checkpoint helpers).
@@ -15,11 +15,11 @@ Data folders:
 ## Build, Test, and Development Commands
 No package build step is defined; run scripts directly with Python.
 - Preprocess parsed data:
-  - `python .codex/skills/cfst-single-paper-extractor/scripts/reorganize_parsed_with_tables.py <raw_root> -o <parsed_with_tables_root>`
+  - `python .codex/skills/cfst-paper-extractor/scripts/reorganize_parsed_with_tables.py <raw_root> -o <parsed_with_tables_root>`
 - Validate extraction output:
-  - `python .codex/skills/cfst-single-paper-extractor/scripts/validate_single_output.py --json-path <out.json> --expect-valid true --strict-rounding`
+  - `python .codex/skills/cfst-paper-extractor/scripts/validate_single_output.py --json-path <out.json> --expect-valid true --strict-rounding`
 - Deterministic calculations (required for conversions/derived values):
-  - `python .codex/skills/cfst-single-paper-extractor/scripts/safe_calc.py "0.327*1000" --round 3`
+  - `python .codex/skills/cfst-paper-extractor/scripts/safe_calc.py "0.327*1000" --round 3`
 
 ## Coding Style & Naming Conventions
 - Language: Python 3, standard library only.

@@ -1,9 +1,9 @@
 ---
-name: cfst-single-paper-extractor
+name: cfst-paper-extractor
 description: Extract structured CFST experimental specimen data from one MinerU-parsed paper folder into Group_A/Group_B/Group_C JSON. Use for one-paper extraction tasks, including preprocessing a raw parsed root into a normalized parsed-with-tables root (full images kept + table folder extracted), then applying deterministic validity and field-mapping rules.
 ---
 
-# CFST Single Paper Extractor
+# CFST Paper Extractor
 
 ## Overview
 
@@ -43,7 +43,7 @@ Extraction logic:
 When input is raw parsed root, run this skill script before launching workers:
 
 ```bash
-python .codex/skills/cfst-single-paper-extractor/scripts/reorganize_parsed_with_tables.py \
+python .codex/skills/cfst-paper-extractor/scripts/reorganize_parsed_with_tables.py \
   <raw_parsed_root> \
   -o <parsed_with_tables_root>
 ```
@@ -51,7 +51,7 @@ python .codex/skills/cfst-single-paper-extractor/scripts/reorganize_parsed_with_
 Dry-run:
 
 ```bash
-python .codex/skills/cfst-single-paper-extractor/scripts/reorganize_parsed_with_tables.py \
+python .codex/skills/cfst-paper-extractor/scripts/reorganize_parsed_with_tables.py \
   <raw_parsed_root> \
   -o <parsed_with_tables_root> \
   --dry-run
@@ -69,12 +69,13 @@ Use a parent-child model for every extraction task:
 
 1. Parent agent is only orchestrator and reviewer.
 2. Parent MUST spawn one worker sub-agent per paper folder.
-3. Each worker MUST process exactly one paper folder.
-4. Worker MUST complete extraction, calculation, validation, and JSON write for its own folder.
-5. Parent MUST run git preflight first; if current directory is not a git repository, stop and report.
-6. Parent preflight is limited to git/path checks and optional script-based preprocess; parent MUST NOT manually read raw paper markdown/json/images.
-7. Parent MUST NOT read raw paper markdown/json/images once workers are launched.
-8. Parent waits for worker results, records pass/fail, and retries only failed workers.
+3. Parent MUST enforce concurrency cap: at most 3 worker sub-agents running at the same time.
+4. Each worker MUST process exactly one paper folder.
+5. Worker MUST complete extraction, calculation, validation, and JSON write for its own folder.
+6. Parent MUST run git preflight first; if current directory is not a git repository, stop and report.
+7. Parent preflight is limited to git/path checks and optional script-based preprocess; parent MUST NOT manually read raw paper markdown/json/images.
+8. Parent MUST NOT read raw paper markdown/json/images once workers are launched.
+9. Parent waits for worker results, records pass/fail, and retries only failed workers.
 
 ## Git Repository Gate (Required, No Fallback)
 
@@ -96,7 +97,7 @@ For each paper folder, parent MUST allocate one dedicated git worktree and branc
 Create one worker worktree:
 
 ```bash
-python .codex/skills/cfst-single-paper-extractor/scripts/git_worktree_isolation.py create \
+python .codex/skills/cfst-paper-extractor/scripts/git_worktree_isolation.py create \
   --paper-dir <paper_dir_relpath>
 ```
 
@@ -109,8 +110,8 @@ Use `worktree_path` as worker `workdir`.
 
 Worker read scope inside its worktree:
 - `./<paper_dir_relpath>/`
-- `./.codex/skills/cfst-single-paper-extractor/references/*`
-- `./.codex/skills/cfst-single-paper-extractor/scripts/*`
+- `./.codex/skills/cfst-paper-extractor/references/*`
+- `./.codex/skills/cfst-paper-extractor/scripts/*`
 
 Expected paper-local files:
 - `<paper_token>.md`
@@ -121,7 +122,7 @@ Expected paper-local files:
 After worker finishes, parent cleans up:
 
 ```bash
-python .codex/skills/cfst-single-paper-extractor/scripts/git_worktree_isolation.py remove \
+python .codex/skills/cfst-paper-extractor/scripts/git_worktree_isolation.py remove \
   --worktree-path <worker_worktree_path> \
   --branch <worker_branch> \
   --delete-branch
@@ -176,8 +177,8 @@ Use deterministic retry at worker level:
 Run deterministic calculations with:
 
 ```bash
-python .codex/skills/cfst-single-paper-extractor/scripts/safe_calc.py "<expression>"
-python .codex/skills/cfst-single-paper-extractor/scripts/safe_calc.py "<expression>" --round 3
+python .codex/skills/cfst-paper-extractor/scripts/safe_calc.py "<expression>"
+python .codex/skills/cfst-paper-extractor/scripts/safe_calc.py "<expression>" --round 3
 ```
 
 Use for:
@@ -191,7 +192,7 @@ Use for:
 Validate valid-paper output:
 
 ```bash
-python .codex/skills/cfst-single-paper-extractor/scripts/validate_single_output.py \
+python .codex/skills/cfst-paper-extractor/scripts/validate_single_output.py \
   --json-path <output_json_path> \
   --expect-valid true \
   --expect-count <expected_specimen_count> \
@@ -203,7 +204,7 @@ python .codex/skills/cfst-single-paper-extractor/scripts/validate_single_output.
 Validate invalid-paper output:
 
 ```bash
-python .codex/skills/cfst-single-paper-extractor/scripts/validate_single_output.py \
+python .codex/skills/cfst-paper-extractor/scripts/validate_single_output.py \
   --json-path <output_json_path> \
   --expect-valid false
 ```
@@ -218,7 +219,7 @@ For batch extraction:
 Run policy script:
 
 ```bash
-python .codex/skills/cfst-single-paper-extractor/scripts/checkpoint_output_commits.py \
+python .codex/skills/cfst-paper-extractor/scripts/checkpoint_output_commits.py \
   --processed-count <processed_count> \
   --commit-every 10 \
   --push-every 20 \
@@ -238,18 +239,20 @@ Use this structure for multi-paper execution:
 2. Resolve runtime paths (`<raw_parsed_root>`, `<parsed_with_tables_root>`, target paper folders, output path).
 3. If raw parsed root is provided, run preprocess script to produce `<parsed_with_tables_root>`.
 4. Enumerate target paper folders.
-5. For each paper:
+5. Build a pending-paper queue.
+6. Launch workers in batches with a hard cap of 3 active workers:
 - create dedicated worktree via `git_worktree_isolation.py create`
 - spawn one worker with `workdir=<worktree_path>`
 - assign only that paper path and output path
-6. Wait for worker completion.
-7. Retry only failed workers according to retry policy.
-8. Run post-check per worker output:
+- when one worker finishes, launch the next pending paper
+7. Wait until all queued papers are completed.
+8. Retry only failed workers according to retry policy (retry phase also keeps max 3 active workers).
+9. Run post-check per worker output:
 - valid paper: `--expect-valid true`, optional count, with `--strict-rounding`
 - invalid paper: `--expect-valid false`, no count
-9. Update processed counter and run `checkpoint_output_commits.py`.
-10. Report final per-paper status table.
-11. Remove worker worktrees and worker branches.
+10. Update processed counter and run `checkpoint_output_commits.py`.
+11. Report final per-paper status table.
+12. Remove worker worktrees and worker branches.
 
 Tool-call template:
 

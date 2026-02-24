@@ -213,7 +213,7 @@ def _build_parser() -> argparse.ArgumentParser:
     create.add_argument("--paper-dir", required=True, help="Paper folder path under repository root.")
     create.add_argument(
         "--skill-dir",
-        default=".codex/skills/cfst-single-paper-extractor",
+        default=".codex/skills/cfst-paper-extractor",
         help="Skill folder path under repository root.",
     )
     create.add_argument(
